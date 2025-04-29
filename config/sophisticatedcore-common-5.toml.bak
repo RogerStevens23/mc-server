@@ -1,0 +1,5 @@
+
+#Common Settings
+[common]
+	enabledItems = ["sophisticatedbackpacks:everlasting_upgrade|true", "sophisticatedstorage:advanced_void_upgrade|true", "sophisticatedstorage:shulker_box|true"]
+
