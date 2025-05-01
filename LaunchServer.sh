@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # When setting the memory below make sure to include the amount of ram letter. M = MB, G = GB. Don't use 1GB for example, it's 1G
-MEMORY="8G"
+MEMORY="4G"
 
 # The path to the Java to use. Wrap in double quotes ("/opt/jre-17/bin/java"). Use "java" to point to system default install.
 JAVAPATH="java"

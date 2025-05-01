@@ -1,23 +1,23 @@
-[28Apr2025 23:43:31.791] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeserver, --fml.forgeVersion, 47.4.0, --fml.mcVersion, 1.20.1, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20230612.114412, ]
-[28Apr2025 23:43:31.794] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.9+10.0.9+main.dcd20f30 starting: java version 21.0.6 by Red Hat, Inc.; OS Linux arch amd64 version 6.13.12-200.fc41.x86_64
-[28Apr2025 23:43:32.717] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler/]: ImmediateWindowProvider not loading because launch target is forgeserver
-[28Apr2025 23:43:32.753] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/home/zephyr/.local/share/atlauncher/servers/Minecraft1201withForge/libraries/org/spongepowered/mixin/0.8.5/mixin-0.8.5.jar%2365!/ Service=ModLauncher Env=SERVER
-[28Apr2025 23:43:33.019] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /home/zephyr/.local/share/atlauncher/servers/Minecraft1201withForge/libraries/net/minecraftforge/fmlcore/1.20.1-47.4.0/fmlcore-1.20.1-47.4.0.jar is missing mods.toml file
-[28Apr2025 23:43:33.020] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /home/zephyr/.local/share/atlauncher/servers/Minecraft1201withForge/libraries/net/minecraftforge/javafmllanguage/1.20.1-47.4.0/javafmllanguage-1.20.1-47.4.0.jar is missing mods.toml file
-[28Apr2025 23:43:33.021] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /home/zephyr/.local/share/atlauncher/servers/Minecraft1201withForge/libraries/net/minecraftforge/lowcodelanguage/1.20.1-47.4.0/lowcodelanguage-1.20.1-47.4.0.jar is missing mods.toml file
-[28Apr2025 23:43:33.022] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /home/zephyr/.local/share/atlauncher/servers/Minecraft1201withForge/libraries/net/minecraftforge/mclanguage/1.20.1-47.4.0/mclanguage-1.20.1-47.4.0.jar is missing mods.toml file
-[28Apr2025 23:43:33.447] [main/WARN] [net.minecraftforge.jarjar.selection.JarSelector/]: Attempted to select two dependency jars from JarJar which have the same identification: Mod File:  and Mod File: . Using Mod File: 
-[28Apr2025 23:43:33.449] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: Found 36 dependencies adding them to mods collection
-[28Apr2025 23:43:35.214] [main/INFO] [mixin/]: Compatibility level set to JAVA_17
-[28Apr2025 23:43:35.257] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeserver' with arguments []
-[28Apr2025 23:43:35.410] [main/WARN] [mixin/]: Reference map 'nitrogen_internals.refmap.json' for nitrogen_internals.mixins.json could not be read. If this is a development environment you can ignore this message
-[28Apr2025 23:43:35.416] [main/WARN] [mixin/]: Reference map 'eureka-1201-forge-refmap.json' for vs_eureka.mixins.json could not be read. If this is a development environment you can ignore this message
-[28Apr2025 23:43:35.879] [main/ERROR] [net.minecraftforge.fml.loading.RuntimeDistCleaner/DISTXFORM]: Attempted to load class net/minecraft/client/player/AbstractClientPlayer for invalid dist DEDICATED_SERVER
-[28Apr2025 23:43:35.879] [main/WARN] [mixin/]: Error loading class: net/minecraft/client/player/AbstractClientPlayer (java.lang.RuntimeException: Attempted to load class net/minecraft/client/player/AbstractClientPlayer for invalid dist DEDICATED_SERVER)
-[28Apr2025 23:43:35.879] [main/WARN] [mixin/]: @Mixin target net.minecraft.client.player.AbstractClientPlayer was not found mixins.create_sa.json:AbstractClientPlayerMixin
-[28Apr2025 23:43:36.027] [main/WARN] [mixin/]: Error loading class: blusunrize/immersiveengineering/common/gui/BlockEntityInventory (java.lang.ClassNotFoundException: blusunrize.immersiveengineering.common.gui.BlockEntityInventory)
-[28Apr2025 23:43:36.027] [main/WARN] [mixin/]: Error loading class: cofh/core/block/entity/TileCoFH (java.lang.ClassNotFoundException: cofh.core.block.entity.TileCoFH)
-[28Apr2025 23:43:36.136] [main/ERROR] [mixin/]: valkyrienskies-common.mixins.json:feature.container_distance_check.MixinContainer: Interface mixin contains a non-public method! Found includeShipsInDistanceCheck(Lnet/minecraft/world/entity/player/Player;DDD)D in valkyrienskies-common.mixins.json:feature.container_distance_check.MixinContainer
+[30Apr2025 22:21:58.357] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeserver, --fml.forgeVersion, 47.4.0, --fml.mcVersion, 1.20.1, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20230612.114412, ]
+[30Apr2025 22:21:58.359] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.9+10.0.9+main.dcd20f30 starting: java version 17.0.14 by Debian; OS Linux arch amd64 version 6.1.0-34-amd64
+[30Apr2025 22:21:59.360] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler/]: ImmediateWindowProvider not loading because launch target is forgeserver
+[30Apr2025 22:21:59.394] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/mc-server/libraries/org/spongepowered/mixin/0.8.5/mixin-0.8.5.jar%2365!/ Service=ModLauncher Env=SERVER
+[30Apr2025 22:21:59.703] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /mc-server/libraries/net/minecraftforge/fmlcore/1.20.1-47.4.0/fmlcore-1.20.1-47.4.0.jar is missing mods.toml file
+[30Apr2025 22:21:59.704] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /mc-server/libraries/net/minecraftforge/javafmllanguage/1.20.1-47.4.0/javafmllanguage-1.20.1-47.4.0.jar is missing mods.toml file
+[30Apr2025 22:21:59.704] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /mc-server/libraries/net/minecraftforge/lowcodelanguage/1.20.1-47.4.0/lowcodelanguage-1.20.1-47.4.0.jar is missing mods.toml file
+[30Apr2025 22:21:59.705] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /mc-server/libraries/net/minecraftforge/mclanguage/1.20.1-47.4.0/mclanguage-1.20.1-47.4.0.jar is missing mods.toml file
+[30Apr2025 22:22:00.144] [main/WARN] [net.minecraftforge.jarjar.selection.JarSelector/]: Attempted to select two dependency jars from JarJar which have the same identification: Mod File:  and Mod File: . Using Mod File: 
+[30Apr2025 22:22:00.145] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: Found 36 dependencies adding them to mods collection
+[30Apr2025 22:22:01.854] [main/INFO] [mixin/]: Compatibility level set to JAVA_17
+[30Apr2025 22:22:01.914] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeserver' with arguments []
+[30Apr2025 22:22:02.034] [main/WARN] [mixin/]: Reference map 'nitrogen_internals.refmap.json' for nitrogen_internals.mixins.json could not be read. If this is a development environment you can ignore this message
+[30Apr2025 22:22:02.039] [main/WARN] [mixin/]: Reference map 'eureka-1201-forge-refmap.json' for vs_eureka.mixins.json could not be read. If this is a development environment you can ignore this message
+[30Apr2025 22:22:02.426] [main/ERROR] [net.minecraftforge.fml.loading.RuntimeDistCleaner/DISTXFORM]: Attempted to load class net/minecraft/client/player/AbstractClientPlayer for invalid dist DEDICATED_SERVER
+[30Apr2025 22:22:02.427] [main/WARN] [mixin/]: Error loading class: net/minecraft/client/player/AbstractClientPlayer (java.lang.RuntimeException: Attempted to load class net/minecraft/client/player/AbstractClientPlayer for invalid dist DEDICATED_SERVER)
+[30Apr2025 22:22:02.427] [main/WARN] [mixin/]: @Mixin target net.minecraft.client.player.AbstractClientPlayer was not found mixins.create_sa.json:AbstractClientPlayerMixin
+[30Apr2025 22:22:02.545] [main/WARN] [mixin/]: Error loading class: blusunrize/immersiveengineering/common/gui/BlockEntityInventory (java.lang.ClassNotFoundException: blusunrize.immersiveengineering.common.gui.BlockEntityInventory)
+[30Apr2025 22:22:02.546] [main/WARN] [mixin/]: Error loading class: cofh/core/block/entity/TileCoFH (java.lang.ClassNotFoundException: cofh.core.block.entity.TileCoFH)
+[30Apr2025 22:22:02.633] [main/ERROR] [mixin/]: valkyrienskies-common.mixins.json:feature.container_distance_check.MixinContainer: Interface mixin contains a non-public method! Found includeShipsInDistanceCheck(Lnet/minecraft/world/entity/player/Player;DDD)D in valkyrienskies-common.mixins.json:feature.container_distance_check.MixinContainer
 org.spongepowered.asm.mixin.transformer.throwables.InvalidInterfaceMixinException: Interface mixin contains a non-public method! Found includeShipsInDistanceCheck(Lnet/minecraft/world/entity/player/Player;DDD)D in valkyrienskies-common.mixins.json:feature.container_distance_check.MixinContainer
 	at org.spongepowered.asm.mixin.transformer.MixinPreProcessorInterface.prepareMethod(MixinPreProcessorInterface.java:65) ~[mixin-0.8.5.jar%2365!/:0.8.5+Jenkins-b310.git-155314e6e91465dad727e621a569906a410cd6f4]
 	at org.spongepowered.asm.mixin.transformer.MixinPreProcessorStandard.prepare(MixinPreProcessorStandard.java:187) ~[mixin-0.8.5.jar%2365!/:0.8.5+Jenkins-b310.git-155314e6e91465dad727e621a569906a410cd6f4]
@@ -39,9 +39,8 @@ org.spongepowered.asm.mixin.transformer.throwables.InvalidInterfaceMixinExceptio
 	at cpw.mods.cl.ModuleClassLoader.lambda$findClass$15(ModuleClassLoader.java:219) ~[securejarhandler-2.1.10.jar:?]
 	at cpw.mods.cl.ModuleClassLoader.loadFromModule(ModuleClassLoader.java:229) ~[securejarhandler-2.1.10.jar:?]
 	at cpw.mods.cl.ModuleClassLoader.findClass(ModuleClassLoader.java:219) ~[securejarhandler-2.1.10.jar:?]
-	at java.lang.ClassLoader.loadClass(ClassLoader.java:638) ~[?:?]
-	at java.lang.Class.forName(Class.java:625) ~[?:?]
-	at java.lang.Class.forName(Class.java:600) ~[?:?]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:637) ~[?:?]
+	at java.lang.Class.forName(Class.java:545) ~[?:?]
 	at net.minecraftforge.fml.loading.ImmediateWindowHandler$DummyProvider.lambda$updateModuleReads$1(ImmediateWindowHandler.java:145) ~[fmlloader-1.20.1-47.4.0.jar%2369!/:1.0]
 	at java.util.Optional.map(Optional.java:260) ~[?:?]
 	at net.minecraftforge.fml.loading.ImmediateWindowHandler$DummyProvider.updateModuleReads(ImmediateWindowHandler.java:145) ~[fmlloader-1.20.1-47.4.0.jar%2369!/:1.0]
@@ -56,127 +55,125 @@ org.spongepowered.asm.mixin.transformer.throwables.InvalidInterfaceMixinExceptio
 	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) ~[modlauncher-10.0.9.jar%2355!/:?]
 	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) ~[modlauncher-10.0.9.jar%2355!/:?]
 	at cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:141) ~[bootstraplauncher-1.1.2.jar:?]
-	at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
-	at java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:569) ~[?:?]
 	at net.neoforged.serverstarterjar.Main.mainLaunch(Main.java:266) ~[?:?]
 	at net.neoforged.serverstarterjar.Main.main(Main.java:70) ~[?:?]
-	at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
-	at java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:569) ~[?:?]
 	at net.neoforged.serverstarterjar.Main8.main(Main8.java:19) ~[?:?]
-[28Apr2025 23:43:36.169] [main/INFO] [MixinExtras|Service/]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.5.0-beta.5).
-[28Apr2025 23:43:40.671] [main/WARN] [mixin/]: @Inject(@At("INVOKE_ASSIGN")) Shift.BY=2 on refurbished_furniture.common.mixins.json:LevelChunkMixin::handler$zei000$refurbishedFurniture$AfterRemoveBlockEntity exceeds the maximum allowed value: 0. Increase the value of maxShiftBy to suppress this warning.
-[28Apr2025 23:43:41.335] [main/ERROR] [net.minecraft.Util/]: Registry 'create:arm_interaction_point_type' was empty after loading
-[28Apr2025 23:43:41.335] [main/ERROR] [net.minecraft.Util/]: Registry 'create:fan_processing_type' was empty after loading
-[28Apr2025 23:43:41.335] [main/ERROR] [net.minecraft.Util/]: Registry 'create:item_attribute_type' was empty after loading
-[28Apr2025 23:43:41.335] [main/ERROR] [net.minecraft.Util/]: Registry 'create:display_source' was empty after loading
-[28Apr2025 23:43:41.335] [main/ERROR] [net.minecraft.Util/]: Registry 'create:display_target' was empty after loading
-[28Apr2025 23:43:41.335] [main/ERROR] [net.minecraft.Util/]: Registry 'create:mounted_item_storage_type' was empty after loading
-[28Apr2025 23:43:41.335] [main/ERROR] [net.minecraft.Util/]: Registry 'create:mounted_fluid_storage_type' was empty after loading
-[28Apr2025 23:43:41.335] [main/ERROR] [net.minecraft.Util/]: Registry 'create:contraption_type' was empty after loading
-[28Apr2025 23:43:41.335] [main/ERROR] [net.minecraft.Util/]: Registry 'create:potato_projectile/render_mode' was empty after loading
-[28Apr2025 23:43:41.335] [main/ERROR] [net.minecraft.Util/]: Registry 'create:potato_projectile/entity_hit_action' was empty after loading
-[28Apr2025 23:43:41.336] [main/ERROR] [net.minecraft.Util/]: Registry 'create:potato_projectile/block_hit_action' was empty after loading
-[28Apr2025 23:43:41.522] [modloading-worker-0/INFO] [com.jtorleonstudios.libraryferret.LibraryFerret/]: Initialize mod Library Ferret
-[28Apr2025 23:43:41.553] [modloading-worker-0/INFO] [com.jtorleonstudios.libraryferret.LibraryFerret/]: Initialized mod Library Ferret
-[28Apr2025 23:43:41.594] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 47.4.0, for MC 1.20.1 with MCP 20230612.114412
-[28Apr2025 23:43:41.596] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v47.4.0 Initialized
-[28Apr2025 23:43:41.603] [modloading-worker-0/INFO] [Bookshelf/]: Fixing MC-151457. Crafting remainder for minecraft:pufferfish_bucket is now minecraft:bucket.
-[28Apr2025 23:43:41.604] [modloading-worker-0/INFO] [Bookshelf/]: Fixing MC-151457. Crafting remainder for minecraft:salmon_bucket is now minecraft:bucket.
-[28Apr2025 23:43:41.605] [modloading-worker-0/INFO] [Bookshelf/]: Fixing MC-151457. Crafting remainder for minecraft:cod_bucket is now minecraft:bucket.
-[28Apr2025 23:43:41.605] [modloading-worker-0/INFO] [Bookshelf/]: Fixing MC-151457. Crafting remainder for minecraft:tropical_fish_bucket is now minecraft:bucket.
-[28Apr2025 23:43:41.605] [modloading-worker-0/INFO] [Bookshelf/]: Fixing MC-151457. Crafting remainder for minecraft:axolotl_bucket is now minecraft:bucket.
-[28Apr2025 23:43:41.606] [modloading-worker-0/INFO] [Bookshelf/]: Fixing MC-151457. Crafting remainder for minecraft:powder_snow_bucket is now minecraft:bucket.
-[28Apr2025 23:43:41.606] [modloading-worker-0/INFO] [Bookshelf/]: Fixing MC-151457. Crafting remainder for minecraft:tadpole_bucket is now minecraft:bucket.
-[28Apr2025 23:43:41.802] [modloading-worker-0/INFO] [com.simibubi.create.Create/]: Create 6.0.0 initializing! Commit hash: 5ed96e6d34a1607df082aca30d282c6eebca0b06
-[28Apr2025 23:43:42.021] [modloading-worker-0/INFO] [com.aetherteam.cumulus.Cumulus/]: Disabling Cumulus as it is on server.
-[28Apr2025 23:43:42.177] [modloading-worker-0/WARN] [supermartijn642corelib/]: Mod 'Chipped' is requesting registration helper for different modid 'rechiseled_chipped'!
-[28Apr2025 23:43:42.390] [modloading-worker-0/INFO] [thedarkcolour.kotlinforforge.test.KotlinForForge/]: Kotlin For Forge Enabled!
-[28Apr2025 23:43:43.312] [main/INFO] [net.minecraft.server.packs.resources.ReloadableResourceManager/]: Reloading ResourceManager: mod_resources
-[28Apr2025 23:43:43.509] [main/INFO] [dev.gigaherz.jsonthings.things.parsers.SoundEventParser/]: Started registering SoundEvent things, errors about unexpected registry domains are harmless...
-[28Apr2025 23:43:43.509] [main/INFO] [dev.gigaherz.jsonthings.things.parsers.SoundEventParser/]: Done processing thingpack SoundEvents.
-[28Apr2025 23:43:43.641] [main/INFO] [dev.gigaherz.jsonthings.things.parsers.FluidParser/]: Started registering Fluid things, errors about unexpected registry domains are harmless...
-[28Apr2025 23:43:43.642] [main/INFO] [dev.gigaherz.jsonthings.things.parsers.FluidParser/]: Done processing thingpack Fluids.
-[28Apr2025 23:43:44.102] [main/INFO] [dev.gigaherz.jsonthings.things.parsers.BlockParser/]: Started registering Block things, errors about unexpected registry domains are harmless...
-[28Apr2025 23:43:44.102] [main/INFO] [dev.gigaherz.jsonthings.things.parsers.BlockParser/]: Done processing thingpack Blocks.
-[28Apr2025 23:43:46.961] [main/INFO] [dev.gigaherz.jsonthings.things.parsers.ItemParser/]: Started registering Item things, errors about unexpected registry domains are harmless...
-[28Apr2025 23:43:46.962] [main/INFO] [dev.gigaherz.jsonthings.things.parsers.ItemParser/]: Done processing thingpack Items.
-[28Apr2025 23:43:47.393] [main/INFO] [dev.gigaherz.jsonthings.things.parsers.EnchantmentParser/]: Started registering Enchantment things, errors about unexpected registry domains are harmless...
-[28Apr2025 23:43:47.393] [main/INFO] [dev.gigaherz.jsonthings.things.parsers.EnchantmentParser/]: Done processing thingpack Enchantments.
-[28Apr2025 23:43:47.974] [main/INFO] [dev.gigaherz.jsonthings.things.parsers.CreativeModeTabParser/]: Started registering Item things, errors about unexpected registry domains are harmless...
-[28Apr2025 23:43:47.975] [main/INFO] [dev.gigaherz.jsonthings.things.parsers.CreativeModeTabParser/]: Done processing thingpack CreativeModeTabs.
-[28Apr2025 23:43:47.992] [main/WARN] [com.simibubi.create.Create/]: Could not find block entity type computercraft:wired_modem_full. Outdated compat?
-[28Apr2025 23:43:47.992] [main/WARN] [com.simibubi.create.Create/]: Could not find block entity type computercraft:computer_normal. Outdated compat?
-[28Apr2025 23:43:47.992] [main/WARN] [com.simibubi.create.Create/]: Could not find block entity type computercraft:computer_advanced. Outdated compat?
-[28Apr2025 23:43:47.992] [main/WARN] [com.simibubi.create.Create/]: Could not find block entity type computercraft:computer_command. Outdated compat?
-[28Apr2025 23:43:48.026] [main/INFO] [dev.gigaherz.jsonthings.things.parsers.FluidTypeParser/]: Started registering FluidType things, errors about unexpected registry domains are harmless...
-[28Apr2025 23:43:48.026] [main/INFO] [dev.gigaherz.jsonthings.things.parsers.FluidTypeParser/]: Done processing thingpack FluidTypes.
-[28Apr2025 23:43:48.265] [modloading-worker-0/INFO] [com.jaquadro.minecraft.storagedrawers.StorageDrawers/]: New compacting rule 4 clay_ball = 1 clay
-[28Apr2025 23:43:48.266] [modloading-worker-0/INFO] [com.jaquadro.minecraft.storagedrawers.StorageDrawers/]: New compacting rule 4 snowball = 1 snow_block
-[28Apr2025 23:43:48.266] [modloading-worker-0/INFO] [com.jaquadro.minecraft.storagedrawers.StorageDrawers/]: New compacting rule 4 glowstone_dust = 1 glowstone
-[28Apr2025 23:43:48.266] [modloading-worker-0/INFO] [com.jaquadro.minecraft.storagedrawers.StorageDrawers/]: New compacting rule 4 brick = 1 bricks
-[28Apr2025 23:43:48.266] [modloading-worker-0/INFO] [com.jaquadro.minecraft.storagedrawers.StorageDrawers/]: New compacting rule 4 nether_brick = 1 nether_bricks
-[28Apr2025 23:43:48.266] [modloading-worker-0/INFO] [com.jaquadro.minecraft.storagedrawers.StorageDrawers/]: New compacting rule 9 nether_wart = 1 nether_wart_block
-[28Apr2025 23:43:48.266] [modloading-worker-0/INFO] [com.jaquadro.minecraft.storagedrawers.StorageDrawers/]: New compacting rule 4 quartz = 1 quartz_block
-[28Apr2025 23:43:48.267] [modloading-worker-0/INFO] [com.jaquadro.minecraft.storagedrawers.StorageDrawers/]: New compacting rule 9 melon_slice = 1 melon
-[28Apr2025 23:43:48.267] [modloading-worker-0/INFO] [com.jaquadro.minecraft.storagedrawers.StorageDrawers/]: New compacting rule 4 sand = 1 sandstone
-[28Apr2025 23:43:48.267] [modloading-worker-0/INFO] [com.jaquadro.minecraft.storagedrawers.StorageDrawers/]: New compacting rule 4 red_sand = 1 red_sandstone
-[28Apr2025 23:43:48.291] [modloading-worker-0/INFO] [com.jaquadro.minecraft.storagedrawers.StorageDrawers/]: New compacting rule 4 clay_ball = 1 clay
-[28Apr2025 23:43:48.353] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [aether] Starting version check at https://github.com/The-Aether-Team/The-Aether/raw/1.20.1-develop/update.json
-[28Apr2025 23:43:48.557] [main/INFO] [terrablender/]: Registered region minecraft:overworld to index 0 for type OVERWORLD
-[28Apr2025 23:43:48.557] [main/INFO] [terrablender/]: Registered region minecraft:nether to index 0 for type NETHER
-[28Apr2025 23:43:48.557] [main/INFO] [terrablender/]: Registered region biomesoplenty:overworld_primary to index 1 for type OVERWORLD
-[28Apr2025 23:43:48.557] [main/INFO] [terrablender/]: Registered region biomesoplenty:overworld_secondary to index 2 for type OVERWORLD
-[28Apr2025 23:43:48.557] [main/INFO] [terrablender/]: Registered region biomesoplenty:overworld_rare to index 3 for type OVERWORLD
-[28Apr2025 23:43:48.557] [main/INFO] [terrablender/]: Registered region biomesoplenty:nether_common to index 1 for type NETHER
-[28Apr2025 23:43:48.558] [main/INFO] [terrablender/]: Registered region biomesoplenty:nether_rare to index 2 for type NETHER
-[28Apr2025 23:43:48.662] [main/INFO] [Framework/SYNCED_ENTITY_DATA]: Registered synced data key refurbished_furniture:lock_yaw for refurbished_furniture:seat
-[28Apr2025 23:43:48.672] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [aether] Found status: UP_TO_DATE Current: 1.20.1-1.5.2-neoforge Target: null
-[28Apr2025 23:43:48.672] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [bookshelf] Starting version check at https://updates.blamejared.com/get?n=bookshelf&gv=1.20.1
-[28Apr2025 23:43:48.694] [modloading-worker-0/INFO] [xaero.minimap.XaeroMinimap/]: Loading Xaero's Minimap - Stage 1/2 (Server)
-[28Apr2025 23:43:48.694] [modloading-worker-0/INFO] [xaero.map.server.WorldMapServer/]: Loading Xaero's World Map - Stage 1/2 (Server)
-[28Apr2025 23:43:48.695] [main/INFO] [xaero.map.server.WorldMapServer/]: Loading Xaero's World Map - Stage 2/2 (Server)
-[28Apr2025 23:43:48.695] [main/INFO] [xaero.minimap.XaeroMinimap/]: Loading Xaero's Minimap - Stage 2/2 (Server)
-[28Apr2025 23:43:49.241] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [bookshelf] Found status: BETA Current: 20.2.13 Target: 20.2.13
-[28Apr2025 23:43:49.241] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
-[28Apr2025 23:43:49.457] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: UP_TO_DATE Current: 47.4.0 Target: null
-[28Apr2025 23:43:49.457] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [twilightforest] Starting version check at https://gh.tamaized.com/TeamTwilight/twilightforest/update.json
-[28Apr2025 23:43:49.847] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [twilightforest] Found status: AHEAD Current: 4.3.2508 Target: null
-[28Apr2025 23:43:49.847] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [corpse] Starting version check at https://update.maxhenkel.de/forge/corpse
-[28Apr2025 23:43:50.411] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [corpse] Found status: AHEAD Current: 1.20.1-1.0.20 Target: null
-[28Apr2025 23:43:50.413] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [tcintegrations] Starting version check at https://raw.githubusercontent.com/wendall911/TCIntegrations/1.20.1/files/updates.json
-[28Apr2025 23:43:50.445] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [tcintegrations] Found status: UP_TO_DATE Current: 1.20.1-2.0.25.8 Target: null
-[28Apr2025 23:43:50.445] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [enchdesc] Starting version check at https://updates.blamejared.com/get?n=enchdesc&gv=1.20.1
-[28Apr2025 23:43:50.596] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [enchdesc] Found status: BETA Current: 17.1.19 Target: 17.1.19
-[28Apr2025 23:43:50.596] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [cumulus_menus] Starting version check at https://github.com/The-Aether-Team/Cumulus/raw/1.20.1-develop/update.json
-[28Apr2025 23:43:50.659] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [cumulus_menus] Found status: UP_TO_DATE Current: 1.20.1-1.0.1-neoforge Target: null
-[28Apr2025 23:43:50.659] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mcwfurnitures] Starting version check at https://raw.githubusercontent.com/sketchmacaw/macawsmods/master/furniture.json
-[28Apr2025 23:43:50.688] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mcwfurnitures] Found status: UP_TO_DATE Current: 3.3.0 Target: null
-[28Apr2025 23:43:50.688] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [refurbished_furniture] Starting version check at https://mrcrayfish.com/api/mod_update/forge/refurbished_furniture
-[28Apr2025 23:43:51.100] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [refurbished_furniture] Found status: BETA Current: 1.0.12 Target: 1.0.12
-[28Apr2025 23:43:51.100] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [framework] Starting version check at https://mrcrayfish.com/modupdatejson?id=framework
-[28Apr2025 23:43:51.512] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [framework] Found status: BETA Current: 0.7.12 Target: 0.7.12
-[28Apr2025 23:43:53.536] [main/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
-[28Apr2025 23:43:57.694] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/home/zephyr/.local/share/atlauncher/servers/Minecraft1201withForge/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23205!/assets/.mcassetsroot' uses unexpected schema
-[28Apr2025 23:43:57.694] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/home/zephyr/.local/share/atlauncher/servers/Minecraft1201withForge/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23205!/data/.mcassetsroot' uses unexpected schema
-[28Apr2025 23:43:57.695] [main/ERROR] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: File /things/.mcassetsroot does not exist in classpath
-[28Apr2025 23:43:57.744] [main/INFO] [com.simibubi.create.Create/]: Created 638 recipes which will be injected into the game
-[28Apr2025 23:43:57.754] [main/INFO] [com.simibubi.create.Create/]: Created 22 tags which will be injected into the game
-[28Apr2025 23:43:58.069] [main/INFO] [bettervillage/]: StructureSet modified for minecraft:village : Now using custom village configuration (can be disabled in the better villages config: boolean.villages.enabled_custom_config).
-[28Apr2025 23:43:58.587] [main/INFO] [com.github.alexthe666.alexsmobs.AlexsMobs/]: Adding datapack listener capsid_recipes
-[28Apr2025 23:43:58.703] [Worker-Main-2/INFO] [Mantle/]: Loaded 25 loot table injectors injecting into 23 tables in 26.41247 ms
-[28Apr2025 23:43:59.038] [Worker-Main-11/ERROR] [net.minecraft.tags.TagLoader/]: Couldn't load tag dfs:foodsden as it is missing following references: minecraft:sweet_berry_bush (from Kanos-Osmium-Space_Tiers-2.5.1-Forge_1.20.1.jar)
-[28Apr2025 23:43:59.046] [Worker-Main-11/ERROR] [net.minecraft.tags.TagLoader/]: Couldn't load tag tconstruct:modifiable/special as it is missing following references: #tinkers_thinking:modifiable/bucket (from Tinkers-Thinking-0.1.5.0.jar)
-[28Apr2025 23:43:59.058] [Worker-Main-11/ERROR] [net.minecraft.tags.TagLoader/]: Couldn't load tag rocketengine:rocket_engine as it is missing following references: dfs:engine (from Kanos-Osmium-Space_Tiers-2.5.1-Forge_1.20.1.jar), 
+[30Apr2025 22:22:02.658] [main/INFO] [MixinExtras|Service/]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.5.0-beta.5).
+[30Apr2025 22:22:05.530] [main/WARN] [mixin/]: @Inject(@At("INVOKE_ASSIGN")) Shift.BY=2 on refurbished_furniture.common.mixins.json:LevelChunkMixin::handler$zei000$refurbishedFurniture$AfterRemoveBlockEntity exceeds the maximum allowed value: 0. Increase the value of maxShiftBy to suppress this warning.
+[30Apr2025 22:22:06.226] [main/ERROR] [net.minecraft.Util/]: Registry 'create:arm_interaction_point_type' was empty after loading
+[30Apr2025 22:22:06.226] [main/ERROR] [net.minecraft.Util/]: Registry 'create:fan_processing_type' was empty after loading
+[30Apr2025 22:22:06.227] [main/ERROR] [net.minecraft.Util/]: Registry 'create:item_attribute_type' was empty after loading
+[30Apr2025 22:22:06.227] [main/ERROR] [net.minecraft.Util/]: Registry 'create:display_source' was empty after loading
+[30Apr2025 22:22:06.227] [main/ERROR] [net.minecraft.Util/]: Registry 'create:display_target' was empty after loading
+[30Apr2025 22:22:06.227] [main/ERROR] [net.minecraft.Util/]: Registry 'create:mounted_item_storage_type' was empty after loading
+[30Apr2025 22:22:06.227] [main/ERROR] [net.minecraft.Util/]: Registry 'create:mounted_fluid_storage_type' was empty after loading
+[30Apr2025 22:22:06.227] [main/ERROR] [net.minecraft.Util/]: Registry 'create:contraption_type' was empty after loading
+[30Apr2025 22:22:06.227] [main/ERROR] [net.minecraft.Util/]: Registry 'create:potato_projectile/render_mode' was empty after loading
+[30Apr2025 22:22:06.227] [main/ERROR] [net.minecraft.Util/]: Registry 'create:potato_projectile/entity_hit_action' was empty after loading
+[30Apr2025 22:22:06.227] [main/ERROR] [net.minecraft.Util/]: Registry 'create:potato_projectile/block_hit_action' was empty after loading
+[30Apr2025 22:22:06.412] [modloading-worker-0/INFO] [com.jtorleonstudios.libraryferret.LibraryFerret/]: Initialize mod Library Ferret
+[30Apr2025 22:22:06.439] [modloading-worker-0/INFO] [com.jtorleonstudios.libraryferret.LibraryFerret/]: Initialized mod Library Ferret
+[30Apr2025 22:22:06.497] [modloading-worker-0/INFO] [Bookshelf/]: Fixing MC-151457. Crafting remainder for minecraft:pufferfish_bucket is now minecraft:bucket.
+[30Apr2025 22:22:06.497] [modloading-worker-0/INFO] [Bookshelf/]: Fixing MC-151457. Crafting remainder for minecraft:salmon_bucket is now minecraft:bucket.
+[30Apr2025 22:22:06.497] [modloading-worker-0/INFO] [Bookshelf/]: Fixing MC-151457. Crafting remainder for minecraft:cod_bucket is now minecraft:bucket.
+[30Apr2025 22:22:06.497] [modloading-worker-0/INFO] [Bookshelf/]: Fixing MC-151457. Crafting remainder for minecraft:tropical_fish_bucket is now minecraft:bucket.
+[30Apr2025 22:22:06.497] [modloading-worker-0/INFO] [Bookshelf/]: Fixing MC-151457. Crafting remainder for minecraft:axolotl_bucket is now minecraft:bucket.
+[30Apr2025 22:22:06.497] [modloading-worker-0/INFO] [Bookshelf/]: Fixing MC-151457. Crafting remainder for minecraft:powder_snow_bucket is now minecraft:bucket.
+[30Apr2025 22:22:06.497] [modloading-worker-0/INFO] [Bookshelf/]: Fixing MC-151457. Crafting remainder for minecraft:tadpole_bucket is now minecraft:bucket.
+[30Apr2025 22:22:06.513] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 47.4.0, for MC 1.20.1 with MCP 20230612.114412
+[30Apr2025 22:22:06.513] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v47.4.0 Initialized
+[30Apr2025 22:22:06.732] [modloading-worker-0/INFO] [com.simibubi.create.Create/]: Create 6.0.0 initializing! Commit hash: 5ed96e6d34a1607df082aca30d282c6eebca0b06
+[30Apr2025 22:22:06.822] [modloading-worker-0/WARN] [supermartijn642corelib/]: Mod 'Chipped' is requesting registration helper for different modid 'rechiseled_chipped'!
+[30Apr2025 22:22:06.825] [modloading-worker-0/INFO] [com.aetherteam.cumulus.Cumulus/]: Disabling Cumulus as it is on server.
+[30Apr2025 22:22:07.126] [modloading-worker-0/INFO] [thedarkcolour.kotlinforforge.test.KotlinForForge/]: Kotlin For Forge Enabled!
+[30Apr2025 22:22:07.899] [main/INFO] [net.minecraft.server.packs.resources.ReloadableResourceManager/]: Reloading ResourceManager: mod_resources
+[30Apr2025 22:22:08.054] [main/INFO] [dev.gigaherz.jsonthings.things.parsers.SoundEventParser/]: Started registering SoundEvent things, errors about unexpected registry domains are harmless...
+[30Apr2025 22:22:08.055] [main/INFO] [dev.gigaherz.jsonthings.things.parsers.SoundEventParser/]: Done processing thingpack SoundEvents.
+[30Apr2025 22:22:08.116] [main/INFO] [dev.gigaherz.jsonthings.things.parsers.FluidParser/]: Started registering Fluid things, errors about unexpected registry domains are harmless...
+[30Apr2025 22:22:08.116] [main/INFO] [dev.gigaherz.jsonthings.things.parsers.FluidParser/]: Done processing thingpack Fluids.
+[30Apr2025 22:22:08.729] [main/INFO] [dev.gigaherz.jsonthings.things.parsers.BlockParser/]: Started registering Block things, errors about unexpected registry domains are harmless...
+[30Apr2025 22:22:08.730] [main/INFO] [dev.gigaherz.jsonthings.things.parsers.BlockParser/]: Done processing thingpack Blocks.
+[30Apr2025 22:22:11.779] [main/INFO] [dev.gigaherz.jsonthings.things.parsers.ItemParser/]: Started registering Item things, errors about unexpected registry domains are harmless...
+[30Apr2025 22:22:11.780] [main/INFO] [dev.gigaherz.jsonthings.things.parsers.ItemParser/]: Done processing thingpack Items.
+[30Apr2025 22:22:12.187] [main/INFO] [dev.gigaherz.jsonthings.things.parsers.EnchantmentParser/]: Started registering Enchantment things, errors about unexpected registry domains are harmless...
+[30Apr2025 22:22:12.188] [main/INFO] [dev.gigaherz.jsonthings.things.parsers.EnchantmentParser/]: Done processing thingpack Enchantments.
+[30Apr2025 22:22:12.681] [main/INFO] [dev.gigaherz.jsonthings.things.parsers.CreativeModeTabParser/]: Started registering Item things, errors about unexpected registry domains are harmless...
+[30Apr2025 22:22:12.681] [main/INFO] [dev.gigaherz.jsonthings.things.parsers.CreativeModeTabParser/]: Done processing thingpack CreativeModeTabs.
+[30Apr2025 22:22:12.697] [main/WARN] [com.simibubi.create.Create/]: Could not find block entity type computercraft:wired_modem_full. Outdated compat?
+[30Apr2025 22:22:12.697] [main/WARN] [com.simibubi.create.Create/]: Could not find block entity type computercraft:computer_normal. Outdated compat?
+[30Apr2025 22:22:12.697] [main/WARN] [com.simibubi.create.Create/]: Could not find block entity type computercraft:computer_advanced. Outdated compat?
+[30Apr2025 22:22:12.697] [main/WARN] [com.simibubi.create.Create/]: Could not find block entity type computercraft:computer_command. Outdated compat?
+[30Apr2025 22:22:12.735] [main/INFO] [dev.gigaherz.jsonthings.things.parsers.FluidTypeParser/]: Started registering FluidType things, errors about unexpected registry domains are harmless...
+[30Apr2025 22:22:12.736] [main/INFO] [dev.gigaherz.jsonthings.things.parsers.FluidTypeParser/]: Done processing thingpack FluidTypes.
+[30Apr2025 22:22:12.996] [modloading-worker-0/INFO] [com.jaquadro.minecraft.storagedrawers.StorageDrawers/]: New compacting rule 4 clay_ball = 1 clay
+[30Apr2025 22:22:12.997] [modloading-worker-0/INFO] [com.jaquadro.minecraft.storagedrawers.StorageDrawers/]: New compacting rule 4 snowball = 1 snow_block
+[30Apr2025 22:22:12.997] [modloading-worker-0/INFO] [com.jaquadro.minecraft.storagedrawers.StorageDrawers/]: New compacting rule 4 glowstone_dust = 1 glowstone
+[30Apr2025 22:22:12.997] [modloading-worker-0/INFO] [com.jaquadro.minecraft.storagedrawers.StorageDrawers/]: New compacting rule 4 brick = 1 bricks
+[30Apr2025 22:22:12.997] [modloading-worker-0/INFO] [com.jaquadro.minecraft.storagedrawers.StorageDrawers/]: New compacting rule 4 nether_brick = 1 nether_bricks
+[30Apr2025 22:22:12.997] [modloading-worker-0/INFO] [com.jaquadro.minecraft.storagedrawers.StorageDrawers/]: New compacting rule 9 nether_wart = 1 nether_wart_block
+[30Apr2025 22:22:12.997] [modloading-worker-0/INFO] [com.jaquadro.minecraft.storagedrawers.StorageDrawers/]: New compacting rule 4 quartz = 1 quartz_block
+[30Apr2025 22:22:12.997] [modloading-worker-0/INFO] [com.jaquadro.minecraft.storagedrawers.StorageDrawers/]: New compacting rule 9 melon_slice = 1 melon
+[30Apr2025 22:22:12.997] [modloading-worker-0/INFO] [com.jaquadro.minecraft.storagedrawers.StorageDrawers/]: New compacting rule 4 sand = 1 sandstone
+[30Apr2025 22:22:12.997] [modloading-worker-0/INFO] [com.jaquadro.minecraft.storagedrawers.StorageDrawers/]: New compacting rule 4 red_sand = 1 red_sandstone
+[30Apr2025 22:22:13.020] [modloading-worker-0/INFO] [com.jaquadro.minecraft.storagedrawers.StorageDrawers/]: New compacting rule 4 clay_ball = 1 clay
+[30Apr2025 22:22:13.092] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [aether] Starting version check at https://github.com/The-Aether-Team/The-Aether/raw/1.20.1-develop/update.json
+[30Apr2025 22:22:13.242] [main/INFO] [terrablender/]: Registered region minecraft:overworld to index 0 for type OVERWORLD
+[30Apr2025 22:22:13.243] [main/INFO] [terrablender/]: Registered region minecraft:nether to index 0 for type NETHER
+[30Apr2025 22:22:13.243] [main/INFO] [terrablender/]: Registered region biomesoplenty:overworld_primary to index 1 for type OVERWORLD
+[30Apr2025 22:22:13.243] [main/INFO] [terrablender/]: Registered region biomesoplenty:overworld_secondary to index 2 for type OVERWORLD
+[30Apr2025 22:22:13.243] [main/INFO] [terrablender/]: Registered region biomesoplenty:overworld_rare to index 3 for type OVERWORLD
+[30Apr2025 22:22:13.243] [main/INFO] [terrablender/]: Registered region biomesoplenty:nether_common to index 1 for type NETHER
+[30Apr2025 22:22:13.243] [main/INFO] [terrablender/]: Registered region biomesoplenty:nether_rare to index 2 for type NETHER
+[30Apr2025 22:22:13.318] [main/INFO] [Framework/SYNCED_ENTITY_DATA]: Registered synced data key refurbished_furniture:lock_yaw for refurbished_furniture:seat
+[30Apr2025 22:22:13.340] [modloading-worker-0/INFO] [xaero.minimap.XaeroMinimap/]: Loading Xaero's Minimap - Stage 1/2 (Server)
+[30Apr2025 22:22:13.340] [modloading-worker-0/INFO] [xaero.map.server.WorldMapServer/]: Loading Xaero's World Map - Stage 1/2 (Server)
+[30Apr2025 22:22:13.341] [main/INFO] [xaero.map.server.WorldMapServer/]: Loading Xaero's World Map - Stage 2/2 (Server)
+[30Apr2025 22:22:13.341] [main/INFO] [xaero.minimap.XaeroMinimap/]: Loading Xaero's Minimap - Stage 2/2 (Server)
+[30Apr2025 22:22:13.357] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [aether] Found status: UP_TO_DATE Current: 1.20.1-1.5.2-neoforge Target: null
+[30Apr2025 22:22:13.357] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [bookshelf] Starting version check at https://updates.blamejared.com/get?n=bookshelf&gv=1.20.1
+[30Apr2025 22:22:13.753] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [bookshelf] Found status: BETA Current: 20.2.13 Target: 20.2.13
+[30Apr2025 22:22:13.753] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
+[30Apr2025 22:22:13.929] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: UP_TO_DATE Current: 47.4.0 Target: null
+[30Apr2025 22:22:13.929] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [twilightforest] Starting version check at https://gh.tamaized.com/TeamTwilight/twilightforest/update.json
+[30Apr2025 22:22:14.080] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [twilightforest] Found status: AHEAD Current: 4.3.2508 Target: null
+[30Apr2025 22:22:14.080] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [corpse] Starting version check at https://update.maxhenkel.de/forge/corpse
+[30Apr2025 22:22:14.607] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [corpse] Found status: AHEAD Current: 1.20.1-1.0.20 Target: null
+[30Apr2025 22:22:14.609] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [tcintegrations] Starting version check at https://raw.githubusercontent.com/wendall911/TCIntegrations/1.20.1/files/updates.json
+[30Apr2025 22:22:14.633] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [tcintegrations] Found status: UP_TO_DATE Current: 1.20.1-2.0.25.8 Target: null
+[30Apr2025 22:22:14.633] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [enchdesc] Starting version check at https://updates.blamejared.com/get?n=enchdesc&gv=1.20.1
+[30Apr2025 22:22:14.753] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [enchdesc] Found status: BETA Current: 17.1.19 Target: 17.1.19
+[30Apr2025 22:22:14.753] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [cumulus_menus] Starting version check at https://github.com/The-Aether-Team/Cumulus/raw/1.20.1-develop/update.json
+[30Apr2025 22:22:14.800] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [cumulus_menus] Found status: UP_TO_DATE Current: 1.20.1-1.0.1-neoforge Target: null
+[30Apr2025 22:22:14.800] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mcwfurnitures] Starting version check at https://raw.githubusercontent.com/sketchmacaw/macawsmods/master/furniture.json
+[30Apr2025 22:22:14.835] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mcwfurnitures] Found status: UP_TO_DATE Current: 3.3.0 Target: null
+[30Apr2025 22:22:14.835] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [refurbished_furniture] Starting version check at https://mrcrayfish.com/api/mod_update/forge/refurbished_furniture
+[30Apr2025 22:22:15.360] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [refurbished_furniture] Found status: BETA Current: 1.0.12 Target: 1.0.12
+[30Apr2025 22:22:15.360] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [framework] Starting version check at https://mrcrayfish.com/modupdatejson?id=framework
+[30Apr2025 22:22:15.811] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [framework] Found status: BETA Current: 0.7.12 Target: 0.7.12
+[30Apr2025 22:22:17.697] [main/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[30Apr2025 22:22:21.732] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/mc-server/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23205!/assets/.mcassetsroot' uses unexpected schema
+[30Apr2025 22:22:21.732] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/mc-server/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23205!/data/.mcassetsroot' uses unexpected schema
+[30Apr2025 22:22:21.733] [main/ERROR] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: File /things/.mcassetsroot does not exist in classpath
+[30Apr2025 22:22:21.788] [main/INFO] [com.simibubi.create.Create/]: Created 638 recipes which will be injected into the game
+[30Apr2025 22:22:21.807] [main/INFO] [com.simibubi.create.Create/]: Created 22 tags which will be injected into the game
+[30Apr2025 22:22:22.127] [main/INFO] [bettervillage/]: StructureSet modified for minecraft:village : Now using custom village configuration (can be disabled in the better villages config: boolean.villages.enabled_custom_config).
+[30Apr2025 22:22:22.628] [main/INFO] [com.github.alexthe666.alexsmobs.AlexsMobs/]: Adding datapack listener capsid_recipes
+[30Apr2025 22:22:22.755] [Worker-Main-9/INFO] [Mantle/]: Loaded 25 loot table injectors injecting into 23 tables in 13.554366 ms
+[30Apr2025 22:22:23.034] [Worker-Main-4/ERROR] [net.minecraft.tags.TagLoader/]: Couldn't load tag dfs:foodsden as it is missing following references: minecraft:sweet_berry_bush (from Kanos-Osmium-Space_Tiers-2.5.1-Forge_1.20.1.jar)
+[30Apr2025 22:22:23.040] [Worker-Main-4/ERROR] [net.minecraft.tags.TagLoader/]: Couldn't load tag tconstruct:modifiable/special as it is missing following references: #tinkers_thinking:modifiable/bucket (from Tinkers-Thinking-0.1.5.0.jar)
+[30Apr2025 22:22:23.049] [Worker-Main-4/ERROR] [net.minecraft.tags.TagLoader/]: Couldn't load tag rocketengine:rocket_engine as it is missing following references: dfs:engine (from Kanos-Osmium-Space_Tiers-2.5.1-Forge_1.20.1.jar), 
 	dfs:engine_2 (from Kanos-Osmium-Space_Tiers-2.5.1-Forge_1.20.1.jar)
-[28Apr2025 23:43:59.501] [Thread-1/WARN] [net.minecraftforge.fml.config.ConfigFileTypeHandler/CONFIG]: Configuration file /home/zephyr/.local/share/atlauncher/servers/Minecraft1201withForge/config/sophisticatedcore-common.toml is not correct. Correcting
-[28Apr2025 23:43:59.517] [Thread-1/WARN] [net.minecraftforge.fml.config.ConfigFileTypeHandler/CONFIG]: Configuration file /home/zephyr/.local/share/atlauncher/servers/Minecraft1201withForge/config/sophisticatedcore-common.toml is not correct. Correcting
-[28Apr2025 23:43:59.547] [Thread-1/WARN] [net.minecraftforge.fml.config.ConfigFileTypeHandler/CONFIG]: Configuration file /home/zephyr/.local/share/atlauncher/servers/Minecraft1201withForge/config/sophisticatedcore-common.toml is not correct. Correcting
-[28Apr2025 23:43:59.556] [Thread-1/WARN] [net.minecraftforge.fml.config.ConfigFileTypeHandler/CONFIG]: Configuration file /home/zephyr/.local/share/atlauncher/servers/Minecraft1201withForge/config/sophisticatedcore-common.toml is not correct. Correcting
-[28Apr2025 23:43:59.565] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe twilightforest:jeed/frosted as it's serializer returned null
-[28Apr2025 23:43:59.566] [Thread-1/WARN] [net.minecraftforge.fml.config.ConfigFileTypeHandler/CONFIG]: Configuration file /home/zephyr/.local/share/atlauncher/servers/Minecraft1201withForge/config/sophisticatedcore-common.toml is not correct. Correcting
-[28Apr2025 23:43:59.574] [Thread-1/WARN] [net.minecraftforge.fml.config.ConfigFileTypeHandler/CONFIG]: Configuration file /home/zephyr/.local/share/atlauncher/servers/Minecraft1201withForge/config/sophisticatedcore-common.toml is not correct. Correcting
-[28Apr2025 23:43:59.577] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe twilightforest:jeed/hunger as it's serializer returned null
-[28Apr2025 23:43:59.623] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe dfs:heat_shield_rc
+[30Apr2025 22:22:23.529] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe twilightforest:jeed/frosted as it's serializer returned null
+[30Apr2025 22:22:23.535] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe twilightforest:jeed/hunger as it's serializer returned null
+[30Apr2025 22:22:23.559] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe dfs:heat_shield_rc
 com.google.gson.JsonSyntaxException: Unknown item 'dfs:heat_shield'
 	at net.minecraftforge.common.crafting.CraftingHelper.getItem(CraftingHelper.java:160) ~[forge-1.20.1-47.4.0-universal.jar%23210!/:?]
 	at net.minecraftforge.common.crafting.CraftingHelper.getItemStack(CraftingHelper.java:186) ~[forge-1.20.1-47.4.0-universal.jar%23210!/:?]
@@ -194,8 +191,10 @@ com.google.gson.JsonSyntaxException: Unknown item 'dfs:heat_shield'
 	at net.minecraft.Util.m_214652_(Util.java:783) ~[server-1.20.1-20230612.114412-srg.jar%23205!/:?]
 	at net.minecraft.Util.m_214679_(Util.java:772) ~[server-1.20.1-20230612.114412-srg.jar%23205!/:?]
 	at net.minecraft.server.Main.main(Main.java:166) ~[server-1.20.1-20230612.114412-srg.jar%23205!/:?]
-	at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
-	at java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:569) ~[?:?]
 	at net.minecraftforge.fml.loading.targets.CommonLaunchHandler.runTarget(CommonLaunchHandler.java:111) ~[fmlloader-1.20.1-47.4.0.jar%2369!/:?]
 	at net.minecraftforge.fml.loading.targets.CommonLaunchHandler.serverService(CommonLaunchHandler.java:103) ~[fmlloader-1.20.1-47.4.0.jar%2369!/:?]
 	at net.minecraftforge.fml.loading.targets.CommonServerLaunchHandler.lambda$makeService$0(CommonServerLaunchHandler.java:27) ~[fmlloader-1.20.1-47.4.0.jar%2369!/:?]
@@ -207,14 +206,18 @@ com.google.gson.JsonSyntaxException: Unknown item 'dfs:heat_shield'
 	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) ~[modlauncher-10.0.9.jar%2355!/:?]
 	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) ~[modlauncher-10.0.9.jar%2355!/:?]
 	at cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:141) ~[bootstraplauncher-1.1.2.jar:?]
-	at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
-	at java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:569) ~[?:?]
 	at net.neoforged.serverstarterjar.Main.mainLaunch(Main.java:266) ~[?:?]
 	at net.neoforged.serverstarterjar.Main.main(Main.java:70) ~[?:?]
-	at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
-	at java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:569) ~[?:?]
 	at net.neoforged.serverstarterjar.Main8.main(Main8.java:19) ~[?:?]
-[28Apr2025 23:43:59.632] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe dfs:blueprint_paper_rc
+[30Apr2025 22:22:23.562] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe dfs:blueprint_paper_rc
 com.google.gson.JsonSyntaxException: Unknown item 'dfs:blueprint_paper'
 	at net.minecraftforge.common.crafting.CraftingHelper.getItem(CraftingHelper.java:160) ~[forge-1.20.1-47.4.0-universal.jar%23210!/:?]
 	at net.minecraftforge.common.crafting.CraftingHelper.getItemStack(CraftingHelper.java:186) ~[forge-1.20.1-47.4.0-universal.jar%23210!/:?]
@@ -232,8 +235,10 @@ com.google.gson.JsonSyntaxException: Unknown item 'dfs:blueprint_paper'
 	at net.minecraft.Util.m_214652_(Util.java:783) ~[server-1.20.1-20230612.114412-srg.jar%23205!/:?]
 	at net.minecraft.Util.m_214679_(Util.java:772) ~[server-1.20.1-20230612.114412-srg.jar%23205!/:?]
 	at net.minecraft.server.Main.main(Main.java:166) ~[server-1.20.1-20230612.114412-srg.jar%23205!/:?]
-	at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
-	at java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:569) ~[?:?]
 	at net.minecraftforge.fml.loading.targets.CommonLaunchHandler.runTarget(CommonLaunchHandler.java:111) ~[fmlloader-1.20.1-47.4.0.jar%2369!/:?]
 	at net.minecraftforge.fml.loading.targets.CommonLaunchHandler.serverService(CommonLaunchHandler.java:103) ~[fmlloader-1.20.1-47.4.0.jar%2369!/:?]
 	at net.minecraftforge.fml.loading.targets.CommonServerLaunchHandler.lambda$makeService$0(CommonServerLaunchHandler.java:27) ~[fmlloader-1.20.1-47.4.0.jar%2369!/:?]
@@ -245,16 +250,19 @@ com.google.gson.JsonSyntaxException: Unknown item 'dfs:blueprint_paper'
 	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) ~[modlauncher-10.0.9.jar%2355!/:?]
 	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) ~[modlauncher-10.0.9.jar%2355!/:?]
 	at cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:141) ~[bootstraplauncher-1.1.2.jar:?]
-	at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
-	at java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:569) ~[?:?]
 	at net.neoforged.serverstarterjar.Main.mainLaunch(Main.java:266) ~[?:?]
 	at net.neoforged.serverstarterjar.Main.main(Main.java:70) ~[?:?]
-	at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
-	at java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:569) ~[?:?]
 	at net.neoforged.serverstarterjar.Main8.main(Main8.java:19) ~[?:?]
-[28Apr2025 23:43:59.635] [Thread-1/WARN] [net.minecraftforge.fml.config.ConfigFileTypeHandler/CONFIG]: Configuration file /home/zephyr/.local/share/atlauncher/servers/Minecraft1201withForge/config/sophisticatedcore-common.toml is not correct. Correcting
-[28Apr2025 23:43:59.654] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe twilightforest:jeed/blindness as it's serializer returned null
-[28Apr2025 23:43:59.659] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe dfs:fin_rc
+[30Apr2025 22:22:23.575] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe twilightforest:jeed/blindness as it's serializer returned null
+[30Apr2025 22:22:23.577] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe dfs:fin_rc
 com.google.gson.JsonSyntaxException: Unknown item 'dfs:fin'
 	at net.minecraftforge.common.crafting.CraftingHelper.getItem(CraftingHelper.java:160) ~[forge-1.20.1-47.4.0-universal.jar%23210!/:?]
 	at net.minecraftforge.common.crafting.CraftingHelper.getItemStack(CraftingHelper.java:186) ~[forge-1.20.1-47.4.0-universal.jar%23210!/:?]
@@ -272,8 +280,10 @@ com.google.gson.JsonSyntaxException: Unknown item 'dfs:fin'
 	at net.minecraft.Util.m_214652_(Util.java:783) ~[server-1.20.1-20230612.114412-srg.jar%23205!/:?]
 	at net.minecraft.Util.m_214679_(Util.java:772) ~[server-1.20.1-20230612.114412-srg.jar%23205!/:?]
 	at net.minecraft.server.Main.main(Main.java:166) ~[server-1.20.1-20230612.114412-srg.jar%23205!/:?]
-	at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
-	at java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:569) ~[?:?]
 	at net.minecraftforge.fml.loading.targets.CommonLaunchHandler.runTarget(CommonLaunchHandler.java:111) ~[fmlloader-1.20.1-47.4.0.jar%2369!/:?]
 	at net.minecraftforge.fml.loading.targets.CommonLaunchHandler.serverService(CommonLaunchHandler.java:103) ~[fmlloader-1.20.1-47.4.0.jar%2369!/:?]
 	at net.minecraftforge.fml.loading.targets.CommonServerLaunchHandler.lambda$makeService$0(CommonServerLaunchHandler.java:27) ~[fmlloader-1.20.1-47.4.0.jar%2369!/:?]
@@ -285,14 +295,18 @@ com.google.gson.JsonSyntaxException: Unknown item 'dfs:fin'
 	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) ~[modlauncher-10.0.9.jar%2355!/:?]
 	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) ~[modlauncher-10.0.9.jar%2355!/:?]
 	at cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:141) ~[bootstraplauncher-1.1.2.jar:?]
-	at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
-	at java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:569) ~[?:?]
 	at net.neoforged.serverstarterjar.Main.mainLaunch(Main.java:266) ~[?:?]
 	at net.neoforged.serverstarterjar.Main.main(Main.java:70) ~[?:?]
-	at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
-	at java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:569) ~[?:?]
 	at net.neoforged.serverstarterjar.Main8.main(Main8.java:19) ~[?:?]
-[28Apr2025 23:43:59.663] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe dfs:side_booster_rc
+[30Apr2025 22:22:23.579] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe dfs:side_booster_rc
 com.google.gson.JsonSyntaxException: Unknown item 'dfs:fuel_tank'
 	at net.minecraft.world.item.crafting.ShapedRecipe.m_151280_(ShapedRecipe.java:292) ~[server-1.20.1-20230612.114412-srg.jar%23205!/:?]
 	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
@@ -315,8 +329,10 @@ com.google.gson.JsonSyntaxException: Unknown item 'dfs:fuel_tank'
 	at net.minecraft.Util.m_214652_(Util.java:783) ~[server-1.20.1-20230612.114412-srg.jar%23205!/:?]
 	at net.minecraft.Util.m_214679_(Util.java:772) ~[server-1.20.1-20230612.114412-srg.jar%23205!/:?]
 	at net.minecraft.server.Main.main(Main.java:166) ~[server-1.20.1-20230612.114412-srg.jar%23205!/:?]
-	at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
-	at java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:569) ~[?:?]
 	at net.minecraftforge.fml.loading.targets.CommonLaunchHandler.runTarget(CommonLaunchHandler.java:111) ~[fmlloader-1.20.1-47.4.0.jar%2369!/:?]
 	at net.minecraftforge.fml.loading.targets.CommonLaunchHandler.serverService(CommonLaunchHandler.java:103) ~[fmlloader-1.20.1-47.4.0.jar%2369!/:?]
 	at net.minecraftforge.fml.loading.targets.CommonServerLaunchHandler.lambda$makeService$0(CommonServerLaunchHandler.java:27) ~[fmlloader-1.20.1-47.4.0.jar%2369!/:?]
@@ -328,14 +344,18 @@ com.google.gson.JsonSyntaxException: Unknown item 'dfs:fuel_tank'
 	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) ~[modlauncher-10.0.9.jar%2355!/:?]
 	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) ~[modlauncher-10.0.9.jar%2355!/:?]
 	at cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:141) ~[bootstraplauncher-1.1.2.jar:?]
-	at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
-	at java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:569) ~[?:?]
 	at net.neoforged.serverstarterjar.Main.mainLaunch(Main.java:266) ~[?:?]
 	at net.neoforged.serverstarterjar.Main.main(Main.java:70) ~[?:?]
-	at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
-	at java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:569) ~[?:?]
 	at net.neoforged.serverstarterjar.Main8.main(Main8.java:19) ~[?:?]
-[28Apr2025 23:43:59.667] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe create_sa:andesite_exoskeleton_recipe
+[30Apr2025 22:22:23.581] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe create_sa:andesite_exoskeleton_recipe
 com.google.gson.JsonSyntaxException: Missing item, expected to find a string
 	at net.minecraft.util.GsonHelper.m_13906_(GsonHelper.java:127) ~[server-1.20.1-20230612.114412-srg.jar%23205!/:?]
 	at net.minecraftforge.common.crafting.CraftingHelper.getItemStack(CraftingHelper.java:185) ~[forge-1.20.1-47.4.0-universal.jar%23210!/:?]
@@ -354,8 +374,10 @@ com.google.gson.JsonSyntaxException: Missing item, expected to find a string
 	at net.minecraft.Util.m_214652_(Util.java:783) ~[server-1.20.1-20230612.114412-srg.jar%23205!/:?]
 	at net.minecraft.Util.m_214679_(Util.java:772) ~[server-1.20.1-20230612.114412-srg.jar%23205!/:?]
 	at net.minecraft.server.Main.main(Main.java:166) ~[server-1.20.1-20230612.114412-srg.jar%23205!/:?]
-	at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
-	at java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:569) ~[?:?]
 	at net.minecraftforge.fml.loading.targets.CommonLaunchHandler.runTarget(CommonLaunchHandler.java:111) ~[fmlloader-1.20.1-47.4.0.jar%2369!/:?]
 	at net.minecraftforge.fml.loading.targets.CommonLaunchHandler.serverService(CommonLaunchHandler.java:103) ~[fmlloader-1.20.1-47.4.0.jar%2369!/:?]
 	at net.minecraftforge.fml.loading.targets.CommonServerLaunchHandler.lambda$makeService$0(CommonServerLaunchHandler.java:27) ~[fmlloader-1.20.1-47.4.0.jar%2369!/:?]
@@ -367,14 +389,18 @@ com.google.gson.JsonSyntaxException: Missing item, expected to find a string
 	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) ~[modlauncher-10.0.9.jar%2355!/:?]
 	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) ~[modlauncher-10.0.9.jar%2355!/:?]
 	at cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:141) ~[bootstraplauncher-1.1.2.jar:?]
-	at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
-	at java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:569) ~[?:?]
 	at net.neoforged.serverstarterjar.Main.mainLaunch(Main.java:266) ~[?:?]
 	at net.neoforged.serverstarterjar.Main.main(Main.java:70) ~[?:?]
-	at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
-	at java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:569) ~[?:?]
 	at net.neoforged.serverstarterjar.Main8.main(Main8.java:19) ~[?:?]
-[28Apr2025 23:43:59.678] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe dfs:tier_level_manager_rc
+[30Apr2025 22:22:23.588] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe dfs:tier_level_manager_rc
 com.google.gson.JsonSyntaxException: Unknown item 'dfs:blueprint_paper'
 	at net.minecraft.world.item.crafting.ShapedRecipe.m_151280_(ShapedRecipe.java:292) ~[server-1.20.1-20230612.114412-srg.jar%23205!/:?]
 	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
@@ -397,8 +423,10 @@ com.google.gson.JsonSyntaxException: Unknown item 'dfs:blueprint_paper'
 	at net.minecraft.Util.m_214652_(Util.java:783) ~[server-1.20.1-20230612.114412-srg.jar%23205!/:?]
 	at net.minecraft.Util.m_214679_(Util.java:772) ~[server-1.20.1-20230612.114412-srg.jar%23205!/:?]
 	at net.minecraft.server.Main.main(Main.java:166) ~[server-1.20.1-20230612.114412-srg.jar%23205!/:?]
-	at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
-	at java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:569) ~[?:?]
 	at net.minecraftforge.fml.loading.targets.CommonLaunchHandler.runTarget(CommonLaunchHandler.java:111) ~[fmlloader-1.20.1-47.4.0.jar%2369!/:?]
 	at net.minecraftforge.fml.loading.targets.CommonLaunchHandler.serverService(CommonLaunchHandler.java:103) ~[fmlloader-1.20.1-47.4.0.jar%2369!/:?]
 	at net.minecraftforge.fml.loading.targets.CommonServerLaunchHandler.lambda$makeService$0(CommonServerLaunchHandler.java:27) ~[fmlloader-1.20.1-47.4.0.jar%2369!/:?]
@@ -410,17 +438,21 @@ com.google.gson.JsonSyntaxException: Unknown item 'dfs:blueprint_paper'
 	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) ~[modlauncher-10.0.9.jar%2355!/:?]
 	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) ~[modlauncher-10.0.9.jar%2355!/:?]
 	at cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:141) ~[bootstraplauncher-1.1.2.jar:?]
-	at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
-	at java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:569) ~[?:?]
 	at net.neoforged.serverstarterjar.Main.mainLaunch(Main.java:266) ~[?:?]
 	at net.neoforged.serverstarterjar.Main.main(Main.java:70) ~[?:?]
-	at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
-	at java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:569) ~[?:?]
 	at net.neoforged.serverstarterjar.Main8.main(Main8.java:19) ~[?:?]
-[28Apr2025 23:43:59.682] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe twilightforest:jeed/poison as it's serializer returned null
-[28Apr2025 23:43:59.733] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe twilightforest:jeed/resistance as it's serializer returned null
-[28Apr2025 23:43:59.781] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe twilightforest:jeed/regeneration as it's serializer returned null
-[28Apr2025 23:43:59.782] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe dfs:capsule_rc
+[30Apr2025 22:22:23.591] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe twilightforest:jeed/poison as it's serializer returned null
+[30Apr2025 22:22:23.618] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe twilightforest:jeed/resistance as it's serializer returned null
+[30Apr2025 22:22:23.642] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe twilightforest:jeed/regeneration as it's serializer returned null
+[30Apr2025 22:22:23.643] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe dfs:capsule_rc
 com.google.gson.JsonSyntaxException: Unknown item 'dfs:heat_shield'
 	at net.minecraft.world.item.crafting.ShapedRecipe.m_151280_(ShapedRecipe.java:292) ~[server-1.20.1-20230612.114412-srg.jar%23205!/:?]
 	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
@@ -443,8 +475,10 @@ com.google.gson.JsonSyntaxException: Unknown item 'dfs:heat_shield'
 	at net.minecraft.Util.m_214652_(Util.java:783) ~[server-1.20.1-20230612.114412-srg.jar%23205!/:?]
 	at net.minecraft.Util.m_214679_(Util.java:772) ~[server-1.20.1-20230612.114412-srg.jar%23205!/:?]
 	at net.minecraft.server.Main.main(Main.java:166) ~[server-1.20.1-20230612.114412-srg.jar%23205!/:?]
-	at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
-	at java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:569) ~[?:?]
 	at net.minecraftforge.fml.loading.targets.CommonLaunchHandler.runTarget(CommonLaunchHandler.java:111) ~[fmlloader-1.20.1-47.4.0.jar%2369!/:?]
 	at net.minecraftforge.fml.loading.targets.CommonLaunchHandler.serverService(CommonLaunchHandler.java:103) ~[fmlloader-1.20.1-47.4.0.jar%2369!/:?]
 	at net.minecraftforge.fml.loading.targets.CommonServerLaunchHandler.lambda$makeService$0(CommonServerLaunchHandler.java:27) ~[fmlloader-1.20.1-47.4.0.jar%2369!/:?]
@@ -456,15 +490,19 @@ com.google.gson.JsonSyntaxException: Unknown item 'dfs:heat_shield'
 	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) ~[modlauncher-10.0.9.jar%2355!/:?]
 	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) ~[modlauncher-10.0.9.jar%2355!/:?]
 	at cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:141) ~[bootstraplauncher-1.1.2.jar:?]
-	at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
-	at java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:569) ~[?:?]
 	at net.neoforged.serverstarterjar.Main.mainLaunch(Main.java:266) ~[?:?]
 	at net.neoforged.serverstarterjar.Main.main(Main.java:70) ~[?:?]
-	at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
-	at java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:569) ~[?:?]
 	at net.neoforged.serverstarterjar.Main8.main(Main8.java:19) ~[?:?]
-[28Apr2025 23:43:59.783] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe twilightforest:jeed/slowness as it's serializer returned null
-[28Apr2025 23:43:59.787] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe dfs:rbm_rc
+[30Apr2025 22:22:23.644] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe twilightforest:jeed/slowness as it's serializer returned null
+[30Apr2025 22:22:23.648] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe dfs:rbm_rc
 com.google.gson.JsonSyntaxException: Unknown item 'dfs:capsule'
 	at net.minecraft.world.item.crafting.ShapedRecipe.m_151280_(ShapedRecipe.java:292) ~[server-1.20.1-20230612.114412-srg.jar%23205!/:?]
 	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
@@ -487,8 +525,10 @@ com.google.gson.JsonSyntaxException: Unknown item 'dfs:capsule'
 	at net.minecraft.Util.m_214652_(Util.java:783) ~[server-1.20.1-20230612.114412-srg.jar%23205!/:?]
 	at net.minecraft.Util.m_214679_(Util.java:772) ~[server-1.20.1-20230612.114412-srg.jar%23205!/:?]
 	at net.minecraft.server.Main.main(Main.java:166) ~[server-1.20.1-20230612.114412-srg.jar%23205!/:?]
-	at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
-	at java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:569) ~[?:?]
 	at net.minecraftforge.fml.loading.targets.CommonLaunchHandler.runTarget(CommonLaunchHandler.java:111) ~[fmlloader-1.20.1-47.4.0.jar%2369!/:?]
 	at net.minecraftforge.fml.loading.targets.CommonLaunchHandler.serverService(CommonLaunchHandler.java:103) ~[fmlloader-1.20.1-47.4.0.jar%2369!/:?]
 	at net.minecraftforge.fml.loading.targets.CommonServerLaunchHandler.lambda$makeService$0(CommonServerLaunchHandler.java:27) ~[fmlloader-1.20.1-47.4.0.jar%2369!/:?]
@@ -500,46 +540,50 @@ com.google.gson.JsonSyntaxException: Unknown item 'dfs:capsule'
 	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) ~[modlauncher-10.0.9.jar%2355!/:?]
 	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) ~[modlauncher-10.0.9.jar%2355!/:?]
 	at cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:141) ~[bootstraplauncher-1.1.2.jar:?]
-	at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
-	at java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:569) ~[?:?]
 	at net.neoforged.serverstarterjar.Main.mainLaunch(Main.java:266) ~[?:?]
 	at net.neoforged.serverstarterjar.Main.main(Main.java:70) ~[?:?]
-	at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
-	at java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:569) ~[?:?]
 	at net.neoforged.serverstarterjar.Main8.main(Main8.java:19) ~[?:?]
-[28Apr2025 23:43:59.788] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe twilightforest:jeed/fire_resistance as it's serializer returned null
-[28Apr2025 23:43:59.794] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 70 recipes
-[28Apr2025 23:43:59.806] [main/ERROR] [net.minecraft.server.ServerAdvancementManager/]: Parsing error loading custom advancement dfs:tier_level_manager_ach: Expected item to be an item, was unknown string 'dfs:tier_level_manager'
-[28Apr2025 23:43:59.812] [main/ERROR] [net.minecraft.server.ServerAdvancementManager/]: Parsing error loading custom advancement dfs:capsule_2_ach: Expected item to be an item, was unknown string 'dfs:capsule_2'
-[28Apr2025 23:43:59.821] [main/ERROR] [net.minecraft.server.ServerAdvancementManager/]: Parsing error loading custom advancement dfs:fuel_tank_2_ach: Expected item to be an item, was unknown string 'dfs:fuel_tank_2'
-[28Apr2025 23:43:59.829] [main/ERROR] [net.minecraft.server.ServerAdvancementManager/]: Parsing error loading custom advancement dfs:bpach: Expected item to be an item, was unknown string 'dfs:blueprint_paper'
-[28Apr2025 23:43:59.831] [main/ERROR] [net.minecraft.server.ServerAdvancementManager/]: Parsing error loading custom advancement dfs:engine_2_ach: Expected item to be an item, was unknown string 'dfs:engine_2'
-[28Apr2025 23:43:59.831] [main/ERROR] [net.minecraft.server.ServerAdvancementManager/]: Parsing error loading custom advancement dfs:rbm_ach: Expected item to be an item, was unknown string 'dfs:rbm'
-[28Apr2025 23:43:59.833] [main/ERROR] [net.minecraft.server.ServerAdvancementManager/]: Parsing error loading custom advancement dfs:fuel_tank_ach: Expected item to be an item, was unknown string 'dfs:fuel_tank'
-[28Apr2025 23:43:59.838] [main/ERROR] [net.minecraft.server.ServerAdvancementManager/]: Parsing error loading custom advancement dfs:capsule_ach: Expected item to be an item, was unknown string 'dfs:capsule_2'
-[28Apr2025 23:43:59.847] [main/ERROR] [net.minecraft.server.ServerAdvancementManager/]: Parsing error loading custom advancement dfs:side_booster_ach: Expected item to be an item, was unknown string 'dfs:side_booster'
-[28Apr2025 23:43:59.860] [main/ERROR] [net.minecraft.server.ServerAdvancementManager/]: Parsing error loading custom advancement dfs:capsule_0_ach: Expected item to be an item, was unknown string 'dfs:capsule'
-[28Apr2025 23:43:59.866] [main/ERROR] [net.minecraft.server.ServerAdvancementManager/]: Parsing error loading custom advancement dfs:fin_ach: Expected item to be an item, was unknown string 'dfs:fin'
-[28Apr2025 23:43:59.867] [main/ERROR] [net.minecraft.server.ServerAdvancementManager/]: Parsing error loading custom advancement dfs:heat_shield_ach: Expected item to be an item, was unknown string 'dfs:heat_shield'
-[28Apr2025 23:43:59.867] [main/ERROR] [net.minecraft.server.ServerAdvancementManager/]: Parsing error loading custom advancement dfs:capsule_3_ach: Expected item to be an item, was unknown string 'dfs:capsule_3'
-[28Apr2025 23:43:59.869] [main/ERROR] [net.minecraft.server.ServerAdvancementManager/]: Parsing error loading custom advancement dfs:nose_cone_ach: Expected item to be an item, was unknown string 'dfs:nose_cone'
-[28Apr2025 23:43:59.877] [main/ERROR] [net.minecraft.server.ServerAdvancementManager/]: Parsing error loading custom advancement dfs:fuel_tank_3_ach: Expected item to be an item, was unknown string 'dfs:fuel_tank_3'
-[28Apr2025 23:43:59.889] [main/ERROR] [net.minecraft.server.ServerAdvancementManager/]: Parsing error loading custom advancement dfs:engine_3_ach: Expected item to be an item, was unknown string 'dfs:engine_3'
-[28Apr2025 23:43:59.913] [main/ERROR] [net.minecraft.advancements.AdvancementList/]: Couldn't load advancement dfs:t_1_rach: Task Advancement{parentId=dfs:rbm_ach, display=net.minecraft.advancements.DisplayInfo@59e4092b, rewards=AdvancementRewards{experience=0, loot=[], recipes=[], function=net.minecraft.commands.CommandFunction$CacheableFunction@6d471215}, criteria={t_1_rach_0=net.minecraft.advancements.Criterion@74ca2524}, requirements=[[t_1_rach_0]], sends_telemetry_event=false}
-[28Apr2025 23:43:59.913] [main/ERROR] [net.minecraft.advancements.AdvancementList/]: Couldn't load advancement dfs:tier_1_plate_ach: Task Advancement{parentId=dfs:capsule_ach, display=net.minecraft.advancements.DisplayInfo@70ebc587, rewards=AdvancementRewards{experience=0, loot=[], recipes=[], function=net.minecraft.commands.CommandFunction$CacheableFunction@6d471215}, criteria={tier_1_plate_ach_0=net.minecraft.advancements.Criterion@75ef2dd4}, requirements=[[tier_1_plate_ach_0]], sends_telemetry_event=false}
-[28Apr2025 23:43:59.913] [main/ERROR] [net.minecraft.advancements.AdvancementList/]: Couldn't load advancement dfs:t_2_rach: Task Advancement{parentId=dfs:t_1_rach, display=net.minecraft.advancements.DisplayInfo@69cb0f0c, rewards=AdvancementRewards{experience=0, loot=[], recipes=[], function=net.minecraft.commands.CommandFunction$CacheableFunction@6d471215}, criteria={t_2_rach_0=net.minecraft.advancements.Criterion@65c60e6c}, requirements=[[t_2_rach_0]], sends_telemetry_event=false}
-[28Apr2025 23:43:59.913] [main/ERROR] [net.minecraft.advancements.AdvancementList/]: Couldn't load advancement dfs:t_3_rach: Task Advancement{parentId=dfs:t_2_rach, display=net.minecraft.advancements.DisplayInfo@3619c34d, rewards=AdvancementRewards{experience=0, loot=[], recipes=[], function=net.minecraft.commands.CommandFunction$CacheableFunction@6d471215}, criteria={t_3_rach_0=net.minecraft.advancements.Criterion@63790e8c}, requirements=[[t_3_rach_0]], sends_telemetry_event=false}
-[28Apr2025 23:43:59.913] [main/ERROR] [net.minecraft.advancements.AdvancementList/]: Couldn't load advancement dfs:tier_2_plate_ach: Task Advancement{parentId=dfs:tier_level_manager_ach, display=net.minecraft.advancements.DisplayInfo@ac7f4fc, rewards=AdvancementRewards{experience=0, loot=[], recipes=[], function=net.minecraft.commands.CommandFunction$CacheableFunction@6d471215}, criteria={tier_2_plate_ach_0=net.minecraft.advancements.Criterion@21619646}, requirements=[[tier_2_plate_ach_0]], sends_telemetry_event=false}
-[28Apr2025 23:43:59.914] [main/ERROR] [net.minecraft.advancements.AdvancementList/]: Couldn't load advancement dfs:tier_3_plate_ach: Task Advancement{parentId=dfs:tier_2_plate_ach, display=net.minecraft.advancements.DisplayInfo@1b3db5d8, rewards=AdvancementRewards{experience=0, loot=[], recipes=[], function=net.minecraft.commands.CommandFunction$CacheableFunction@6d471215}, criteria={tier_3_plate_ach_0=net.minecraft.advancements.Criterion@3643c35f}, requirements=[[tier_3_plate_ach_0]], sends_telemetry_event=false}
-[28Apr2025 23:43:59.914] [main/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 5096 advancements
-[28Apr2025 23:43:59.919] [main/INFO] [twilightforest/]: Loaded 9 Stalactite configs!
-[28Apr2025 23:43:59.942] [main/INFO] [top.theillusivec4.curios.Curios/]: Loaded 16 curio slots
-[28Apr2025 23:43:59.947] [main/INFO] [top.theillusivec4.curios.Curios/]: Loaded 9 curio entities
-[28Apr2025 23:43:59.947] [main/INFO] [slimeknights.mantle.fluid.transfer.FluidContainerTransferManager/]: Loaded 25 dynamic modifiers in 0.694797 ms
-[28Apr2025 23:43:59.951] [main/INFO] [rechiseled/]: Loaded 290 chiseling recipes
-[28Apr2025 23:43:59.996] [main/INFO] [slimeknights.tconstruct.library.modifiers.ModifierManager/]: Loaded 151 dynamic modifiers and 4 modifier redirects in 44.95533 ms
-[28Apr2025 23:44:00.002] [main/INFO] [slimeknights.tconstruct.library.modifiers.ModifierManager/]: Loaded 40 modifier tags for 158 modifiers in 5.835789 ms
-[28Apr2025 23:44:00.003] [main/INFO] [slimeknights.tconstruct.library.modifiers.ModifierManager/]: Invalid enchantment to modifier mapping
+[30Apr2025 22:22:23.649] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe twilightforest:jeed/fire_resistance as it's serializer returned null
+[30Apr2025 22:22:23.653] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 70 recipes
+[30Apr2025 22:22:23.664] [main/ERROR] [net.minecraft.server.ServerAdvancementManager/]: Parsing error loading custom advancement dfs:tier_level_manager_ach: Expected item to be an item, was unknown string 'dfs:tier_level_manager'
+[30Apr2025 22:22:23.670] [main/ERROR] [net.minecraft.server.ServerAdvancementManager/]: Parsing error loading custom advancement dfs:capsule_2_ach: Expected item to be an item, was unknown string 'dfs:capsule_2'
+[30Apr2025 22:22:23.680] [main/ERROR] [net.minecraft.server.ServerAdvancementManager/]: Parsing error loading custom advancement dfs:fuel_tank_2_ach: Expected item to be an item, was unknown string 'dfs:fuel_tank_2'
+[30Apr2025 22:22:23.691] [main/ERROR] [net.minecraft.server.ServerAdvancementManager/]: Parsing error loading custom advancement dfs:bpach: Expected item to be an item, was unknown string 'dfs:blueprint_paper'
+[30Apr2025 22:22:23.694] [main/ERROR] [net.minecraft.server.ServerAdvancementManager/]: Parsing error loading custom advancement dfs:engine_2_ach: Expected item to be an item, was unknown string 'dfs:engine_2'
+[30Apr2025 22:22:23.694] [main/ERROR] [net.minecraft.server.ServerAdvancementManager/]: Parsing error loading custom advancement dfs:rbm_ach: Expected item to be an item, was unknown string 'dfs:rbm'
+[30Apr2025 22:22:23.696] [main/ERROR] [net.minecraft.server.ServerAdvancementManager/]: Parsing error loading custom advancement dfs:fuel_tank_ach: Expected item to be an item, was unknown string 'dfs:fuel_tank'
+[30Apr2025 22:22:23.703] [main/ERROR] [net.minecraft.server.ServerAdvancementManager/]: Parsing error loading custom advancement dfs:capsule_ach: Expected item to be an item, was unknown string 'dfs:capsule_2'
+[30Apr2025 22:22:23.712] [main/ERROR] [net.minecraft.server.ServerAdvancementManager/]: Parsing error loading custom advancement dfs:side_booster_ach: Expected item to be an item, was unknown string 'dfs:side_booster'
+[30Apr2025 22:22:23.721] [main/ERROR] [net.minecraft.server.ServerAdvancementManager/]: Parsing error loading custom advancement dfs:capsule_0_ach: Expected item to be an item, was unknown string 'dfs:capsule'
+[30Apr2025 22:22:23.727] [main/ERROR] [net.minecraft.server.ServerAdvancementManager/]: Parsing error loading custom advancement dfs:fin_ach: Expected item to be an item, was unknown string 'dfs:fin'
+[30Apr2025 22:22:23.728] [main/ERROR] [net.minecraft.server.ServerAdvancementManager/]: Parsing error loading custom advancement dfs:heat_shield_ach: Expected item to be an item, was unknown string 'dfs:heat_shield'
+[30Apr2025 22:22:23.729] [main/ERROR] [net.minecraft.server.ServerAdvancementManager/]: Parsing error loading custom advancement dfs:capsule_3_ach: Expected item to be an item, was unknown string 'dfs:capsule_3'
+[30Apr2025 22:22:23.731] [main/ERROR] [net.minecraft.server.ServerAdvancementManager/]: Parsing error loading custom advancement dfs:nose_cone_ach: Expected item to be an item, was unknown string 'dfs:nose_cone'
+[30Apr2025 22:22:23.738] [main/ERROR] [net.minecraft.server.ServerAdvancementManager/]: Parsing error loading custom advancement dfs:fuel_tank_3_ach: Expected item to be an item, was unknown string 'dfs:fuel_tank_3'
+[30Apr2025 22:22:23.749] [main/ERROR] [net.minecraft.server.ServerAdvancementManager/]: Parsing error loading custom advancement dfs:engine_3_ach: Expected item to be an item, was unknown string 'dfs:engine_3'
+[30Apr2025 22:22:23.770] [main/ERROR] [net.minecraft.advancements.AdvancementList/]: Couldn't load advancement dfs:t_1_rach: Task Advancement{parentId=dfs:rbm_ach, display=net.minecraft.advancements.DisplayInfo@1f12aa6f, rewards=AdvancementRewards{experience=0, loot=[], recipes=[], function=net.minecraft.commands.CommandFunction$CacheableFunction@4a7e9575}, criteria={t_1_rach_0=net.minecraft.advancements.Criterion@4eed5fa6}, requirements=[[t_1_rach_0]], sends_telemetry_event=false}
+[30Apr2025 22:22:23.770] [main/ERROR] [net.minecraft.advancements.AdvancementList/]: Couldn't load advancement dfs:tier_1_plate_ach: Task Advancement{parentId=dfs:capsule_ach, display=net.minecraft.advancements.DisplayInfo@affb3d7, rewards=AdvancementRewards{experience=0, loot=[], recipes=[], function=net.minecraft.commands.CommandFunction$CacheableFunction@4a7e9575}, criteria={tier_1_plate_ach_0=net.minecraft.advancements.Criterion@7277c287}, requirements=[[tier_1_plate_ach_0]], sends_telemetry_event=false}
+[30Apr2025 22:22:23.770] [main/ERROR] [net.minecraft.advancements.AdvancementList/]: Couldn't load advancement dfs:t_2_rach: Task Advancement{parentId=dfs:t_1_rach, display=net.minecraft.advancements.DisplayInfo@4a2c985e, rewards=AdvancementRewards{experience=0, loot=[], recipes=[], function=net.minecraft.commands.CommandFunction$CacheableFunction@4a7e9575}, criteria={t_2_rach_0=net.minecraft.advancements.Criterion@6031866}, requirements=[[t_2_rach_0]], sends_telemetry_event=false}
+[30Apr2025 22:22:23.770] [main/ERROR] [net.minecraft.advancements.AdvancementList/]: Couldn't load advancement dfs:t_3_rach: Task Advancement{parentId=dfs:t_2_rach, display=net.minecraft.advancements.DisplayInfo@c0cf24c, rewards=AdvancementRewards{experience=0, loot=[], recipes=[], function=net.minecraft.commands.CommandFunction$CacheableFunction@4a7e9575}, criteria={t_3_rach_0=net.minecraft.advancements.Criterion@12521b83}, requirements=[[t_3_rach_0]], sends_telemetry_event=false}
+[30Apr2025 22:22:23.770] [main/ERROR] [net.minecraft.advancements.AdvancementList/]: Couldn't load advancement dfs:tier_2_plate_ach: Task Advancement{parentId=dfs:tier_level_manager_ach, display=net.minecraft.advancements.DisplayInfo@594568ef, rewards=AdvancementRewards{experience=0, loot=[], recipes=[], function=net.minecraft.commands.CommandFunction$CacheableFunction@4a7e9575}, criteria={tier_2_plate_ach_0=net.minecraft.advancements.Criterion@5bc9fe47}, requirements=[[tier_2_plate_ach_0]], sends_telemetry_event=false}
+[30Apr2025 22:22:23.771] [main/ERROR] [net.minecraft.advancements.AdvancementList/]: Couldn't load advancement dfs:tier_3_plate_ach: Task Advancement{parentId=dfs:tier_2_plate_ach, display=net.minecraft.advancements.DisplayInfo@dcc7b94, rewards=AdvancementRewards{experience=0, loot=[], recipes=[], function=net.minecraft.commands.CommandFunction$CacheableFunction@4a7e9575}, criteria={tier_3_plate_ach_0=net.minecraft.advancements.Criterion@196397ac}, requirements=[[tier_3_plate_ach_0]], sends_telemetry_event=false}
+[30Apr2025 22:22:23.771] [main/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 5096 advancements
+[30Apr2025 22:22:23.780] [main/INFO] [twilightforest/]: Loaded 9 Stalactite configs!
+[30Apr2025 22:22:23.789] [main/INFO] [rechiseled/]: Loaded 290 chiseling recipes
+[30Apr2025 22:22:23.794] [main/INFO] [top.theillusivec4.curios.Curios/]: Loaded 16 curio slots
+[30Apr2025 22:22:23.797] [main/INFO] [top.theillusivec4.curios.Curios/]: Loaded 9 curio entities
+[30Apr2025 22:22:23.798] [main/INFO] [slimeknights.mantle.fluid.transfer.FluidContainerTransferManager/]: Loaded 25 dynamic modifiers in 0.570002 ms
+[30Apr2025 22:22:23.831] [main/INFO] [slimeknights.tconstruct.library.modifiers.ModifierManager/]: Loaded 151 dynamic modifiers and 4 modifier redirects in 32.002953 ms
+[30Apr2025 22:22:23.838] [main/INFO] [slimeknights.tconstruct.library.modifiers.ModifierManager/]: Loaded 40 modifier tags for 158 modifiers in 6.410647 ms
+[30Apr2025 22:22:23.838] [main/INFO] [slimeknights.tconstruct.library.modifiers.ModifierManager/]: Invalid enchantment to modifier mapping
 com.google.gson.JsonSyntaxException: Unknown modifier tinkers_thinking:backstabbing for enchantment #tconstruct:modifier_like/backstabbing
 	at slimeknights.tconstruct.library.modifiers.ModifierManager.apply(ModifierManager.java:216) ~[TConstruct-1.20.1-3.9.2.37.jar%23193!/:1.20.1-3.9.2.37]
 	at slimeknights.tconstruct.library.modifiers.ModifierManager.m_5787_(ModifierManager.java:64) ~[TConstruct-1.20.1-3.9.2.37.jar%23193!/:1.20.1-3.9.2.37]
@@ -550,8 +594,10 @@ com.google.gson.JsonSyntaxException: Unknown modifier tinkers_thinking:backstabb
 	at net.minecraft.Util.m_214652_(Util.java:783) ~[server-1.20.1-20230612.114412-srg.jar%23205!/:?]
 	at net.minecraft.Util.m_214679_(Util.java:772) ~[server-1.20.1-20230612.114412-srg.jar%23205!/:?]
 	at net.minecraft.server.Main.main(Main.java:166) ~[server-1.20.1-20230612.114412-srg.jar%23205!/:?]
-	at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
-	at java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:569) ~[?:?]
 	at net.minecraftforge.fml.loading.targets.CommonLaunchHandler.runTarget(CommonLaunchHandler.java:111) ~[fmlloader-1.20.1-47.4.0.jar%2369!/:?]
 	at net.minecraftforge.fml.loading.targets.CommonLaunchHandler.serverService(CommonLaunchHandler.java:103) ~[fmlloader-1.20.1-47.4.0.jar%2369!/:?]
 	at net.minecraftforge.fml.loading.targets.CommonServerLaunchHandler.lambda$makeService$0(CommonServerLaunchHandler.java:27) ~[fmlloader-1.20.1-47.4.0.jar%2369!/:?]
@@ -563,344 +609,44 @@ com.google.gson.JsonSyntaxException: Unknown modifier tinkers_thinking:backstabb
 	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) ~[modlauncher-10.0.9.jar%2355!/:?]
 	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) ~[modlauncher-10.0.9.jar%2355!/:?]
 	at cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:141) ~[bootstraplauncher-1.1.2.jar:?]
-	at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
-	at java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:569) ~[?:?]
 	at net.neoforged.serverstarterjar.Main.mainLaunch(Main.java:266) ~[?:?]
 	at net.neoforged.serverstarterjar.Main.main(Main.java:70) ~[?:?]
-	at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
-	at java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:569) ~[?:?]
 	at net.neoforged.serverstarterjar.Main8.main(Main8.java:19) ~[?:?]
-[28Apr2025 23:44:00.004] [main/INFO] [slimeknights.tconstruct.library.modifiers.ModifierManager/]: Loaded 50 enchantment to modifier mappings in 1.68468 ms
-[28Apr2025 23:44:00.007] [main/INFO] [tconstruct/]: Loaded 47 spilling fluids in 2.543956 ms
-[28Apr2025 23:44:00.016] [main/INFO] [slimeknights.tconstruct.library.materials.definition.MaterialManager/]: Loaded 74 materials in 4.099775 ms
-[28Apr2025 23:44:00.017] [main/INFO] [slimeknights.tconstruct.library.materials.definition.MaterialManager/]: Loaded 1 material tags for 20 materials in 1.362005 ms
-[28Apr2025 23:44:00.024] [main/INFO] [slimeknights.tconstruct.library.materials.stats.MaterialStatsManager/]: 590 stats loaded for 97 materials in 6.920658 ms
-[28Apr2025 23:44:00.033] [main/INFO] [slimeknights.tconstruct.library.materials.traits.MaterialTraitsManager/]: 326 traits loaded for 97 materials in 8.605756 ms
-[28Apr2025 23:44:00.042] [main/INFO] [slimeknights.tconstruct.library.tools.definition.ToolDefinitionLoader/]: Loaded 51 tool definitions in 8.658976 ms
-[28Apr2025 23:44:00.047] [main/INFO] [slimeknights.tconstruct.library.tools.layout.StationSlotLayoutLoader/]: Loaded 24 station slot layouts in 4.112067 ms
-[28Apr2025 23:44:03.898] [main/WARN] [org.valkyrienskies.mod.common.config.MassDatapackResolver/]: No specified tag 'minecraft:carpets' doesn't exist!
-[28Apr2025 23:44:04.227] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting minecraft server version 1.20.1
-[28Apr2025 23:44:04.227] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Loading properties
-[28Apr2025 23:44:04.227] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Default game type: SURVIVAL
-[28Apr2025 23:44:04.227] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
-[28Apr2025 23:44:04.277] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting Minecraft server on *:25565
-[28Apr2025 23:44:04.304] [Server thread/INFO] [net.minecraft.server.network.ServerConnectionListener/]: Using epoll channel type
-[28Apr2025 23:44:04.475] [Server thread/INFO] [Framework/]: Loading server configs...
-[28Apr2025 23:44:04.754] [Server thread/INFO] [terrablender/]: Initialized TerraBlender biomes for level stem minecraft:overworld
-[28Apr2025 23:44:04.755] [Server thread/INFO] [terrablender/]: Initialized TerraBlender biomes for level stem minecraft:the_nether
-[28Apr2025 23:44:04.755] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Preparing level "world"
-[28Apr2025 23:44:05.046] [Server thread/INFO] [org.valkyrienskies.core.impl.networking.VSNetworking/]: We are not using UDP, falling back to TCP
-[28Apr2025 23:44:06.490] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
-[28Apr2025 23:44:06.508] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[28Apr2025 23:44:06.991] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 83%
-[28Apr2025 23:44:07.492] [Worker-Main-4/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 83%
-[28Apr2025 23:44:08.020] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 83%
-[28Apr2025 23:44:08.493] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 83%
-[28Apr2025 23:44:08.994] [Worker-Main-15/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 83%
-[28Apr2025 23:44:09.498] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 83%
-[28Apr2025 23:44:10.011] [Worker-Main-10/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 83%
-[28Apr2025 23:44:10.207] [Physics thread/WARN] [org.valkyrienskies.core.impl.pipelines.VSGamePipelineStage/]: Too many physics frames in the physics frame queue. Is the game stage broken?
-[28Apr2025 23:44:10.496] [Worker-Main-4/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 84%
-[28Apr2025 23:44:10.996] [Worker-Main-9/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 89%
-[28Apr2025 23:44:11.207] [Physics thread/WARN] [org.valkyrienskies.core.impl.pipelines.VSGamePipelineStage/]: Too many physics frames in the physics frame queue. Is the game stage broken?
-[28Apr2025 23:44:11.492] [Worker-Main-11/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 92%
-[28Apr2025 23:44:11.990] [Worker-Main-10/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 97%
-[28Apr2025 23:44:12.191] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 5702 ms
-[28Apr2025 23:44:12.192] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Done (7.801s)! For help, type "help"
-[28Apr2025 23:44:12.208] [Physics thread/WARN] [org.valkyrienskies.core.impl.pipelines.VSGamePipelineStage/]: Too many physics frames in the physics frame queue. Is the game stage broken?
-[28Apr2025 23:44:12.258] [Server thread/INFO] [net.minecraftforge.server.permission.PermissionAPI/]: Successfully initialized permission handler forge:default_handler
-[28Apr2025 23:44:12.889] [Server thread/INFO] [com.github.alexthe666.alexsmobs.AlexsMobs/]: Found Pupfish chunk at 1967 ~ -288 after 51 tries
-[28Apr2025 23:44:32.723] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /advancement (grant|revoke)
-[28Apr2025 23:44:32.723] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /attribute <target> <attribute> (get|base|modifier)
-[28Apr2025 23:44:32.723] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /execute (run|if|unless|as|at|store|positioned|rotated|facing|align|anchored|in|summon|on)
-[28Apr2025 23:44:32.723] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /bossbar (add|remove|list|set|get)
-[28Apr2025 23:44:32.723] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /clear [<targets>]
-[28Apr2025 23:44:32.723] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /clone (<begin>|from)
-[28Apr2025 23:44:32.723] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /damage <target> <amount> [<damageType>]
-[28Apr2025 23:44:32.723] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /data (merge|get|remove|modify)
-[28Apr2025 23:44:32.723] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /datapack (enable|disable|list)
-[28Apr2025 23:44:32.723] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /debug (start|stop|function)
-[28Apr2025 23:44:32.724] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /defaultgamemode <gamemode>
-[28Apr2025 23:44:32.724] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /difficulty [peaceful|easy|normal|hard]
-[28Apr2025 23:44:32.724] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /effect (clear|give)
-[28Apr2025 23:44:32.724] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /me <action>
-[28Apr2025 23:44:32.724] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /enchant <targets> <enchantment> [<level>]
-[28Apr2025 23:44:32.724] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /experience (add|set|query)
-[28Apr2025 23:44:32.724] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /xp -> experience
-[28Apr2025 23:44:32.724] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /fill <from> <to> <block> [replace|keep|outline|hollow|destroy]
-[28Apr2025 23:44:32.724] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /fillbiome <from> <to> <biome> [replace]
-[28Apr2025 23:44:32.724] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /forceload (add|remove|query)
-[28Apr2025 23:44:32.724] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /function <name>
-[28Apr2025 23:44:32.724] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /gamemode <gamemode> [<target>]
-[28Apr2025 23:44:32.724] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /gamerule (announceAdvancements|blockExplosionDropDecay|commandBlockOutput|commandModificationBlockLimit|disableElytraMovementCheck|disableRaids|doDaylightCycle|doEntityDrops|doFireTick|doImmediateRespawn|doInsomnia|doLimitedCrafting|doMobLoot|doMobSpawning|doPatrolSpawning|doTileDrops|doTraderSpawning|doVinesSpread|doWardenSpawning|doWeatherCycle|drowningDamage|fallDamage|fireDamage|forgiveDeadPlayers|freezeDamage|globalSoundEvents|keepInventory|lavaSourceConversion|logAdminCommands|maxCommandChainLength|maxEntityCramming|mobExplosionDropDecay|mobGriefing|mobsObtainSpaceSuits|naturalRegeneration|playersSleepingPercentage|randomTickSpeed|reducedDebugInfo|sendCommandFeedback|showDeathMessages|snowAccumulationHeight|spawnRadius|spectatorsGenerateChunks|tfEnforcedProgression|tntExplosionDropDecay|universalAnger|waterSourceConversion)
-[28Apr2025 23:44:32.724] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /give <targets> <item> [<count>]
-[28Apr2025 23:44:32.724] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /help [<command>]
-[28Apr2025 23:44:32.724] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /item (replace|modify)
-[28Apr2025 23:44:32.724] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /kick <targets> [<reason>]
-[28Apr2025 23:44:32.724] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /kill [<targets>]
-[28Apr2025 23:44:32.724] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /list [uuids]
-[28Apr2025 23:44:32.724] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /locate (structure|biome|poi)
-[28Apr2025 23:44:32.724] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /loot (replace|insert|give|spawn)
-[28Apr2025 23:44:32.724] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /msg <targets> <message>
-[28Apr2025 23:44:32.724] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /tell -> msg
-[28Apr2025 23:44:32.724] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /w -> msg
-[28Apr2025 23:44:32.724] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /particle <name> [<pos>]
-[28Apr2025 23:44:32.724] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /place (feature|jigsaw|structure|template)
-[28Apr2025 23:44:32.724] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /playsound <sound> (master|music|record|weather|block|hostile|neutral|player|ambient|voice)
-[28Apr2025 23:44:32.725] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /reload
-[28Apr2025 23:44:32.725] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /recipe (give|take)
-[28Apr2025 23:44:32.725] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /return <value>
-[28Apr2025 23:44:32.725] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /ride <target> (mount|dismount)
-[28Apr2025 23:44:32.725] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /say <message>
-[28Apr2025 23:44:32.725] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /schedule (function|clear)
-[28Apr2025 23:44:32.725] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /scoreboard (objectives|players)
-[28Apr2025 23:44:32.725] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /seed
-[28Apr2025 23:44:32.725] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /setblock <pos> <block> [destroy|keep|replace]
-[28Apr2025 23:44:32.725] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /spawnpoint [<targets>]
-[28Apr2025 23:44:32.725] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /setworldspawn [<pos>]
-[28Apr2025 23:44:32.725] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /spectate [<target>]
-[28Apr2025 23:44:32.725] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /spreadplayers <center> <spreadDistance> <maxRange> (<respectTeams>|under)
-[28Apr2025 23:44:32.725] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /stopsound <targets> [*|master|music|record|weather|block|hostile|neutral|player|ambient|voice]
-[28Apr2025 23:44:32.725] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /summon <entity> [<pos>]
-[28Apr2025 23:44:32.725] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /tag <targets> (add|remove|list)
-[28Apr2025 23:44:32.725] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /team (list|add|remove|empty|join|leave|modify)
-[28Apr2025 23:44:32.725] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /teammsg <message>
-[28Apr2025 23:44:32.725] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /tm -> teammsg
-[28Apr2025 23:44:32.726] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /teleport (<location>|<destination>|<targets>|<ships>)
-[28Apr2025 23:44:32.726] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /tp -> teleport
-[28Apr2025 23:44:32.726] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /tellraw <targets> <message>
-[28Apr2025 23:44:32.726] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /time (set|add|query)
-[28Apr2025 23:44:32.726] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /title <targets> (clear|reset|title|subtitle|actionbar|times)
-[28Apr2025 23:44:32.726] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /trigger <objective> [add|set]
-[28Apr2025 23:44:32.726] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /weather (clear|rain|thunder)
-[28Apr2025 23:44:32.726] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /worldborder (add|set|center|damage|get|warning)
-[28Apr2025 23:44:32.726] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /jfr (start|stop)
-[28Apr2025 23:44:32.726] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /ban-ip <target> [<reason>]
-[28Apr2025 23:44:32.726] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /banlist [ips|players]
-[28Apr2025 23:44:32.726] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /ban <targets> [<reason>]
-[28Apr2025 23:44:32.726] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /deop <targets>
-[28Apr2025 23:44:32.726] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /op <targets>
-[28Apr2025 23:44:32.726] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /pardon <targets>
-[28Apr2025 23:44:32.726] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /pardon-ip <target>
-[28Apr2025 23:44:32.726] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /perf (start|stop)
-[28Apr2025 23:44:32.726] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /save-all [flush]
-[28Apr2025 23:44:32.726] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /save-off
-[28Apr2025 23:44:32.726] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /save-on
-[28Apr2025 23:44:32.726] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /setidletimeout <minutes>
-[28Apr2025 23:44:32.726] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /stop
-[28Apr2025 23:44:32.726] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /whitelist (on|off|list|add|remove|reload)
-[28Apr2025 23:44:32.726] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /balm (dev|export)
-[28Apr2025 23:44:32.726] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /bookshelf (font|hand)
-[28Apr2025 23:44:32.726] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /twilightforest [center|conquer|genbook|info|biomepng|shield]
-[28Apr2025 23:44:32.726] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /tf -> twilightforest
-[28Apr2025 23:44:32.726] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /tffeature -> twilightforest
-[28Apr2025 23:44:32.726] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /carryon (debug|clear|place)
-[28Apr2025 23:44:32.726] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /tinkerslevellingaddon (levels|xp)
-[28Apr2025 23:44:32.727] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /forge (tps|track|entity|generate|dimensions|mods|tags)
-[28Apr2025 23:44:32.727] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /config showfile <mod> <type>
-[28Apr2025 23:44:32.727] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /sbp (list|give|removeNonPlayer)
-[28Apr2025 23:44:32.727] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /sophisticatedbackpacks -> sbp
-[28Apr2025 23:44:32.727] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /tconstruct (modifiers|materials|tool_stats|slots|report)
-[28Apr2025 23:44:32.727] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /ponder [reload|index|tags|<scene>]
-[28Apr2025 23:44:32.727] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /catnip (config|util|u)
-[28Apr2025 23:44:32.727] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /c (config|util|u|rainbowDebug|overlay|trains|fixLighting|debuginfo|highlight|passenger|coupling|clone|train|glue)
-[28Apr2025 23:44:32.727] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /curios (list|replace|set|add|remove|clear|drop|reset)
-[28Apr2025 23:44:32.727] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /aether (time|eternal_day|player|sun_altar_whitelist)
-[28Apr2025 23:44:32.727] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /cheatcode <Code>
-[28Apr2025 23:44:32.727] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /army <type> <complete>
-[28Apr2025 23:44:32.727] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /vs (delete|set-static|teleport|get-ship|ship)
-[28Apr2025 23:44:32.727] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /create (rainbowDebug|overlay|trains|fixLighting|debuginfo|highlight|passenger|coupling|clone|train|glue|util|u)
-[28Apr2025 23:44:32.727] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /deathhistory (<player>|<player_uuid>)
-[28Apr2025 23:44:32.727] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /mantle (view_tag|dump_tag|dump_loot_modifiers|dump_all_tags|tags_for|harvest_tiers|tag_preference)
-[28Apr2025 23:44:32.727] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /invsorter [bladd|blremove|showlast|list]
-[28Apr2025 23:46:58.786] [User Authenticator #1/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: UUID of player Roger66682 is 893acf03-89fd-4d6a-98c7-8f3b67956a2a
-[28Apr2025 23:47:04.724] [Server thread/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class net.minecraft.world.entity.player.Player from class tschipp.carryon.common.carry.CarryOnDataManager
-[28Apr2025 23:47:04.808] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Roger66682[/[::1]:50856] logged in with entity id 5 at (-136.5, 70.0, -107.5)
-[28Apr2025 23:47:04.962] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Roger66682 joined the game
-[28Apr2025 23:48:19.879] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Seed: [-5483844608684293567]
-[28Apr2025 23:48:34.784] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Roger66682 was killed
-[28Apr2025 23:48:34.796] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Killed Roger66682
-[28Apr2025 23:48:51.876] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Unknown or incomplete command, see below for error
-[28Apr2025 23:48:51.876] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: give<--[HERE]
-[28Apr2025 23:49:04.125] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Unknown or incomplete command, see below for error
-[28Apr2025 23:49:04.125] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: gamemode<--[HERE]
-[28Apr2025 23:49:18.775] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Unknown game mode: 1
-[28Apr2025 23:49:18.775] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: gamemode 1 Roger66682<--[HERE]
-[28Apr2025 23:49:41.025] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: No player was found
-[28Apr2025 23:49:59.926] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /advancement (grant|revoke)
-[28Apr2025 23:49:59.926] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /attribute <target> <attribute> (get|base|modifier)
-[28Apr2025 23:49:59.926] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /execute (run|if|unless|as|at|store|positioned|rotated|facing|align|anchored|in|summon|on)
-[28Apr2025 23:49:59.926] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /bossbar (add|remove|list|set|get)
-[28Apr2025 23:49:59.926] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /clear [<targets>]
-[28Apr2025 23:49:59.926] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /clone (<begin>|from)
-[28Apr2025 23:49:59.926] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /damage <target> <amount> [<damageType>]
-[28Apr2025 23:49:59.926] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /data (merge|get|remove|modify)
-[28Apr2025 23:49:59.926] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /datapack (enable|disable|list)
-[28Apr2025 23:49:59.926] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /debug (start|stop|function)
-[28Apr2025 23:49:59.926] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /defaultgamemode <gamemode>
-[28Apr2025 23:49:59.926] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /difficulty [peaceful|easy|normal|hard]
-[28Apr2025 23:49:59.926] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /effect (clear|give)
-[28Apr2025 23:49:59.926] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /me <action>
-[28Apr2025 23:49:59.926] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /enchant <targets> <enchantment> [<level>]
-[28Apr2025 23:49:59.926] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /experience (add|set|query)
-[28Apr2025 23:49:59.927] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /xp -> experience
-[28Apr2025 23:49:59.927] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /fill <from> <to> <block> [replace|keep|outline|hollow|destroy]
-[28Apr2025 23:49:59.927] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /fillbiome <from> <to> <biome> [replace]
-[28Apr2025 23:49:59.927] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /forceload (add|remove|query)
-[28Apr2025 23:49:59.927] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /function <name>
-[28Apr2025 23:49:59.927] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /gamemode <gamemode> [<target>]
-[28Apr2025 23:49:59.927] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /gamerule (announceAdvancements|blockExplosionDropDecay|commandBlockOutput|commandModificationBlockLimit|disableElytraMovementCheck|disableRaids|doDaylightCycle|doEntityDrops|doFireTick|doImmediateRespawn|doInsomnia|doLimitedCrafting|doMobLoot|doMobSpawning|doPatrolSpawning|doTileDrops|doTraderSpawning|doVinesSpread|doWardenSpawning|doWeatherCycle|drowningDamage|fallDamage|fireDamage|forgiveDeadPlayers|freezeDamage|globalSoundEvents|keepInventory|lavaSourceConversion|logAdminCommands|maxCommandChainLength|maxEntityCramming|mobExplosionDropDecay|mobGriefing|mobsObtainSpaceSuits|naturalRegeneration|playersSleepingPercentage|randomTickSpeed|reducedDebugInfo|sendCommandFeedback|showDeathMessages|snowAccumulationHeight|spawnRadius|spectatorsGenerateChunks|tfEnforcedProgression|tntExplosionDropDecay|universalAnger|waterSourceConversion)
-[28Apr2025 23:49:59.927] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /give <targets> <item> [<count>]
-[28Apr2025 23:49:59.927] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /help [<command>]
-[28Apr2025 23:49:59.927] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /item (replace|modify)
-[28Apr2025 23:49:59.927] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /kick <targets> [<reason>]
-[28Apr2025 23:49:59.927] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /kill [<targets>]
-[28Apr2025 23:49:59.927] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /list [uuids]
-[28Apr2025 23:49:59.927] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /locate (structure|biome|poi)
-[28Apr2025 23:49:59.927] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /loot (replace|insert|give|spawn)
-[28Apr2025 23:49:59.927] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /msg <targets> <message>
-[28Apr2025 23:49:59.927] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /tell -> msg
-[28Apr2025 23:49:59.927] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /w -> msg
-[28Apr2025 23:49:59.927] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /particle <name> [<pos>]
-[28Apr2025 23:49:59.927] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /place (feature|jigsaw|structure|template)
-[28Apr2025 23:49:59.927] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /playsound <sound> (master|music|record|weather|block|hostile|neutral|player|ambient|voice)
-[28Apr2025 23:49:59.927] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /reload
-[28Apr2025 23:49:59.927] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /recipe (give|take)
-[28Apr2025 23:49:59.927] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /return <value>
-[28Apr2025 23:49:59.928] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /ride <target> (mount|dismount)
-[28Apr2025 23:49:59.928] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /say <message>
-[28Apr2025 23:49:59.928] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /schedule (function|clear)
-[28Apr2025 23:49:59.928] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /scoreboard (objectives|players)
-[28Apr2025 23:49:59.928] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /seed
-[28Apr2025 23:49:59.928] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /setblock <pos> <block> [destroy|keep|replace]
-[28Apr2025 23:49:59.928] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /spawnpoint [<targets>]
-[28Apr2025 23:49:59.928] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /setworldspawn [<pos>]
-[28Apr2025 23:49:59.928] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /spectate [<target>]
-[28Apr2025 23:49:59.928] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /spreadplayers <center> <spreadDistance> <maxRange> (<respectTeams>|under)
-[28Apr2025 23:49:59.928] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /stopsound <targets> [*|master|music|record|weather|block|hostile|neutral|player|ambient|voice]
-[28Apr2025 23:49:59.928] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /summon <entity> [<pos>]
-[28Apr2025 23:49:59.928] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /tag <targets> (add|remove|list)
-[28Apr2025 23:49:59.928] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /team (list|add|remove|empty|join|leave|modify)
-[28Apr2025 23:49:59.928] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /teammsg <message>
-[28Apr2025 23:49:59.928] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /tm -> teammsg
-[28Apr2025 23:49:59.928] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /teleport (<location>|<destination>|<targets>|<ships>)
-[28Apr2025 23:49:59.928] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /tp -> teleport
-[28Apr2025 23:49:59.928] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /tellraw <targets> <message>
-[28Apr2025 23:49:59.928] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /time (set|add|query)
-[28Apr2025 23:49:59.928] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /title <targets> (clear|reset|title|subtitle|actionbar|times)
-[28Apr2025 23:49:59.928] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /trigger <objective> [add|set]
-[28Apr2025 23:49:59.928] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /weather (clear|rain|thunder)
-[28Apr2025 23:49:59.928] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /worldborder (add|set|center|damage|get|warning)
-[28Apr2025 23:49:59.928] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /jfr (start|stop)
-[28Apr2025 23:49:59.929] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /ban-ip <target> [<reason>]
-[28Apr2025 23:49:59.929] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /banlist [ips|players]
-[28Apr2025 23:49:59.929] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /ban <targets> [<reason>]
-[28Apr2025 23:49:59.929] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /deop <targets>
-[28Apr2025 23:49:59.929] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /op <targets>
-[28Apr2025 23:49:59.929] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /pardon <targets>
-[28Apr2025 23:49:59.929] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /pardon-ip <target>
-[28Apr2025 23:49:59.929] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /perf (start|stop)
-[28Apr2025 23:49:59.929] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /save-all [flush]
-[28Apr2025 23:49:59.929] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /save-off
-[28Apr2025 23:49:59.929] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /save-on
-[28Apr2025 23:49:59.929] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /setidletimeout <minutes>
-[28Apr2025 23:49:59.929] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /stop
-[28Apr2025 23:49:59.929] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /whitelist (on|off|list|add|remove|reload)
-[28Apr2025 23:49:59.929] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /balm (dev|export)
-[28Apr2025 23:49:59.929] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /bookshelf (font|hand)
-[28Apr2025 23:49:59.929] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /twilightforest [center|conquer|genbook|info|biomepng|shield]
-[28Apr2025 23:49:59.929] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /tf -> twilightforest
-[28Apr2025 23:49:59.929] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /tffeature -> twilightforest
-[28Apr2025 23:49:59.929] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /carryon (debug|clear|place)
-[28Apr2025 23:49:59.929] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /tinkerslevellingaddon (levels|xp)
-[28Apr2025 23:49:59.929] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /forge (tps|track|entity|generate|dimensions|mods|tags)
-[28Apr2025 23:49:59.929] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /config showfile <mod> <type>
-[28Apr2025 23:49:59.929] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /sbp (list|give|removeNonPlayer)
-[28Apr2025 23:49:59.930] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /sophisticatedbackpacks -> sbp
-[28Apr2025 23:49:59.930] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /tconstruct (modifiers|materials|tool_stats|slots|report)
-[28Apr2025 23:49:59.930] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /ponder [reload|index|tags|<scene>]
-[28Apr2025 23:49:59.930] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /catnip (config|util|u)
-[28Apr2025 23:49:59.930] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /c (config|util|u|rainbowDebug|overlay|trains|fixLighting|debuginfo|highlight|passenger|coupling|clone|train|glue)
-[28Apr2025 23:49:59.930] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /curios (list|replace|set|add|remove|clear|drop|reset)
-[28Apr2025 23:49:59.930] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /aether (time|eternal_day|player|sun_altar_whitelist)
-[28Apr2025 23:49:59.930] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /cheatcode <Code>
-[28Apr2025 23:49:59.930] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /army <type> <complete>
-[28Apr2025 23:49:59.930] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /vs (delete|set-static|teleport|get-ship|ship)
-[28Apr2025 23:49:59.930] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /create (rainbowDebug|overlay|trains|fixLighting|debuginfo|highlight|passenger|coupling|clone|train|glue|util|u)
-[28Apr2025 23:49:59.930] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /deathhistory (<player>|<player_uuid>)
-[28Apr2025 23:49:59.930] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /mantle (view_tag|dump_tag|dump_loot_modifiers|dump_all_tags|tags_for|harvest_tiers|tag_preference)
-[28Apr2025 23:49:59.930] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /invsorter [bladd|blremove|showlast|list]
-[28Apr2025 23:50:43.876] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /gamemode <gamemode> [<target>]
-[28Apr2025 23:51:04.776] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Set Roger66682's game mode to Creative Mode
-[28Apr2025 23:52:09.294] [Server thread/INFO] [naturescompass/]: Starting search: 64 sample space, 50000 max samples, 10000 max radius
-[28Apr2025 23:52:09.350] [Server thread/INFO] [naturescompass/]: Search succeeded: 923 radius, 272 samples
-[28Apr2025 23:53:38.033] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Teleported Roger66682 to 609.500000, 80.000000, 367.500000
-[28Apr2025 23:53:38.053] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2687ms or 53 ticks behind
-[28Apr2025 23:54:35.537] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Unknown or incomplete command, see below for error
-[28Apr2025 23:54:35.538] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: find redwood<--[HERE]
-[28Apr2025 23:54:44.187] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Unknown command or insufficient permissions
-[28Apr2025 23:55:16.286] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping the server
-[28Apr2025 23:55:16.316] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
-[28Apr2025 23:55:16.317] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving players
-[28Apr2025 23:55:16.325] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds
-[28Apr2025 23:55:16.336] [Physics thread/WARN] [org.valkyrienskies.core.impl.pipelines.VSPhysicsPipelineBackgroundTask/]: Physics pipeline ending
-[28Apr2025 23:55:17.223] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[28Apr2025 23:55:21.438] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/dfs:venus
-[28Apr2025 23:55:21.439] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/dfs:orbiting_earth
-[28Apr2025 23:55:21.440] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/dfs:orbiting_uranus
-[28Apr2025 23:55:21.440] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/twilightforest:twilight_forest
-[28Apr2025 23:55:21.441] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/aether:the_aether
-[28Apr2025 23:55:21.441] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/dfs:orbiting_jupiter
-[28Apr2025 23:55:21.442] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
-[28Apr2025 23:55:21.443] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/dfs:s_2b
-[28Apr2025 23:55:21.444] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/dfs:dimidium
-[28Apr2025 23:55:21.445] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/dfs:uranus
-[28Apr2025 23:55:21.445] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/dfs:saturn
-[28Apr2025 23:55:21.447] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/dfs:orbiting_venus
-[28Apr2025 23:55:21.448] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/dfs:pluto
-[28Apr2025 23:55:21.449] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/dfs:orbiting_neptune
-[28Apr2025 23:55:21.449] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/dfs:moon
-[28Apr2025 23:55:21.451] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/dfs:the_moon
-[28Apr2025 23:55:21.451] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/dfs:neptune
-[28Apr2025 23:55:21.452] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/dfs:j_1407b
-[28Apr2025 23:55:21.453] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/dfs:mercury
-[28Apr2025 23:55:21.453] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
-[28Apr2025 23:55:21.454] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/dfs:jupiter
-[28Apr2025 23:55:21.456] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/dfs:orbiting_mars
-[28Apr2025 23:55:21.458] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/dfs:orbiting_saturn
-[28Apr2025 23:55:21.459] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/dfs:asteroid_belt
-[28Apr2025 23:55:21.460] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/dfs:mars
-[28Apr2025 23:55:21.461] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/dfs:orbiting_mercury
-[28Apr2025 23:55:21.461] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/dfs:orbiting_pluto
-[28Apr2025 23:55:21.541] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[28Apr2025 23:55:21.541] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (venus): All chunks are saved
-[28Apr2025 23:55:21.541] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (orbiting_earth): All chunks are saved
-[28Apr2025 23:55:21.541] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (orbiting_uranus): All chunks are saved
-[28Apr2025 23:55:21.541] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (twilight_forest): All chunks are saved
-[28Apr2025 23:55:21.541] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (the_aether): All chunks are saved
-[28Apr2025 23:55:21.541] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (orbiting_jupiter): All chunks are saved
-[28Apr2025 23:55:21.541] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[28Apr2025 23:55:21.542] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (s_2b): All chunks are saved
-[28Apr2025 23:55:21.542] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (dimidium): All chunks are saved
-[28Apr2025 23:55:21.542] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (uranus): All chunks are saved
-[28Apr2025 23:55:21.542] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (saturn): All chunks are saved
-[28Apr2025 23:55:21.542] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (orbiting_venus): All chunks are saved
-[28Apr2025 23:55:21.542] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (pluto): All chunks are saved
-[28Apr2025 23:55:21.543] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (orbiting_neptune): All chunks are saved
-[28Apr2025 23:55:21.543] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (moon): All chunks are saved
-[28Apr2025 23:55:21.543] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (the_moon): All chunks are saved
-[28Apr2025 23:55:21.543] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (neptune): All chunks are saved
-[28Apr2025 23:55:21.543] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (j_1407b): All chunks are saved
-[28Apr2025 23:55:21.543] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (mercury): All chunks are saved
-[28Apr2025 23:55:21.543] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[28Apr2025 23:55:21.543] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (jupiter): All chunks are saved
-[28Apr2025 23:55:21.544] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (orbiting_mars): All chunks are saved
-[28Apr2025 23:55:21.544] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (orbiting_saturn): All chunks are saved
-[28Apr2025 23:55:21.544] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (asteroid_belt): All chunks are saved
-[28Apr2025 23:55:21.545] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (mars): All chunks are saved
-[28Apr2025 23:55:21.545] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (orbiting_mercury): All chunks are saved
-[28Apr2025 23:55:21.545] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (orbiting_pluto): All chunks are saved
-[28Apr2025 23:55:21.545] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage: All dimensions are saved
-[28Apr2025 23:55:21.576] [Server thread/INFO] [Framework/]: Unloading server configs...
-[28Apr2025 23:55:21.579] [Server thread/INFO] [Framework/]: Sending config unload event for refurbished_furniture.server.toml
-[28Apr2025 23:55:21.581] [Server thread/INFO] [Framework/]: Finished unloading server configs
+[30Apr2025 22:22:23.839] [main/INFO] [slimeknights.tconstruct.library.modifiers.ModifierManager/]: Loaded 50 enchantment to modifier mappings in 1.591583 ms
+[30Apr2025 22:22:23.842] [main/INFO] [tconstruct/]: Loaded 47 spilling fluids in 2.301108 ms
+[30Apr2025 22:22:23.849] [main/INFO] [slimeknights.tconstruct.library.materials.definition.MaterialManager/]: Loaded 74 materials in 3.041381 ms
+[30Apr2025 22:22:23.850] [main/INFO] [slimeknights.tconstruct.library.materials.definition.MaterialManager/]: Loaded 1 material tags for 20 materials in 1.295106 ms
+[30Apr2025 22:22:23.858] [main/INFO] [slimeknights.tconstruct.library.materials.stats.MaterialStatsManager/]: 590 stats loaded for 97 materials in 7.627637 ms
+[30Apr2025 22:22:23.866] [main/INFO] [slimeknights.tconstruct.library.materials.traits.MaterialTraitsManager/]: 326 traits loaded for 97 materials in 7.707608 ms
+[30Apr2025 22:22:23.874] [main/INFO] [slimeknights.tconstruct.library.tools.definition.ToolDefinitionLoader/]: Loaded 51 tool definitions in 7.875443 ms
+[30Apr2025 22:22:23.877] [main/INFO] [slimeknights.tconstruct.library.tools.layout.StationSlotLayoutLoader/]: Loaded 24 station slot layouts in 3.307821 ms
+[30Apr2025 22:22:27.484] [main/WARN] [org.valkyrienskies.mod.common.config.MassDatapackResolver/]: No specified tag 'minecraft:carpets' doesn't exist!
+[30Apr2025 22:22:27.661] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting minecraft server version 1.20.1
+[30Apr2025 22:22:27.661] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Loading properties
+[30Apr2025 22:22:27.661] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Default game type: SURVIVAL
+[30Apr2025 22:22:27.662] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
+[30Apr2025 22:22:27.719] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting Minecraft server on *:25566
+[30Apr2025 22:22:27.738] [Server thread/INFO] [net.minecraft.server.network.ServerConnectionListener/]: Using epoll channel type
+[30Apr2025 22:22:27.943] [Server thread/INFO] [Framework/]: Loading server configs...
+[30Apr2025 22:22:27.953] [Server thread/INFO] [terrablender/]: Initialized TerraBlender biomes for level stem minecraft:the_nether
+[30Apr2025 22:22:28.335] [Server thread/INFO] [terrablender/]: Initialized TerraBlender biomes for level stem minecraft:overworld
+[30Apr2025 22:22:28.336] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Preparing level "world"
+[30Apr2025 22:22:28.772] [Server thread/INFO] [org.valkyrienskies.core.impl.networking.VSNetworking/]: We are not using UDP, falling back to TCP
+[30Apr2025 22:22:30.106] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
+[30Apr2025 22:22:31.610] [Worker-Main-4/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[30Apr2025 22:22:31.623] [Worker-Main-8/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[30Apr2025 22:22:31.635] [Worker-Main-8/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[30Apr2025 22:22:31.640] [Worker-Main-4/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[30Apr2025 22:22:32.109] [Worker-Main-10/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[30Apr2025 22:22:32.606] [Worker-Main-10/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 62%
+[30Apr2025 22:22:32.768] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 2663 ms
+[30Apr2025 22:22:32.769] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Done (4.920s)! For help, type "help"
+[30Apr2025 22:22:32.820] [Server thread/INFO] [net.minecraftforge.server.permission.PermissionAPI/]: Successfully initialized permission handler forge:default_handler
