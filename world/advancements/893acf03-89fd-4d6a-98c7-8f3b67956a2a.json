@@ -11658,6 +11658,18 @@
     },
     "done": true
   },
+  "dfs:piping_rc": {
+    "criteria": {
+      "piping_rc_0": "2025-05-06 23:06:55 -0400"
+    },
+    "done": true
+  },
+  "dfs:my_own_little_atmosphere": {
+    "criteria": {
+      "my_own_little_atmosphere_0": "2025-05-06 23:07:01 -0400"
+    },
+    "done": true
+  },
   "dfs:compressor_ach": {
     "criteria": {
       "compressor_ach_0": "2025-05-06 23:07:08 -0400"
@@ -11670,9 +11682,9 @@
     },
     "done": true
   },
-  "dfs:coal_generator_ach": {
+  "dfs:t_1_rocket_ach": {
     "criteria": {
-      "coal_generator_ach_0": "2025-05-06 23:16:29 -0400"
+      "t_1_rocket_ach_0": "2025-05-06 23:08:28 -0400"
     },
     "done": true
   },
@@ -11688,27 +11700,15 @@
     },
     "done": true
   },
-  "dfs:piping_rc": {
-    "criteria": {
-      "piping_rc_0": "2025-05-06 23:06:55 -0400"
-    },
-    "done": true
-  },
-  "dfs:t_1_rocket_ach": {
-    "criteria": {
-      "t_1_rocket_ach_0": "2025-05-06 23:08:28 -0400"
-    },
-    "done": true
-  },
-  "dfs:my_own_little_atmosphere": {
-    "criteria": {
-      "my_own_little_atmosphere_0": "2025-05-06 23:07:01 -0400"
-    },
-    "done": true
-  },
   "aether:enter_aether": {
     "criteria": {
       "enter_aether": "2025-05-06 23:14:53 -0400"
+    },
+    "done": true
+  },
+  "dfs:coal_generator_ach": {
+    "criteria": {
+      "coal_generator_ach_0": "2025-05-06 23:16:29 -0400"
     },
     "done": true
   },
