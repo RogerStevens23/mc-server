@@ -295,6 +295,7 @@
       "woodland": "2025-05-06 22:14:33 -0400",
       "shrubland": "2025-05-05 22:36:10 -0400",
       "rocky_shrubland": "2025-05-01 01:58:53 -0400",
+      "scrubland": "2025-05-08 11:44:47 -0400",
       "floodplain": "2025-05-05 22:34:23 -0400",
       "highland": "2025-05-06 22:15:26 -0400",
       "jacaranda_glade": "2025-04-29 20:41:35 -0400",
@@ -304,7 +305,11 @@
       "overgrown_greens": "2025-05-05 22:33:04 -0400",
       "mediterranean_forest": "2025-05-06 22:05:44 -0400",
       "coniferous_forest": "2025-04-29 20:32:00 -0400",
+      "dryland": "2025-05-08 23:05:02 -0400",
+      "wasteland": "2025-05-08 11:46:10 -0400",
+      "lush_desert": "2025-05-08 11:46:07 -0400",
       "redwood_forest": "2025-05-02 02:35:41 -0400",
+      "wasteland_steppe": "2025-05-08 11:49:16 -0400",
       "dune_beach": "2025-04-29 20:41:13 -0400",
       "seasonal_forest": "2025-04-29 20:31:05 -0400",
       "volcano": "2025-05-06 22:15:23 -0400",
@@ -320,6 +325,7 @@
       "snowy_fir_clearing": "2025-05-02 19:04:10 -0400",
       "gravel_beach": "2025-04-29 20:33:21 -0400",
       "undergrowth": "2025-05-01 01:33:16 -0400",
+      "origin_valley": "2025-05-09 01:54:48 -0400",
       "rainforest": "2025-05-05 22:33:55 -0400",
       "crag": "2025-05-06 22:15:21 -0400"
     },
@@ -541,6 +547,7 @@
       "minecraft:creeper": "2025-05-02 23:13:44 -0400",
       "minecraft:slime": "2025-04-29 21:08:59 -0400",
       "minecraft:phantom": "2025-05-03 02:05:38 -0400",
+      "minecraft:zombified_piglin": "2025-05-09 02:05:14 -0400",
       "minecraft:wither_skeleton": "2025-05-01 02:09:23 -0400",
       "minecraft:piglin": "2025-05-03 00:39:44 -0400",
       "minecraft:enderman": "2025-05-01 10:14:51 -0400",
@@ -1431,11 +1438,14 @@
     "criteria": {
       "minecraft:snowy_slopes": "2025-05-06 22:22:31 -0400",
       "minecraft:taiga": "2025-05-06 21:30:23 -0400",
+      "minecraft:eroded_badlands": "2025-05-08 23:11:12 -0400",
       "minecraft:frozen_river": "2025-05-02 19:10:11 -0400",
       "minecraft:sunflower_plains": "2025-05-05 23:15:51 -0400",
       "minecraft:cherry_grove": "2025-05-06 15:07:32 -0400",
       "minecraft:birch_forest": "2025-05-05 22:28:53 -0400",
       "minecraft:bamboo_jungle": "2025-05-06 22:05:05 -0400",
+      "minecraft:wooded_badlands": "2025-05-08 11:49:35 -0400",
+      "minecraft:badlands": "2025-05-08 11:53:52 -0400",
       "minecraft:beach": "2025-05-06 22:05:33 -0400",
       "minecraft:dark_forest": "2025-05-05 22:29:41 -0400",
       "minecraft:mangrove_swamp": "2025-05-06 22:15:01 -0400",
@@ -1457,7 +1467,9 @@
       "minecraft:ocean": "2025-04-29 20:41:07 -0400",
       "minecraft:snowy_beach": "2025-05-02 19:11:23 -0400",
       "minecraft:windswept_savanna": "2025-05-06 22:05:11 -0400",
+      "minecraft:warm_ocean": "2025-05-08 11:46:20 -0400",
       "minecraft:flower_forest": "2025-05-05 13:40:37 -0400",
+      "minecraft:old_growth_birch_forest": "2025-05-08 11:43:48 -0400",
       "minecraft:meadow": "2025-05-05 21:52:26 -0400",
       "minecraft:savanna": "2025-05-06 22:05:38 -0400",
       "minecraft:plains": "2025-05-02 02:29:36 -0400"
@@ -5967,7 +5979,8 @@
   "minecraft:nether/explore_nether": {
     "criteria": {
       "minecraft:crimson_forest": "2025-05-01 01:42:48 -0400",
-      "minecraft:nether_wastes": "2025-05-01 01:35:16 -0400"
+      "minecraft:nether_wastes": "2025-05-01 01:35:16 -0400",
+      "minecraft:soul_sand_valley": "2025-05-08 23:52:29 -0400"
     },
     "done": false
   },
@@ -12649,15 +12662,39 @@
     },
     "done": true
   },
-  "ad_astra:recipes/misc/small_white_industrial_lamp": {
+  "ad_astra:recipes/compressing/compressing/iron_plate_from_compressing_iron_block": {
     "criteria": {
-      "has_small_white_industrial_lamp": "2025-05-07 09:26:41 -0400"
+      "has_item": "2025-05-07 09:08:29 -0400"
     },
     "done": true
   },
-  "aether:recipes/tools/holystone_pickaxe": {
+  "farmersdelight:recipes/decorations/cooking_pot": {
     "criteria": {
-      "has_holystone": "2025-05-07 09:20:42 -0400"
+      "has_iron_ingot": "2025-05-07 09:08:30 -0400"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/combat/iron_knife": {
+    "criteria": {
+      "has_iron_ingot": "2025-05-07 09:08:30 -0400"
+    },
+    "done": true
+  },
+  "ad_astra:recipes/misc/coal_generator": {
+    "criteria": {
+      "has_coal_generator": "2025-05-07 09:08:30 -0400"
+    },
+    "done": true
+  },
+  "ad_astra:recipes/compressing/compressing/iron_plate_from_compressing_iron_ingot": {
+    "criteria": {
+      "has_item": "2025-05-07 09:08:30 -0400"
+    },
+    "done": true
+  },
+  "ad_astra:recipes/misc/compressor": {
+    "criteria": {
+      "has_compressor": "2025-05-07 09:08:30 -0400"
     },
     "done": true
   },
@@ -12667,15 +12704,87 @@
     },
     "done": true
   },
-  "aether:recipes/redstone/holystone_pressure_plate": {
+  "farmersdelight:recipes/cooking/chicken_soup": {
     "criteria": {
-      "has_holystone": "2025-05-07 09:20:42 -0400"
+      "has_any_ingredient": "2025-05-07 09:09:38 -0400"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/cooking/vegetable_noodles": {
+    "criteria": {
+      "has_any_ingredient": "2025-05-07 09:09:38 -0400"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/cooking/fried_rice": {
+    "criteria": {
+      "has_any_ingredient": "2025-05-07 09:09:38 -0400"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/cooking/beef_stew": {
+    "criteria": {
+      "has_any_ingredient": "2025-05-07 09:09:38 -0400"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/cooking/vegetable_soup": {
+    "criteria": {
+      "has_any_ingredient": "2025-05-07 09:09:38 -0400"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/combat/diamond_knife": {
+    "criteria": {
+      "has_diamond": "2025-05-07 09:11:00 -0400"
     },
     "done": true
   },
   "farmersdelight:recipes/food/steak_and_potatoes": {
     "criteria": {
       "has_baked_potato": "2025-05-07 09:16:02 -0400"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/food/stuffed_potato": {
+    "criteria": {
+      "has_baked_potato": "2025-05-07 09:16:02 -0400"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/food/fried_egg_from_campfire_cooking": {
+    "criteria": {
+      "fried_egg": "2025-05-07 09:17:58 -0400"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/cooking/baked_cod_stew": {
+    "criteria": {
+      "has_any_ingredient": "2025-05-07 09:17:58 -0400"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/food/fried_egg_from_smoking": {
+    "criteria": {
+      "fried_egg": "2025-05-07 09:17:58 -0400"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/food/fried_egg": {
+    "criteria": {
+      "fried_egg": "2025-05-07 09:17:58 -0400"
+    },
+    "done": true
+  },
+  "aether:recipes/tools/holystone_pickaxe": {
+    "criteria": {
+      "has_holystone": "2025-05-07 09:20:42 -0400"
+    },
+    "done": true
+  },
+  "aether:recipes/redstone/holystone_pressure_plate": {
+    "criteria": {
+      "has_holystone": "2025-05-07 09:20:42 -0400"
     },
     "done": true
   },
@@ -12691,69 +12800,15 @@
     },
     "done": true
   },
-  "ad_astra:recipes/misc/steel_block": {
-    "criteria": {
-      "has_steel_block": "2025-05-07 09:53:48 -0400"
-    },
-    "done": true
-  },
   "aether:recipes/decorations/holystone_stonecutter": {
     "criteria": {
       "has_holystone": "2025-05-07 09:20:42 -0400"
     },
     "done": true
   },
-  "ad_astra:recipes/misc/zip_gun": {
-    "criteria": {
-      "has_zip_gun": "2025-05-07 09:56:59 -0400"
-    },
-    "done": true
-  },
-  "ad_astra:recipes/misc/encased_iron_block": {
-    "criteria": {
-      "has_encased_iron_block": "2025-05-07 09:47:44 -0400"
-    },
-    "done": true
-  },
-  "farmersdelight:recipes/cooking/chicken_soup": {
-    "criteria": {
-      "has_any_ingredient": "2025-05-07 09:09:38 -0400"
-    },
-    "done": true
-  },
-  "ad_astra:recipes/misc/wrench": {
-    "criteria": {
-      "has_wrench": "2025-05-07 09:47:44 -0400"
-    },
-    "done": true
-  },
-  "farmersdelight:recipes/food/fried_egg_from_campfire_cooking": {
-    "criteria": {
-      "fried_egg": "2025-05-07 09:17:58 -0400"
-    },
-    "done": true
-  },
   "aether:recipes/decorations/altar": {
     "criteria": {
       "has_holystone": "2025-05-07 09:20:42 -0400"
-    },
-    "done": true
-  },
-  "ad_astra:recipes/compressing/compressing/iron_plate_from_compressing_iron_block": {
-    "criteria": {
-      "has_item": "2025-05-07 09:08:29 -0400"
-    },
-    "done": true
-  },
-  "ad_astra:recipes/misc/fan": {
-    "criteria": {
-      "has_fan": "2025-05-07 09:56:59 -0400"
-    },
-    "done": true
-  },
-  "ad_astra:recipes/misc/steel_rod": {
-    "criteria": {
-      "has_steel_rod": "2025-05-07 09:56:59 -0400"
     },
     "done": true
   },
@@ -12769,27 +12824,171 @@
     },
     "done": true
   },
-  "farmersdelight:recipes/decorations/cooking_pot": {
+  "aether:recipes/combat/holystone_sword": {
     "criteria": {
-      "has_iron_ingot": "2025-05-07 09:08:30 -0400"
+      "has_holystone": "2025-05-07 09:20:42 -0400"
     },
     "done": true
   },
-  "farmersdelight:recipes/cooking/baked_cod_stew": {
+  "aether:recipes/decorations/holystone_wall": {
     "criteria": {
-      "has_any_ingredient": "2025-05-07 09:17:58 -0400"
+      "has_holystone": "2025-05-07 09:20:42 -0400"
     },
     "done": true
   },
-  "farmersdelight:recipes/combat/golden_knife": {
+  "aether:recipes/building_blocks/holystone_stairs": {
     "criteria": {
-      "has_gold_ingot": "2025-05-07 10:00:03 -0400"
+      "has_holystone": "2025-05-07 09:20:42 -0400"
     },
     "done": true
   },
-  "ad_astra:recipes/misc/steel_tank": {
+  "aether:recipes/building_blocks/holystone_stairs_from_holystone_stonecutting": {
     "criteria": {
-      "has_steel_tank": "2025-05-07 09:56:59 -0400"
+      "has_holystone": "2025-05-07 09:20:42 -0400"
+    },
+    "done": true
+  },
+  "aether:recipes/building_blocks/holystone_brick_stairs_from_holystone_stonecutting": {
+    "criteria": {
+      "has_holystone": "2025-05-07 09:20:42 -0400"
+    },
+    "done": true
+  },
+  "aether:recipes/decorations/freezer": {
+    "criteria": {
+      "has_holystone": "2025-05-07 09:20:42 -0400"
+    },
+    "done": true
+  },
+  "aether:recipes/building_blocks/holystone_bricks": {
+    "criteria": {
+      "has_holystone": "2025-05-07 09:20:42 -0400"
+    },
+    "done": true
+  },
+  "aether:recipes/decorations/incubator": {
+    "criteria": {
+      "has_holystone": "2025-05-07 09:20:42 -0400"
+    },
+    "done": true
+  },
+  "aether:recipes/building_blocks/holystone_slab": {
+    "criteria": {
+      "has_holystone": "2025-05-07 09:20:42 -0400"
+    },
+    "done": true
+  },
+  "aether:recipes/tools/holystone_hoe": {
+    "criteria": {
+      "has_holystone": "2025-05-07 09:20:42 -0400"
+    },
+    "done": true
+  },
+  "aether:recipes/building_blocks/holystone_slab_from_holystone_stonecutting": {
+    "criteria": {
+      "has_holystone": "2025-05-07 09:20:42 -0400"
+    },
+    "done": true
+  },
+  "aether:recipes/building_blocks/holystone_bricks_from_holystone_stonecutting": {
+    "criteria": {
+      "has_holystone": "2025-05-07 09:20:42 -0400"
+    },
+    "done": true
+  },
+  "aether:recipes/tools/holystone_shovel": {
+    "criteria": {
+      "has_holystone": "2025-05-07 09:20:42 -0400"
+    },
+    "done": true
+  },
+  "aether:recipes/building_blocks/mossy_holystone_with_vine": {
+    "criteria": {
+      "has_holystone": "2025-05-07 09:20:42 -0400"
+    },
+    "done": true
+  },
+  "aether:recipes/building_blocks/mossy_holystone_with_moss": {
+    "criteria": {
+      "has_holystone": "2025-05-07 09:20:42 -0400"
+    },
+    "done": true
+  },
+  "aether:recipes/tools/holystone_axe": {
+    "criteria": {
+      "has_holystone": "2025-05-07 09:20:42 -0400"
+    },
+    "done": true
+  },
+  "aether:recipes/redstone/holystone_button": {
+    "criteria": {
+      "has_holystone": "2025-05-07 09:20:42 -0400"
+    },
+    "done": true
+  },
+  "ad_astra:recipes/misc/small_white_industrial_lamp": {
+    "criteria": {
+      "has_small_white_industrial_lamp": "2025-05-07 09:26:41 -0400"
+    },
+    "done": true
+  },
+  "ad_astra:recipes/misc/white_industrial_lamp": {
+    "criteria": {
+      "has_white_industrial_lamp": "2025-05-07 09:26:41 -0400"
+    },
+    "done": true
+  },
+  "refurbished_furniture:recipes/misc/constructing/pink_kitchen_cabinetry": {
+    "criteria": {
+      "has_wooden_kitchen_cabinetry": "2025-05-07 09:27:10 -0400"
+    },
+    "done": true
+  },
+  "refurbished_furniture:recipes/misc/constructing/magenta_kitchen_cabinetry": {
+    "criteria": {
+      "has_wooden_kitchen_cabinetry": "2025-05-07 09:27:10 -0400"
+    },
+    "done": true
+  },
+  "refurbished_furniture:recipes/misc/constructing/gray_kitchen_cabinetry": {
+    "criteria": {
+      "has_wooden_kitchen_cabinetry": "2025-05-07 09:27:10 -0400"
+    },
+    "done": true
+  },
+  "refurbished_furniture:recipes/misc/constructing/light_blue_kitchen_cabinetry": {
+    "criteria": {
+      "has_wooden_kitchen_cabinetry": "2025-05-07 09:27:10 -0400"
+    },
+    "done": true
+  },
+  "refurbished_furniture:recipes/misc/constructing/cyan_kitchen_cabinetry": {
+    "criteria": {
+      "has_wooden_kitchen_cabinetry": "2025-05-07 09:27:10 -0400"
+    },
+    "done": true
+  },
+  "refurbished_furniture:recipes/misc/constructing/lime_kitchen_cabinetry": {
+    "criteria": {
+      "has_wooden_kitchen_cabinetry": "2025-05-07 09:27:10 -0400"
+    },
+    "done": true
+  },
+  "refurbished_furniture:recipes/misc/constructing/orange_kitchen_cabinetry": {
+    "criteria": {
+      "has_wooden_kitchen_cabinetry": "2025-05-07 09:27:10 -0400"
+    },
+    "done": true
+  },
+  "refurbished_furniture:recipes/misc/constructing/blue_kitchen_cabinetry": {
+    "criteria": {
+      "has_wooden_kitchen_cabinetry": "2025-05-07 09:27:10 -0400"
+    },
+    "done": true
+  },
+  "refurbished_furniture:recipes/misc/constructing/brown_kitchen_cabinetry": {
+    "criteria": {
+      "has_wooden_kitchen_cabinetry": "2025-05-07 09:27:10 -0400"
     },
     "done": true
   },
@@ -12799,15 +12998,177 @@
     },
     "done": true
   },
-  "farmersdelight:recipes/cooking/apple_cider": {
+  "refurbished_furniture:recipes/misc/constructing/blue_kitchen_storage_cabinet": {
     "criteria": {
-      "has_apple": "2025-05-07 10:01:58 -0400"
+      "has_wooden_kitchen_storage_cabinets": "2025-05-07 09:28:15 -0400"
+    },
+    "done": true
+  },
+  "refurbished_furniture:recipes/misc/constructing/light_blue_kitchen_storage_cabinet": {
+    "criteria": {
+      "has_wooden_kitchen_storage_cabinets": "2025-05-07 09:28:15 -0400"
+    },
+    "done": true
+  },
+  "refurbished_furniture:recipes/misc/constructing/orange_kitchen_storage_cabinet": {
+    "criteria": {
+      "has_wooden_kitchen_storage_cabinets": "2025-05-07 09:28:15 -0400"
+    },
+    "done": true
+  },
+  "refurbished_furniture:recipes/misc/constructing/magenta_kitchen_storage_cabinet": {
+    "criteria": {
+      "has_wooden_kitchen_storage_cabinets": "2025-05-07 09:28:15 -0400"
+    },
+    "done": true
+  },
+  "refurbished_furniture:recipes/misc/constructing/cyan_kitchen_storage_cabinet": {
+    "criteria": {
+      "has_wooden_kitchen_storage_cabinets": "2025-05-07 09:28:15 -0400"
+    },
+    "done": true
+  },
+  "refurbished_furniture:recipes/misc/constructing/lime_kitchen_storage_cabinet": {
+    "criteria": {
+      "has_wooden_kitchen_storage_cabinets": "2025-05-07 09:28:15 -0400"
+    },
+    "done": true
+  },
+  "refurbished_furniture:recipes/misc/constructing/pink_kitchen_storage_cabinet": {
+    "criteria": {
+      "has_wooden_kitchen_storage_cabinets": "2025-05-07 09:28:15 -0400"
+    },
+    "done": true
+  },
+  "refurbished_furniture:recipes/misc/constructing/gray_kitchen_storage_cabinet": {
+    "criteria": {
+      "has_wooden_kitchen_storage_cabinets": "2025-05-07 09:28:15 -0400"
+    },
+    "done": true
+  },
+  "ad_astra:carbon_footprint": {
+    "criteria": {
+      "has_coal_generator": "2025-05-07 09:36:30 -0400"
+    },
+    "done": true
+  },
+  "ad_astra:ad_astra": {
+    "criteria": {
+      "has_coal_generator": "2025-05-07 09:36:30 -0400"
     },
     "done": true
   },
   "ad_astra:under_pressure": {
     "criteria": {
       "has_compressor": "2025-05-07 09:38:02 -0400"
+    },
+    "done": true
+  },
+  "ad_astra:recipes/misc/encased_iron_block": {
+    "criteria": {
+      "has_encased_iron_block": "2025-05-07 09:47:44 -0400"
+    },
+    "done": true
+  },
+  "ad_astra:recipes/misc/wrench": {
+    "criteria": {
+      "has_wrench": "2025-05-07 09:47:44 -0400"
+    },
+    "done": true
+  },
+  "ad_astra:recipes/misc/iron_rod": {
+    "criteria": {
+      "has_iron_rod": "2025-05-07 09:47:44 -0400"
+    },
+    "done": true
+  },
+  "ad_astra:recipes/misc/iron_plating": {
+    "criteria": {
+      "has_iron_plating": "2025-05-07 09:47:44 -0400"
+    },
+    "done": true
+  },
+  "ad_astra:recipes/misc/iron_factory_block": {
+    "criteria": {
+      "has_iron_factory_block": "2025-05-07 09:47:44 -0400"
+    },
+    "done": true
+  },
+  "ad_astra:recipes/misc/iron_plateblock": {
+    "criteria": {
+      "has_iron_plateblock": "2025-05-07 09:47:44 -0400"
+    },
+    "done": true
+  },
+  "ad_astra:recipes/misc/etrionic_blast_furnace": {
+    "criteria": {
+      "has_etrionic_blast_furnace": "2025-05-07 09:47:44 -0400"
+    },
+    "done": true
+  },
+  "ad_astra:recipes/misc/gas_tank": {
+    "criteria": {
+      "has_gas_tank": "2025-05-07 09:47:44 -0400"
+    },
+    "done": true
+  },
+  "ad_astra:recipes/misc/iron_panel": {
+    "criteria": {
+      "has_iron_panel": "2025-05-07 09:47:44 -0400"
+    },
+    "done": true
+  },
+  "ad_astra:recipes/alloying/alloying/steel_ingot_from_alloying_iron_ingot_and_coals": {
+    "criteria": {
+      "has_item": "2025-05-07 09:48:36 -0400"
+    },
+    "done": true
+  },
+  "ad_astra:smart_blasting": {
+    "criteria": {
+      "has_etrionic_blast_furnace": "2025-05-07 09:48:36 -0400"
+    },
+    "done": true
+  },
+  "ad_astra:recipes/misc/steel_block": {
+    "criteria": {
+      "has_steel_block": "2025-05-07 09:53:48 -0400"
+    },
+    "done": true
+  },
+  "ad_astra:recipes/compressing/compressing/steel_plate_from_compressing_steel_ingots": {
+    "criteria": {
+      "has_item": "2025-05-07 09:53:48 -0400"
+    },
+    "done": true
+  },
+  "ad_astra:recipes/misc/steel_nugget": {
+    "criteria": {
+      "has_steel_nugget": "2025-05-07 09:53:48 -0400"
+    },
+    "done": true
+  },
+  "ad_astra:recipes/misc/zip_gun": {
+    "criteria": {
+      "has_zip_gun": "2025-05-07 09:56:59 -0400"
+    },
+    "done": true
+  },
+  "ad_astra:recipes/misc/fan": {
+    "criteria": {
+      "has_fan": "2025-05-07 09:56:59 -0400"
+    },
+    "done": true
+  },
+  "ad_astra:recipes/misc/steel_rod": {
+    "criteria": {
+      "has_steel_rod": "2025-05-07 09:56:59 -0400"
+    },
+    "done": true
+  },
+  "ad_astra:recipes/misc/steel_tank": {
+    "criteria": {
+      "has_steel_tank": "2025-05-07 09:56:59 -0400"
     },
     "done": true
   },
@@ -12823,63 +13184,15 @@
     },
     "done": true
   },
-  "ad_astra:recipes/compressing/compressing/steel_plate_from_compressing_steel_ingots": {
-    "criteria": {
-      "has_item": "2025-05-07 09:53:48 -0400"
-    },
-    "done": true
-  },
-  "aether:recipes/combat/holystone_sword": {
-    "criteria": {
-      "has_holystone": "2025-05-07 09:20:42 -0400"
-    },
-    "done": true
-  },
-  "aether:recipes/decorations/holystone_wall": {
-    "criteria": {
-      "has_holystone": "2025-05-07 09:20:42 -0400"
-    },
-    "done": true
-  },
-  "refurbished_furniture:recipes/misc/constructing/pink_kitchen_cabinetry": {
-    "criteria": {
-      "has_wooden_kitchen_cabinetry": "2025-05-07 09:27:10 -0400"
-    },
-    "done": true
-  },
   "ad_astra:recipes/misc/airlock": {
     "criteria": {
       "has_airlock": "2025-05-07 09:56:59 -0400"
     },
     "done": true
   },
-  "refurbished_furniture:recipes/misc/constructing/blue_kitchen_storage_cabinet": {
-    "criteria": {
-      "has_wooden_kitchen_storage_cabinets": "2025-05-07 09:28:15 -0400"
-    },
-    "done": true
-  },
-  "ad_astra:recipes/misc/iron_rod": {
-    "criteria": {
-      "has_iron_rod": "2025-05-07 09:47:44 -0400"
-    },
-    "done": true
-  },
   "ad_astra:recipes/misc/steel_cable": {
     "criteria": {
       "has_steel_cable": "2025-05-07 09:56:59 -0400"
-    },
-    "done": true
-  },
-  "aether:recipes/building_blocks/holystone_stairs": {
-    "criteria": {
-      "has_holystone": "2025-05-07 09:20:42 -0400"
-    },
-    "done": true
-  },
-  "aether:recipes/building_blocks/holystone_stairs_from_holystone_stonecutting": {
-    "criteria": {
-      "has_holystone": "2025-05-07 09:20:42 -0400"
     },
     "done": true
   },
@@ -12907,21 +13220,9 @@
     },
     "done": true
   },
-  "refurbished_furniture:recipes/misc/constructing/magenta_kitchen_cabinetry": {
-    "criteria": {
-      "has_wooden_kitchen_cabinetry": "2025-05-07 09:27:10 -0400"
-    },
-    "done": true
-  },
   "ad_astra:recipes/misc/ti_69": {
     "criteria": {
       "has_ti_69": "2025-05-07 09:56:59 -0400"
-    },
-    "done": true
-  },
-  "aether:recipes/building_blocks/holystone_brick_stairs_from_holystone_stonecutting": {
-    "criteria": {
-      "has_holystone": "2025-05-07 09:20:42 -0400"
     },
     "done": true
   },
@@ -12949,99 +13250,15 @@
     },
     "done": true
   },
-  "ad_astra:recipes/misc/white_industrial_lamp": {
-    "criteria": {
-      "has_white_industrial_lamp": "2025-05-07 09:26:41 -0400"
-    },
-    "done": true
-  },
-  "aether:recipes/decorations/freezer": {
-    "criteria": {
-      "has_holystone": "2025-05-07 09:20:42 -0400"
-    },
-    "done": true
-  },
-  "farmersdelight:recipes/combat/iron_knife": {
-    "criteria": {
-      "has_iron_ingot": "2025-05-07 09:08:30 -0400"
-    },
-    "done": true
-  },
-  "refurbished_furniture:recipes/misc/constructing/gray_kitchen_cabinetry": {
-    "criteria": {
-      "has_wooden_kitchen_cabinetry": "2025-05-07 09:27:10 -0400"
-    },
-    "done": true
-  },
-  "refurbished_furniture:recipes/misc/constructing/light_blue_kitchen_cabinetry": {
-    "criteria": {
-      "has_wooden_kitchen_cabinetry": "2025-05-07 09:27:10 -0400"
-    },
-    "done": true
-  },
-  "ad_astra:recipes/misc/iron_plating": {
-    "criteria": {
-      "has_iron_plating": "2025-05-07 09:47:44 -0400"
-    },
-    "done": true
-  },
-  "ad_astra:recipes/misc/iron_factory_block": {
-    "criteria": {
-      "has_iron_factory_block": "2025-05-07 09:47:44 -0400"
-    },
-    "done": true
-  },
-  "farmersdelight:recipes/food/fried_egg_from_smoking": {
-    "criteria": {
-      "fried_egg": "2025-05-07 09:17:58 -0400"
-    },
-    "done": true
-  },
-  "farmersdelight:recipes/combat/diamond_knife": {
-    "criteria": {
-      "has_diamond": "2025-05-07 09:11:00 -0400"
-    },
-    "done": true
-  },
   "ad_astra:recipes/misc/steel_plating": {
     "criteria": {
       "has_steel_plating": "2025-05-07 09:56:59 -0400"
     },
     "done": true
   },
-  "refurbished_furniture:recipes/misc/constructing/light_blue_kitchen_storage_cabinet": {
-    "criteria": {
-      "has_wooden_kitchen_storage_cabinets": "2025-05-07 09:28:15 -0400"
-    },
-    "done": true
-  },
   "ad_astra:recipes/misc/steel_door": {
     "criteria": {
       "has_steel_door": "2025-05-07 09:56:59 -0400"
-    },
-    "done": true
-  },
-  "aether:recipes/building_blocks/holystone_bricks": {
-    "criteria": {
-      "has_holystone": "2025-05-07 09:20:42 -0400"
-    },
-    "done": true
-  },
-  "refurbished_furniture:recipes/misc/constructing/orange_kitchen_storage_cabinet": {
-    "criteria": {
-      "has_wooden_kitchen_storage_cabinets": "2025-05-07 09:28:15 -0400"
-    },
-    "done": true
-  },
-  "ad_astra:recipes/misc/iron_plateblock": {
-    "criteria": {
-      "has_iron_plateblock": "2025-05-07 09:47:44 -0400"
-    },
-    "done": true
-  },
-  "refurbished_furniture:recipes/misc/constructing/cyan_kitchen_cabinetry": {
-    "criteria": {
-      "has_wooden_kitchen_cabinetry": "2025-05-07 09:27:10 -0400"
     },
     "done": true
   },
@@ -13057,45 +13274,9 @@
     },
     "done": true
   },
-  "farmersdelight:recipes/combat/flint_knife": {
-    "criteria": {
-      "has_stick": "2025-05-07 10:11:46 -0400"
-    },
-    "done": true
-  },
   "ad_astra:recipes/misc/reinforced_door": {
     "criteria": {
       "has_reinforced_door": "2025-05-07 09:56:59 -0400"
-    },
-    "done": true
-  },
-  "refurbished_furniture:recipes/misc/constructing/magenta_kitchen_storage_cabinet": {
-    "criteria": {
-      "has_wooden_kitchen_storage_cabinets": "2025-05-07 09:28:15 -0400"
-    },
-    "done": true
-  },
-  "ad_astra:carbon_footprint": {
-    "criteria": {
-      "has_coal_generator": "2025-05-07 09:36:30 -0400"
-    },
-    "done": true
-  },
-  "ad_astra:recipes/misc/etrionic_blast_furnace": {
-    "criteria": {
-      "has_etrionic_blast_furnace": "2025-05-07 09:47:44 -0400"
-    },
-    "done": true
-  },
-  "farmersdelight:recipes/cooking/vegetable_noodles": {
-    "criteria": {
-      "has_any_ingredient": "2025-05-07 09:09:38 -0400"
-    },
-    "done": true
-  },
-  "ad_astra:recipes/misc/steel_nugget": {
-    "criteria": {
-      "has_steel_nugget": "2025-05-07 09:53:48 -0400"
     },
     "done": true
   },
@@ -13105,75 +13286,9 @@
     },
     "done": true
   },
-  "aether:recipes/decorations/incubator": {
-    "criteria": {
-      "has_holystone": "2025-05-07 09:20:42 -0400"
-    },
-    "done": true
-  },
-  "ad_astra:recipes/misc/coal_generator": {
-    "criteria": {
-      "has_coal_generator": "2025-05-07 09:08:30 -0400"
-    },
-    "done": true
-  },
   "ad_astra:recipes/misc/steel_factory_block": {
     "criteria": {
       "has_steel_factory_block": "2025-05-07 09:56:59 -0400"
-    },
-    "done": true
-  },
-  "ad_astra:recipes/alloying/alloying/steel_ingot_from_alloying_iron_ingot_and_coals": {
-    "criteria": {
-      "has_item": "2025-05-07 09:48:36 -0400"
-    },
-    "done": true
-  },
-  "ad_astra:recipes/compressing/compressing/iron_plate_from_compressing_iron_ingot": {
-    "criteria": {
-      "has_item": "2025-05-07 09:08:30 -0400"
-    },
-    "done": true
-  },
-  "aether:recipes/building_blocks/holystone_slab": {
-    "criteria": {
-      "has_holystone": "2025-05-07 09:20:42 -0400"
-    },
-    "done": true
-  },
-  "refurbished_furniture:recipes/misc/constructing/cyan_kitchen_storage_cabinet": {
-    "criteria": {
-      "has_wooden_kitchen_storage_cabinets": "2025-05-07 09:28:15 -0400"
-    },
-    "done": true
-  },
-  "aether:recipes/tools/holystone_hoe": {
-    "criteria": {
-      "has_holystone": "2025-05-07 09:20:42 -0400"
-    },
-    "done": true
-  },
-  "aether:recipes/building_blocks/holystone_slab_from_holystone_stonecutting": {
-    "criteria": {
-      "has_holystone": "2025-05-07 09:20:42 -0400"
-    },
-    "done": true
-  },
-  "ad_astra:recipes/misc/gas_tank": {
-    "criteria": {
-      "has_gas_tank": "2025-05-07 09:47:44 -0400"
-    },
-    "done": true
-  },
-  "refurbished_furniture:recipes/misc/constructing/lime_kitchen_cabinetry": {
-    "criteria": {
-      "has_wooden_kitchen_cabinetry": "2025-05-07 09:27:10 -0400"
-    },
-    "done": true
-  },
-  "farmersdelight:recipes/cooking/fried_rice": {
-    "criteria": {
-      "has_any_ingredient": "2025-05-07 09:09:38 -0400"
     },
     "done": true
   },
@@ -13183,39 +13298,9 @@
     },
     "done": true
   },
-  "aether:recipes/building_blocks/holystone_bricks_from_holystone_stonecutting": {
-    "criteria": {
-      "has_holystone": "2025-05-07 09:20:42 -0400"
-    },
-    "done": true
-  },
-  "ad_astra:recipes/misc/iron_panel": {
-    "criteria": {
-      "has_iron_panel": "2025-05-07 09:47:44 -0400"
-    },
-    "done": true
-  },
-  "refurbished_furniture:recipes/misc/constructing/orange_kitchen_cabinetry": {
-    "criteria": {
-      "has_wooden_kitchen_cabinetry": "2025-05-07 09:27:10 -0400"
-    },
-    "done": true
-  },
-  "refurbished_furniture:recipes/misc/constructing/blue_kitchen_cabinetry": {
-    "criteria": {
-      "has_wooden_kitchen_cabinetry": "2025-05-07 09:27:10 -0400"
-    },
-    "done": true
-  },
   "ad_astra:recipes/misc/wheel": {
     "criteria": {
       "has_wheel": "2025-05-07 09:56:59 -0400"
-    },
-    "done": true
-  },
-  "farmersdelight:recipes/cooking/beef_stew": {
-    "criteria": {
-      "has_any_ingredient": "2025-05-07 09:09:38 -0400"
     },
     "done": true
   },
@@ -13237,33 +13322,9 @@
     },
     "done": true
   },
-  "refurbished_furniture:recipes/misc/constructing/brown_kitchen_cabinetry": {
-    "criteria": {
-      "has_wooden_kitchen_cabinetry": "2025-05-07 09:27:10 -0400"
-    },
-    "done": true
-  },
-  "aether:recipes/tools/holystone_shovel": {
-    "criteria": {
-      "has_holystone": "2025-05-07 09:20:42 -0400"
-    },
-    "done": true
-  },
   "ad_astra:recipes/misc/space_helmet": {
     "criteria": {
       "has_space_helmet": "2025-05-07 09:56:59 -0400"
-    },
-    "done": true
-  },
-  "aether:recipes/building_blocks/mossy_holystone_with_vine": {
-    "criteria": {
-      "has_holystone": "2025-05-07 09:20:42 -0400"
-    },
-    "done": true
-  },
-  "farmersdelight:recipes/food/stuffed_potato": {
-    "criteria": {
-      "has_baked_potato": "2025-05-07 09:16:02 -0400"
     },
     "done": true
   },
@@ -13273,51 +13334,9 @@
     },
     "done": true
   },
-  "ad_astra:smart_blasting": {
-    "criteria": {
-      "has_etrionic_blast_furnace": "2025-05-07 09:48:36 -0400"
-    },
-    "done": true
-  },
-  "ad_astra:recipes/misc/compressor": {
-    "criteria": {
-      "has_compressor": "2025-05-07 09:08:30 -0400"
-    },
-    "done": true
-  },
-  "farmersdelight:recipes/decorations/cutting_board": {
-    "criteria": {
-      "has_stick": "2025-05-07 10:11:46 -0400"
-    },
-    "done": true
-  },
-  "refurbished_furniture:recipes/misc/constructing/lime_kitchen_storage_cabinet": {
-    "criteria": {
-      "has_wooden_kitchen_storage_cabinets": "2025-05-07 09:28:15 -0400"
-    },
-    "done": true
-  },
-  "refurbished_furniture:recipes/misc/constructing/pink_kitchen_storage_cabinet": {
-    "criteria": {
-      "has_wooden_kitchen_storage_cabinets": "2025-05-07 09:28:15 -0400"
-    },
-    "done": true
-  },
   "ad_astra:recipes/misc/steel_sliding_door": {
     "criteria": {
       "has_steel_sliding_door": "2025-05-07 09:56:59 -0400"
-    },
-    "done": true
-  },
-  "aether:recipes/building_blocks/mossy_holystone_with_moss": {
-    "criteria": {
-      "has_holystone": "2025-05-07 09:20:42 -0400"
-    },
-    "done": true
-  },
-  "farmersdelight:recipes/cooking/vegetable_soup": {
-    "criteria": {
-      "has_any_ingredient": "2025-05-07 09:09:38 -0400"
     },
     "done": true
   },
@@ -13327,45 +13346,693 @@
     },
     "done": true
   },
-  "aether:recipes/tools/holystone_axe": {
-    "criteria": {
-      "has_holystone": "2025-05-07 09:20:42 -0400"
-    },
-    "done": true
-  },
-  "refurbished_furniture:recipes/misc/constructing/gray_kitchen_storage_cabinet": {
-    "criteria": {
-      "has_wooden_kitchen_storage_cabinets": "2025-05-07 09:28:15 -0400"
-    },
-    "done": true
-  },
-  "aether:recipes/redstone/holystone_button": {
-    "criteria": {
-      "has_holystone": "2025-05-07 09:20:42 -0400"
-    },
-    "done": true
-  },
   "ad_astra:recipes/misc/engine_frame": {
     "criteria": {
       "has_engine_frame": "2025-05-07 09:56:59 -0400"
     },
     "done": true
   },
-  "farmersdelight:recipes/food/fried_egg": {
-    "criteria": {
-      "fried_egg": "2025-05-07 09:17:58 -0400"
-    },
-    "done": true
-  },
-  "ad_astra:ad_astra": {
-    "criteria": {
-      "has_coal_generator": "2025-05-07 09:36:30 -0400"
-    },
-    "done": true
-  },
   "ad_astra:recipes/misc/cable_duct": {
     "criteria": {
       "has_cable_duct": "2025-05-07 09:56:59 -0400"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/combat/golden_knife": {
+    "criteria": {
+      "has_gold_ingot": "2025-05-07 10:00:03 -0400"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/cooking/apple_cider": {
+    "criteria": {
+      "has_apple": "2025-05-07 10:01:58 -0400"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/combat/flint_knife": {
+    "criteria": {
+      "has_stick": "2025-05-07 10:11:46 -0400"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/decorations/cutting_board": {
+    "criteria": {
+      "has_stick": "2025-05-07 10:11:46 -0400"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/cooking/pasta_with_meatballs": {
+    "criteria": {
+      "has_any_ingredient": "2025-05-08 01:37:15 -0400"
+    },
+    "done": true
+  },
+  "farmersdelight:main/craft_knife": {
+    "criteria": {
+      "iron_knife": "2025-05-08 01:37:18 -0400"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/misc/iron_nugget_from_blasting_knife": {
+    "criteria": {
+      "has_iron_knife": "2025-05-08 01:37:18 -0400"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/misc/iron_nugget_from_smelting_knife": {
+    "criteria": {
+      "has_iron_knife": "2025-05-08 01:37:18 -0400"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/food/grilled_salmon": {
+    "criteria": {
+      "has_salmon": "2025-05-08 01:48:25 -0400"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/cooking/fish_stew": {
+    "criteria": {
+      "has_any_ingredient": "2025-05-08 01:48:25 -0400"
+    },
+    "done": true
+  },
+  "ad_astra:recipes/misc/red_flag": {
+    "criteria": {
+      "has_red_flag": "2025-05-08 01:48:32 -0400"
+    },
+    "done": true
+  },
+  "ad_astra:recipes/compressing/compressing/steel_plate_from_compressing_steel_blocks": {
+    "criteria": {
+      "has_item": "2025-05-08 01:52:21 -0400"
+    },
+    "done": true
+  },
+  "ad_astra:recipes/misc/steel_ingot_from_steel_block": {
+    "criteria": {
+      "has_steel_ingot": "2025-05-08 01:52:21 -0400"
+    },
+    "done": true
+  },
+  "ad_astra:recipes/nasa_workbench/nasa_workbench/tier_2_rocket_from_nasa_workbench": {
+    "criteria": {
+      "has_item": "2025-05-08 01:54:07 -0400"
+    },
+    "done": true
+  },
+  "ad_astra:recipes/nasa_workbench/nasa_workbench/tier_1_rocket_from_nasa_workbench": {
+    "criteria": {
+      "has_item": "2025-05-08 01:54:07 -0400"
+    },
+    "done": true
+  },
+  "ad_astra:rocket_science": {
+    "criteria": {
+      "has_nasa_workbench": "2025-05-08 01:54:07 -0400"
+    },
+    "done": true
+  },
+  "ad_astra:recipes/nasa_workbench/nasa_workbench/tier_3_rocket_from_nasa_workbench": {
+    "criteria": {
+      "has_item": "2025-05-08 01:54:07 -0400"
+    },
+    "done": true
+  },
+  "ad_astra:recipes/nasa_workbench/nasa_workbench/tier_4_rocket_from_nasa_workbench": {
+    "criteria": {
+      "has_item": "2025-05-08 01:54:07 -0400"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/cooking/dog_food": {
+    "criteria": {
+      "has_any_ingredient": "2025-05-08 02:02:15 -0400"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/building_blocks/organic_compost_from_rotten_flesh": {
+    "criteria": {
+      "has_rotten_flesh": "2025-05-08 02:02:15 -0400"
+    },
+    "done": true
+  },
+  "ad_astra:tier_1_rocket": {
+    "criteria": {
+      "has_tier_1_rocket": "2025-05-08 02:08:13 -0400"
+    },
+    "done": true
+  },
+  "rechiseledcreate:recipes/misc/mechanical_chisel": {
+    "criteria": {
+      "recipe_condition": "2025-05-08 02:12:41 -0400"
+    },
+    "done": true
+  },
+  "ad_astra:recipes/misc/pink_flag": {
+    "criteria": {
+      "has_pink_flag": "2025-05-08 02:15:22 -0400"
+    },
+    "done": true
+  },
+  "ad_astra:recipes/misc/gray_flag": {
+    "criteria": {
+      "has_gray_flag": "2025-05-08 02:15:24 -0400"
+    },
+    "done": true
+  },
+  "ad_astra:recipes/misc/white_flag": {
+    "criteria": {
+      "has_white_flag": "2025-05-08 02:15:29 -0400"
+    },
+    "done": true
+  },
+  "storagedrawers:recipes/storagedrawers/framing_table": {
+    "criteria": {
+      "has_chest": "2025-05-08 02:21:44 -0400"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/cooking/bone_broth": {
+    "criteria": {
+      "has_bone": "2025-05-08 02:32:15 -0400"
+    },
+    "done": true
+  },
+  "biomesoplenty:recipes/misc/pink_dye_from_pink_daffodil": {
+    "criteria": {
+      "has_pink_daffodil": "2025-05-08 10:18:38 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/deepslate_brick_wall_from_deepslate_bricks_stonecutting": {
+    "criteria": {
+      "has_deepslate_bricks": "2025-05-08 10:27:48 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/deepslate_tile_stairs_from_deepslate_bricks_stonecutting": {
+    "criteria": {
+      "has_deepslate_bricks": "2025-05-08 10:27:48 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/deepslate_brick_stairs": {
+    "criteria": {
+      "has_deepslate_bricks": "2025-05-08 10:27:48 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/deepslate_tile_wall_from_deepslate_bricks_stonecutting": {
+    "criteria": {
+      "has_deepslate_bricks": "2025-05-08 10:27:48 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/deepslate_brick_wall": {
+    "criteria": {
+      "has_deepslate_bricks": "2025-05-08 10:27:48 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/cracked_deepslate_bricks": {
+    "criteria": {
+      "has_deepslate_bricks": "2025-05-08 10:27:48 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/deepslate_brick_slab_from_deepslate_bricks_stonecutting": {
+    "criteria": {
+      "has_deepslate_bricks": "2025-05-08 10:27:48 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/deepslate_tiles": {
+    "criteria": {
+      "has_deepslate_bricks": "2025-05-08 10:27:48 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/deepslate_brick_stairs_from_deepslate_bricks_stonecutting": {
+    "criteria": {
+      "has_deepslate_bricks": "2025-05-08 10:27:48 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/deepslate_tiles_from_deepslate_bricks_stonecutting": {
+    "criteria": {
+      "has_deepslate_bricks": "2025-05-08 10:27:48 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/deepslate_brick_slab": {
+    "criteria": {
+      "has_deepslate_bricks": "2025-05-08 10:27:48 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/deepslate_tile_slab_from_deepslate_bricks_stonecutting": {
+    "criteria": {
+      "has_deepslate_bricks": "2025-05-08 10:27:48 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/stripped_dark_oak_wood": {
+    "criteria": {
+      "has_log": "2025-05-08 11:01:23 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/dark_oak_hanging_sign": {
+    "criteria": {
+      "has_stripped_logs": "2025-05-08 11:01:23 -0400"
+    },
+    "done": true
+  },
+  "biomesoplenty:recipes/misc/orange_dye_from_burning_blossom": {
+    "criteria": {
+      "has_burning_blossom": "2025-05-08 11:04:29 -0400"
+    },
+    "done": true
+  },
+  "biomesoplenty:recipes/misc/red_dye_from_waterlily": {
+    "criteria": {
+      "has_waterlily": "2025-05-08 11:04:38 -0400"
+    },
+    "done": true
+  },
+  "sophisticatedstorage:recipes/misc/decoration_table": {
+    "criteria": {
+      "has_the_recipe": "2025-05-08 11:06:47 -0400"
+    },
+    "done": true
+  },
+  "minecraft:nether/brew_potion": {
+    "criteria": {
+      "potion": "2025-05-08 11:12:12 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/brewing/magma_cream": {
+    "criteria": {
+      "has_blaze_powder": "2025-05-08 11:12:15 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/fire_charge": {
+    "criteria": {
+      "has_blaze_powder": "2025-05-08 11:12:15 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/ender_eye": {
+    "criteria": {
+      "has_blaze_powder": "2025-05-08 11:12:15 -0400"
+    },
+    "done": true
+  },
+  "tconstruct:recipes/brewing/common/slime/magma_cream": {
+    "criteria": {
+      "has_blaze_powder": "2025-05-08 11:12:15 -0400"
+    },
+    "done": true
+  },
+  "aether:recipes/food/skyroot_milk_bucket_moa_egg_cake": {
+    "criteria": {
+      "has_moa_egg": "2025-05-08 11:12:32 -0400"
+    },
+    "done": true
+  },
+  "aether:recipes/incubation/blue_moa_incubation": {
+    "criteria": {
+      "has_blue_moa_egg": "2025-05-08 11:12:32 -0400"
+    },
+    "done": true
+  },
+  "aether:recipes/food/moa_egg_cake": {
+    "criteria": {
+      "has_moa_egg": "2025-05-08 11:12:32 -0400"
+    },
+    "done": true
+  },
+  "aether:obtain_egg": {
+    "criteria": {
+      "moa_egg": "2025-05-08 11:12:32 -0400"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/cut_deepslate_brick_stairs": {
+    "criteria": {
+      "has_cut_deepslate_bricks": "2025-05-08 11:18:10 -0400"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/cut_deepslate_brick_wall": {
+    "criteria": {
+      "has_cut_deepslate_bricks": "2025-05-08 11:18:10 -0400"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/cut_deepslate_brick_slab": {
+    "criteria": {
+      "has_cut_deepslate_bricks": "2025-05-08 11:18:10 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/red_glazed_terracotta": {
+    "criteria": {
+      "has_red_terracotta": "2025-05-08 11:55:28 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/black_terracotta": {
+    "criteria": {
+      "has_terracotta": "2025-05-08 11:55:35 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/pink_terracotta": {
+    "criteria": {
+      "has_terracotta": "2025-05-08 11:55:35 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/blue_terracotta": {
+    "criteria": {
+      "has_terracotta": "2025-05-08 11:55:35 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/light_blue_terracotta": {
+    "criteria": {
+      "has_terracotta": "2025-05-08 11:55:35 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/yellow_terracotta": {
+    "criteria": {
+      "has_terracotta": "2025-05-08 11:55:35 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/orange_terracotta": {
+    "criteria": {
+      "has_terracotta": "2025-05-08 11:55:35 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/magenta_terracotta": {
+    "criteria": {
+      "has_terracotta": "2025-05-08 11:55:35 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/cyan_terracotta": {
+    "criteria": {
+      "has_terracotta": "2025-05-08 11:55:35 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/brown_terracotta": {
+    "criteria": {
+      "has_terracotta": "2025-05-08 11:55:35 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/lime_terracotta": {
+    "criteria": {
+      "has_terracotta": "2025-05-08 11:55:35 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/light_gray_terracotta": {
+    "criteria": {
+      "has_terracotta": "2025-05-08 11:55:35 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/red_terracotta": {
+    "criteria": {
+      "has_terracotta": "2025-05-08 11:55:35 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/purple_terracotta": {
+    "criteria": {
+      "has_terracotta": "2025-05-08 11:55:35 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/white_terracotta": {
+    "criteria": {
+      "has_terracotta": "2025-05-08 11:55:35 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/gray_terracotta": {
+    "criteria": {
+      "has_terracotta": "2025-05-08 11:55:35 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/green_terracotta": {
+    "criteria": {
+      "has_terracotta": "2025-05-08 11:55:35 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/orange_glazed_terracotta": {
+    "criteria": {
+      "has_orange_terracotta": "2025-05-08 11:57:39 -0400"
+    },
+    "done": true
+  },
+  "create_enchantment_industry:a_shower_experience": {
+    "criteria": {
+      "builtin": "2025-05-08 23:33:17 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/light_gray_glazed_terracotta": {
+    "criteria": {
+      "has_light_gray_terracotta": "2025-05-09 02:07:39 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/white_glazed_terracotta": {
+    "criteria": {
+      "has_white_terracotta": "2025-05-09 02:07:22 -0400"
+    },
+    "done": true
+  },
+  "farmersdelight:main/get_fd_seed": {
+    "criteria": {
+      "tomato_seeds": "2025-05-08 23:14:20 -0400"
+    },
+    "done": true
+  },
+  "refurbished_furniture:recipes/misc/slicing/orange_dye_from_glow_berries": {
+    "criteria": {
+      "has_glow_berries": "2025-05-08 23:14:21 -0400"
+    },
+    "done": true
+  },
+  "aether:recipes/tools/swet_lead": {
+    "criteria": {
+      "has_swet_balls": "2025-05-09 02:02:34 -0400"
+    },
+    "done": true
+  },
+  "farmersdelight:main/plant_all_crops": {
+    "criteria": {
+      "nether_wart": "2025-05-09 00:03:43 -0400"
+    },
+    "done": false
+  },
+  "biomesoplenty:recipes/building_blocks/palm_planks": {
+    "criteria": {
+      "has_logs": "2025-05-08 23:04:46 -0400"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/cooking/glow_berry_custard": {
+    "criteria": {
+      "has_any_ingredient": "2025-05-08 23:14:21 -0400"
+    },
+    "done": true
+  },
+  "aether:recipes/building_blocks/ambrosium_block": {
+    "criteria": {
+      "has_ambrosium_shard": "2025-05-09 02:02:02 -0400"
+    },
+    "done": true
+  },
+  "biomesoplenty:recipes/redstone/palm_button": {
+    "criteria": {
+      "has_planks": "2025-05-08 23:04:48 -0400"
+    },
+    "done": true
+  },
+  "aether:recipes/redstone/swet_slime_block": {
+    "criteria": {
+      "has_swet_balls": "2025-05-09 02:02:34 -0400"
+    },
+    "done": true
+  },
+  "biomesoplenty:recipes/building_blocks/palm_wood": {
+    "criteria": {
+      "has_log": "2025-05-08 23:04:46 -0400"
+    },
+    "done": true
+  },
+  "biomesoplenty:recipes/redstone/palm_fence_gate": {
+    "criteria": {
+      "has_planks": "2025-05-08 23:04:48 -0400"
+    },
+    "done": true
+  },
+  "create:recipes/misc/crafting/appliances/clipboard_clear": {
+    "criteria": {
+      "has_item": "2025-05-08 23:17:27 -0400"
+    },
+    "done": true
+  },
+  "aether:recipes/combat/poison_dart_shooter": {
+    "criteria": {
+      "has_aechor_petal": "2025-05-09 02:02:28 -0400"
+    },
+    "done": true
+  },
+  "biomesoplenty:recipes/decorations/palm_fence": {
+    "criteria": {
+      "has_planks": "2025-05-08 23:04:48 -0400"
+    },
+    "done": true
+  },
+  "biomesoplenty:recipes/redstone/palm_trapdoor": {
+    "criteria": {
+      "has_planks": "2025-05-08 23:04:48 -0400"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/food/pie_crust": {
+    "criteria": {
+      "has_wheat": "2025-05-09 02:21:20 -0400"
+    },
+    "done": true
+  },
+  "biomesoplenty:recipes/redstone/palm_door": {
+    "criteria": {
+      "has_planks": "2025-05-08 23:04:48 -0400"
+    },
+    "done": true
+  },
+  "biomesoplenty:recipes/building_blocks/palm_slab": {
+    "criteria": {
+      "has_planks": "2025-05-08 23:04:48 -0400"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/food/wheat_dough_from_eggs": {
+    "criteria": {
+      "has_wheat": "2025-05-09 02:21:20 -0400"
+    },
+    "done": true
+  },
+  "alexsmobs:alexsmobs/rattlesnake": {
+    "criteria": {
+      "killed_by": "2025-05-09 02:06:56 -0400"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/cooking/noodle_soup": {
+    "criteria": {
+      "has_any_ingredient": "2025-05-09 00:26:31 -0400"
+    },
+    "done": true
+  },
+  "aether:recipes/redstone/swet_sticky_piston": {
+    "criteria": {
+      "has_swet_balls": "2025-05-09 02:02:34 -0400"
+    },
+    "done": true
+  },
+  "aether:obtain_petal": {
+    "criteria": {
+      "aechor_petal": "2025-05-09 02:02:28 -0400"
+    },
+    "done": true
+  },
+  "refurbished_furniture:recipes/frying/glow_berry_jam": {
+    "criteria": {
+      "has_ingredient": "2025-05-08 23:14:21 -0400"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/food/wheat_dough_from_water": {
+    "criteria": {
+      "has_wheat": "2025-05-09 02:21:20 -0400"
+    },
+    "done": true
+  },
+  "minecraft:story/enchant_item": {
+    "criteria": {
+      "enchanted_item": "2025-05-08 23:33:25 -0400"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/cooking/pumpkin_soup": {
+    "criteria": {
+      "has_any_ingredient": "2025-05-09 00:26:31 -0400"
+    },
+    "done": true
+  },
+  "biomesoplenty:recipes/decorations/palm_sign": {
+    "criteria": {
+      "has_planks": "2025-05-08 23:04:48 -0400"
+    },
+    "done": true
+  },
+  "tconstruct:world/clay_island": {
+    "criteria": {
+      "found_island": "2025-05-09 01:55:21 -0400"
+    },
+    "done": true
+  },
+  "create_enchantment_industry:spirit_taking": {
+    "criteria": {
+      "builtin": "2025-05-09 02:31:14 -0400"
+    },
+    "done": true
+  },
+  "biomesoplenty:recipes/misc/green_dye_from_tiny_cactus": {
+    "criteria": {
+      "has_tiny_cactus": "2025-05-08 23:07:55 -0400"
+    },
+    "done": true
+  },
+  "minecraft:nether/return_to_sender": {
+    "criteria": {
+      "killed_ghast": "2025-05-08 23:56:38 -0400"
+    },
+    "done": true
+  },
+  "aether:blue_aercloud": {
+    "criteria": {
+      "blue_aercloud": "2025-05-09 02:31:28 -0400"
+    },
+    "done": true
+  },
+  "biomesoplenty:recipes/building_blocks/palm_stairs": {
+    "criteria": {
+      "has_planks": "2025-05-08 23:04:48 -0400"
+    },
+    "done": true
+  },
+  "biomesoplenty:recipes/redstone/palm_pressure_plate": {
+    "criteria": {
+      "has_planks": "2025-05-08 23:04:48 -0400"
     },
     "done": true
   },

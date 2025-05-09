@@ -300,6 +300,7 @@
       "orchard": "2025-05-05 23:03:53 -0400",
       "overgrown_greens": "2025-05-05 22:33:08 -0400",
       "coniferous_forest": "2025-05-04 21:38:51 -0400",
+      "dryland": "2025-05-09 02:09:39 -0400",
       "dune_beach": "2025-05-04 22:45:26 -0400",
       "seasonal_forest": "2025-05-04 21:37:38 -0400",
       "pasture": "2025-05-05 23:14:46 -0400",
@@ -312,6 +313,7 @@
       "snowy_coniferous_forest": "2025-05-05 20:46:56 -0400",
       "snowy_fir_clearing": "2025-05-05 20:46:29 -0400",
       "gravel_beach": "2025-05-04 21:39:17 -0400",
+      "origin_valley": "2025-05-09 01:54:48 -0400",
       "rainforest": "2025-05-05 22:34:02 -0400"
     },
     "done": false
@@ -412,7 +414,9 @@
   "twilightforest:arborist": {
     "criteria": {
       "twilight_oak_planks": "2025-05-05 18:35:46 -0400",
+      "canopy_sapling": "2025-05-09 02:14:28 -0400",
       "twilight_oak_log": "2025-05-05 18:40:00 -0400",
+      "liveroot": "2025-05-09 02:20:30 -0400",
       "canopy_log": "2025-05-04 21:55:27 -0400"
     },
     "done": false
@@ -1790,6 +1794,7 @@
   },
   "minecraft:adventure/adventuring_time": {
     "criteria": {
+      "minecraft:eroded_badlands": "2025-05-09 02:05:52 -0400",
       "minecraft:frozen_river": "2025-05-05 20:43:33 -0400",
       "minecraft:sunflower_plains": "2025-05-05 23:15:58 -0400",
       "minecraft:birch_forest": "2025-05-05 22:29:09 -0400",
@@ -5533,6 +5538,12 @@
     },
     "done": true
   },
+  "aether:recipes/tools/fishing_rod_repairing": {
+    "criteria": {
+      "has_fishing_rod": "2025-05-06 15:57:06 -0400"
+    },
+    "done": true
+  },
   "minecraft:husbandry/fishy_business": {
     "criteria": {
       "cod": "2025-05-06 16:00:24 -0400"
@@ -5545,39 +5556,39 @@
     },
     "done": true
   },
-  "aether:recipes/tools/fishing_rod_repairing": {
+  "minecraft:recipes/food/cooked_cod_from_campfire_cooking": {
     "criteria": {
-      "has_fishing_rod": "2025-05-06 15:57:06 -0400"
+      "has_cod": "2025-05-06 16:00:24 -0400"
     },
     "done": true
   },
-  "storagedrawers:recipes/storagedrawers/acacia_drawers": {
+  "minecraft:recipes/food/cooked_cod": {
     "criteria": {
-      "has_chest": "2025-05-06 16:33:55 -0400"
+      "has_cod": "2025-05-06 16:00:24 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_salmon_from_campfire_cooking": {
+    "criteria": {
+      "has_salmon": "2025-05-06 16:05:34 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_salmon": {
+    "criteria": {
+      "has_salmon": "2025-05-06 16:05:34 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_salmon_from_smoking": {
+    "criteria": {
+      "has_salmon": "2025-05-06 16:05:34 -0400"
     },
     "done": true
   },
   "biomesoplenty:recipes/redstone/maple_door": {
     "criteria": {
       "has_planks": "2025-05-06 16:21:25 -0400"
-    },
-    "done": true
-  },
-  "storagedrawers:recipes/storagedrawers/dark_oak_drawers": {
-    "criteria": {
-      "has_chest": "2025-05-06 16:33:55 -0400"
-    },
-    "done": true
-  },
-  "storagedrawers:recipes/storagedrawers/cherry_drawers": {
-    "criteria": {
-      "has_chest": "2025-05-06 16:33:55 -0400"
-    },
-    "done": true
-  },
-  "storagedrawers:recipes/storagedrawers/bamboo_drawers": {
-    "criteria": {
-      "has_chest": "2025-05-06 16:33:55 -0400"
     },
     "done": true
   },
@@ -5599,21 +5610,9 @@
     },
     "done": true
   },
-  "minecraft:recipes/decorations/red_banner": {
-    "criteria": {
-      "has_red_wool": "2025-05-06 16:26:39 -0400"
-    },
-    "done": true
-  },
   "biomesoplenty:recipes/building_blocks/maple_stairs": {
     "criteria": {
       "has_planks": "2025-05-06 16:21:25 -0400"
-    },
-    "done": true
-  },
-  "storagedrawers:recipes/storagedrawers/warped_drawers": {
-    "criteria": {
-      "has_chest": "2025-05-06 16:33:55 -0400"
     },
     "done": true
   },
@@ -5623,21 +5622,27 @@
     },
     "done": true
   },
-  "minecraft:recipes/food/cooked_salmon_from_campfire_cooking": {
+  "biomesoplenty:recipes/redstone/maple_button": {
     "criteria": {
-      "has_salmon": "2025-05-06 16:05:34 -0400"
+      "has_planks": "2025-05-06 16:21:25 -0400"
     },
     "done": true
   },
-  "sophisticatedstorage:recipes/misc/oak_chest_from_vanilla_chest": {
+  "biomesoplenty:recipes/decorations/maple_fence": {
     "criteria": {
-      "has_vanilla_chest": "2025-05-06 16:33:55 -0400"
+      "has_planks": "2025-05-06 16:21:25 -0400"
     },
     "done": true
   },
-  "storagedrawers:recipes/storagedrawers/oak_drawers": {
+  "biomesoplenty:recipes/redstone/maple_fence_gate": {
     "criteria": {
-      "has_chest": "2025-05-06 16:33:55 -0400"
+      "has_planks": "2025-05-06 16:21:25 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/red_banner": {
+    "criteria": {
+      "has_red_wool": "2025-05-06 16:26:39 -0400"
     },
     "done": true
   },
@@ -5653,33 +5658,69 @@
     },
     "done": true
   },
-  "biomesoplenty:recipes/redstone/maple_button": {
+  "minecraft:recipes/decorations/red_carpet": {
     "criteria": {
-      "has_planks": "2025-05-06 16:21:25 -0400"
-    },
-    "done": true
-  },
-  "storagedrawers:recipes/storagedrawers/jungle_drawers": {
-    "criteria": {
-      "has_chest": "2025-05-06 16:33:55 -0400"
-    },
-    "done": true
-  },
-  "minecraft:recipes/food/cooked_salmon": {
-    "criteria": {
-      "has_salmon": "2025-05-06 16:05:34 -0400"
-    },
-    "done": true
-  },
-  "biomesoplenty:recipes/decorations/maple_fence": {
-    "criteria": {
-      "has_planks": "2025-05-06 16:21:25 -0400"
+      "has_red_wool": "2025-05-06 16:26:39 -0400"
     },
     "done": true
   },
   "minecraft:recipes/decorations/smoker": {
     "criteria": {
       "has_furnace": "2025-05-06 16:30:21 -0400"
+    },
+    "done": true
+  },
+  "tconstruct:recipes/building_blocks/common/basalt_blast_furnace": {
+    "criteria": {
+      "has_smooth_stone": "2025-05-06 16:30:33 -0400"
+    },
+    "done": true
+  },
+  "storagedrawers:recipes/storagedrawers/acacia_drawers": {
+    "criteria": {
+      "has_chest": "2025-05-06 16:33:55 -0400"
+    },
+    "done": true
+  },
+  "storagedrawers:recipes/storagedrawers/dark_oak_drawers": {
+    "criteria": {
+      "has_chest": "2025-05-06 16:33:55 -0400"
+    },
+    "done": true
+  },
+  "storagedrawers:recipes/storagedrawers/cherry_drawers": {
+    "criteria": {
+      "has_chest": "2025-05-06 16:33:55 -0400"
+    },
+    "done": true
+  },
+  "storagedrawers:recipes/storagedrawers/bamboo_drawers": {
+    "criteria": {
+      "has_chest": "2025-05-06 16:33:55 -0400"
+    },
+    "done": true
+  },
+  "storagedrawers:recipes/storagedrawers/warped_drawers": {
+    "criteria": {
+      "has_chest": "2025-05-06 16:33:55 -0400"
+    },
+    "done": true
+  },
+  "sophisticatedstorage:recipes/misc/oak_chest_from_vanilla_chest": {
+    "criteria": {
+      "has_vanilla_chest": "2025-05-06 16:33:55 -0400"
+    },
+    "done": true
+  },
+  "storagedrawers:recipes/storagedrawers/oak_drawers": {
+    "criteria": {
+      "has_chest": "2025-05-06 16:33:55 -0400"
+    },
+    "done": true
+  },
+  "storagedrawers:recipes/storagedrawers/jungle_drawers": {
+    "criteria": {
+      "has_chest": "2025-05-06 16:33:55 -0400"
     },
     "done": true
   },
@@ -5695,12 +5736,6 @@
     },
     "done": true
   },
-  "biomesoplenty:recipes/redstone/maple_fence_gate": {
-    "criteria": {
-      "has_planks": "2025-05-06 16:21:25 -0400"
-    },
-    "done": true
-  },
   "storagedrawers:recipes/storagedrawers/crimson_drawers": {
     "criteria": {
       "has_chest": "2025-05-06 16:33:55 -0400"
@@ -5713,33 +5748,591 @@
     },
     "done": true
   },
-  "tconstruct:recipes/building_blocks/common/basalt_blast_furnace": {
+  "farmersdelight:recipes/cooking/rabbit_stew": {
     "criteria": {
-      "has_smooth_stone": "2025-05-06 16:30:33 -0400"
+      "has_any_ingredient": "2025-05-08 19:25:11 -0400"
     },
     "done": true
   },
-  "minecraft:recipes/decorations/red_carpet": {
+  "farmersdelight:recipes/food/steak_and_potatoes": {
     "criteria": {
-      "has_red_wool": "2025-05-06 16:26:39 -0400"
+      "has_baked_potato": "2025-05-08 19:25:11 -0400"
     },
     "done": true
   },
-  "minecraft:recipes/food/cooked_salmon_from_smoking": {
+  "farmersdelight:recipes/decorations/cooking_pot": {
     "criteria": {
-      "has_salmon": "2025-05-06 16:05:34 -0400"
+      "has_iron_ingot": "2025-05-08 19:25:11 -0400"
     },
     "done": true
   },
-  "minecraft:recipes/food/cooked_cod_from_campfire_cooking": {
+  "farmersdelight:recipes/food/pie_crust": {
     "criteria": {
-      "has_cod": "2025-05-06 16:00:24 -0400"
+      "has_wheat": "2025-05-08 19:25:11 -0400"
     },
     "done": true
   },
-  "minecraft:recipes/food/cooked_cod": {
+  "farmersdelight:recipes/combat/iron_knife": {
     "criteria": {
-      "has_cod": "2025-05-06 16:00:24 -0400"
+      "has_iron_ingot": "2025-05-08 19:25:11 -0400"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/food/wheat_dough_from_eggs": {
+    "criteria": {
+      "has_wheat": "2025-05-08 19:25:11 -0400"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/combat/flint_knife": {
+    "criteria": {
+      "has_stick": "2025-05-08 19:25:11 -0400"
+    },
+    "done": true
+  },
+  "ad_astra:recipes/misc/coal_generator": {
+    "criteria": {
+      "has_coal_generator": "2025-05-08 19:25:11 -0400"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/food/wheat_dough_from_water": {
+    "criteria": {
+      "has_wheat": "2025-05-08 19:25:11 -0400"
+    },
+    "done": true
+  },
+  "ad_astra:recipes/compressing/compressing/iron_plate_from_compressing_iron_ingot": {
+    "criteria": {
+      "has_item": "2025-05-08 19:25:11 -0400"
+    },
+    "done": true
+  },
+  "farmersdelight:main/root": {
+    "criteria": {
+      "seeds": "2025-05-08 19:25:11 -0400"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/food/stuffed_potato": {
+    "criteria": {
+      "has_baked_potato": "2025-05-08 19:25:11 -0400"
+    },
+    "done": true
+  },
+  "ad_astra:recipes/misc/compressor": {
+    "criteria": {
+      "has_compressor": "2025-05-08 19:25:11 -0400"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/decorations/cutting_board": {
+    "criteria": {
+      "has_stick": "2025-05-08 19:25:11 -0400"
+    },
+    "done": true
+  },
+  "create_enchantment_industry:a_shower_experience": {
+    "criteria": {
+      "builtin": "2025-05-09 05:38:30 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/light_gray_glazed_terracotta": {
+    "criteria": {
+      "has_light_gray_terracotta": "2025-05-09 02:08:20 -0400"
+    },
+    "done": true
+  },
+  "ad_astra:recipes/compressing/compressing/steel_plate_from_compressing_steel_blocks": {
+    "criteria": {
+      "has_item": "2025-05-09 01:31:30 -0400"
+    },
+    "done": true
+  },
+  "ad_astra:recipes/misc/steel_ingot_from_steel_block": {
+    "criteria": {
+      "has_steel_ingot": "2025-05-09 01:31:30 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/white_glazed_terracotta": {
+    "criteria": {
+      "has_white_terracotta": "2025-05-09 02:08:24 -0400"
+    },
+    "done": true
+  },
+  "ad_astra:tier_1_rocket": {
+    "criteria": {
+      "has_tier_1_rocket": "2025-05-09 01:48:39 -0400"
+    },
+    "done": true
+  },
+  "create:recipes/misc/crafting/kinetics/super_glue": {
+    "criteria": {
+      "has_item": "2025-05-09 01:28:29 -0400"
+    },
+    "done": true
+  },
+  "ad_astra:recipes/misc/zip_gun": {
+    "criteria": {
+      "has_zip_gun": "2025-05-09 01:25:00 -0400"
+    },
+    "done": true
+  },
+  "ad_astra:recipes/misc/encased_iron_block": {
+    "criteria": {
+      "has_encased_iron_block": "2025-05-09 01:28:29 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/black_terracotta": {
+    "criteria": {
+      "has_terracotta": "2025-05-09 02:08:21 -0400"
+    },
+    "done": true
+  },
+  "ad_astra:recipes/misc/wrench": {
+    "criteria": {
+      "has_wrench": "2025-05-09 01:28:29 -0400"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/food/fried_egg_from_campfire_cooking": {
+    "criteria": {
+      "fried_egg": "2025-05-09 02:01:32 -0400"
+    },
+    "done": true
+  },
+  "ad_astra:recipes/misc/fan": {
+    "criteria": {
+      "has_fan": "2025-05-09 01:25:00 -0400"
+    },
+    "done": true
+  },
+  "ad_astra:recipes/misc/steel_rod": {
+    "criteria": {
+      "has_steel_rod": "2025-05-09 01:25:00 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/pink_terracotta": {
+    "criteria": {
+      "has_terracotta": "2025-05-09 02:08:21 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/blue_terracotta": {
+    "criteria": {
+      "has_terracotta": "2025-05-09 02:08:21 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/light_blue_terracotta": {
+    "criteria": {
+      "has_terracotta": "2025-05-09 02:08:21 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/yellow_terracotta": {
+    "criteria": {
+      "has_terracotta": "2025-05-09 02:08:21 -0400"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/cooking/baked_cod_stew": {
+    "criteria": {
+      "has_any_ingredient": "2025-05-09 02:01:32 -0400"
+    },
+    "done": true
+  },
+  "ad_astra:recipes/misc/steel_tank": {
+    "criteria": {
+      "has_steel_tank": "2025-05-09 01:25:00 -0400"
+    },
+    "done": true
+  },
+  "ad_astra:recipes/misc/steel_panel": {
+    "criteria": {
+      "has_steel_panel": "2025-05-09 01:25:00 -0400"
+    },
+    "done": true
+  },
+  "ad_astra:recipes/misc/steel_plateblock": {
+    "criteria": {
+      "has_steel_plateblock": "2025-05-09 01:25:00 -0400"
+    },
+    "done": true
+  },
+  "aether:the_aether": {
+    "criteria": {
+      "the_aether": "2025-05-09 02:01:51 -0400"
+    },
+    "done": true
+  },
+  "ad_astra:recipes/misc/airlock": {
+    "criteria": {
+      "has_airlock": "2025-05-09 01:25:00 -0400"
+    },
+    "done": true
+  },
+  "ad_astra:recipes/misc/iron_rod": {
+    "criteria": {
+      "has_iron_rod": "2025-05-09 01:28:29 -0400"
+    },
+    "done": true
+  },
+  "ad_astra:recipes/misc/steel_cable": {
+    "criteria": {
+      "has_steel_cable": "2025-05-09 01:25:00 -0400"
+    },
+    "done": true
+  },
+  "ad_astra:recipes/misc/fuel_refinery": {
+    "criteria": {
+      "has_fuel_refinery": "2025-05-09 01:25:00 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/orange_terracotta": {
+    "criteria": {
+      "has_terracotta": "2025-05-09 02:08:21 -0400"
+    },
+    "done": true
+  },
+  "ad_astra:recipes/misc/nasa_workbench": {
+    "criteria": {
+      "has_nasa_workbench": "2025-05-09 01:25:00 -0400"
+    },
+    "done": true
+  },
+  "ad_astra:recipes/misc/oxygen_loader": {
+    "criteria": {
+      "has_oxygen_loader": "2025-05-09 01:25:00 -0400"
+    },
+    "done": true
+  },
+  "twilightforest:recipes/misc/material/raw_ironwood": {
+    "criteria": {
+      "has_item": "2025-05-09 02:20:30 -0400"
+    },
+    "done": true
+  },
+  "ad_astra:recipes/misc/vent": {
+    "criteria": {
+      "has_vent": "2025-05-09 01:25:00 -0400"
+    },
+    "done": true
+  },
+  "ad_astra:recipes/misc/ti_69": {
+    "criteria": {
+      "has_ti_69": "2025-05-09 01:25:00 -0400"
+    },
+    "done": true
+  },
+  "ad_astra:recipes/misc/oxygen_gear": {
+    "criteria": {
+      "has_oxygen_gear": "2025-05-09 01:25:00 -0400"
+    },
+    "done": true
+  },
+  "create:recipes/misc/crafting/kinetics/propeller": {
+    "criteria": {
+      "has_item": "2025-05-09 01:28:29 -0400"
+    },
+    "done": true
+  },
+  "ad_astra:recipes/misc/space_suit": {
+    "criteria": {
+      "has_space_suit": "2025-05-09 01:25:00 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/magenta_terracotta": {
+    "criteria": {
+      "has_terracotta": "2025-05-09 02:08:21 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/cyan_terracotta": {
+    "criteria": {
+      "has_terracotta": "2025-05-09 02:08:21 -0400"
+    },
+    "done": true
+  },
+  "ad_astra:recipes/misc/steel_trapdoor": {
+    "criteria": {
+      "has_steel_trapdoor": "2025-05-09 01:25:00 -0400"
+    },
+    "done": true
+  },
+  "ad_astra:recipes/misc/space_pants": {
+    "criteria": {
+      "has_space_pants": "2025-05-09 01:25:00 -0400"
+    },
+    "done": true
+  },
+  "create:recipes/misc/crafting/kinetics/encased_fan": {
+    "criteria": {
+      "has_item": "2025-05-09 01:28:29 -0400"
+    },
+    "done": true
+  },
+  "create:recipes/misc/crafting/kinetics/whisk": {
+    "criteria": {
+      "has_item": "2025-05-09 01:28:29 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/brown_terracotta": {
+    "criteria": {
+      "has_terracotta": "2025-05-09 02:08:21 -0400"
+    },
+    "done": true
+  },
+  "ad_astra:recipes/misc/iron_plating": {
+    "criteria": {
+      "has_iron_plating": "2025-05-09 01:28:29 -0400"
+    },
+    "done": true
+  },
+  "ad_astra:recipes/misc/iron_factory_block": {
+    "criteria": {
+      "has_iron_factory_block": "2025-05-09 01:28:29 -0400"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/cooking/dog_food": {
+    "criteria": {
+      "has_any_ingredient": "2025-05-09 03:30:04 -0400"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/food/fried_egg_from_smoking": {
+    "criteria": {
+      "fried_egg": "2025-05-09 02:01:32 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/lime_terracotta": {
+    "criteria": {
+      "has_terracotta": "2025-05-09 02:08:21 -0400"
+    },
+    "done": true
+  },
+  "ad_astra:recipes/misc/steel_plating": {
+    "criteria": {
+      "has_steel_plating": "2025-05-09 01:25:00 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/light_gray_terracotta": {
+    "criteria": {
+      "has_terracotta": "2025-05-09 02:08:21 -0400"
+    },
+    "done": true
+  },
+  "ad_astra:recipes/misc/steel_door": {
+    "criteria": {
+      "has_steel_door": "2025-05-09 01:25:00 -0400"
+    },
+    "done": true
+  },
+  "ad_astra:recipes/misc/iron_plateblock": {
+    "criteria": {
+      "has_iron_plateblock": "2025-05-09 01:28:29 -0400"
+    },
+    "done": true
+  },
+  "ad_astra:recipes/misc/radio": {
+    "criteria": {
+      "has_radio": "2025-05-09 01:25:00 -0400"
+    },
+    "done": true
+  },
+  "ad_astra:recipes/misc/rocket_fin": {
+    "criteria": {
+      "has_rocket_fin": "2025-05-09 01:25:00 -0400"
+    },
+    "done": true
+  },
+  "ad_astra:recipes/misc/reinforced_door": {
+    "criteria": {
+      "has_reinforced_door": "2025-05-09 01:25:00 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/red_terracotta": {
+    "criteria": {
+      "has_terracotta": "2025-05-09 02:08:21 -0400"
+    },
+    "done": true
+  },
+  "ad_astra:recipes/misc/etrionic_blast_furnace": {
+    "criteria": {
+      "has_etrionic_blast_furnace": "2025-05-09 01:28:29 -0400"
+    },
+    "done": true
+  },
+  "ad_astra:recipes/misc/space_boots": {
+    "criteria": {
+      "has_space_boots": "2025-05-09 01:25:00 -0400"
+    },
+    "done": true
+  },
+  "ad_astra:recipes/misc/steel_factory_block": {
+    "criteria": {
+      "has_steel_factory_block": "2025-05-09 01:25:00 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/purple_terracotta": {
+    "criteria": {
+      "has_terracotta": "2025-05-09 02:08:21 -0400"
+    },
+    "done": true
+  },
+  "ad_astra:recipes/misc/gas_tank": {
+    "criteria": {
+      "has_gas_tank": "2025-05-09 01:28:29 -0400"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/cooking/fried_rice": {
+    "criteria": {
+      "has_any_ingredient": "2025-05-09 02:01:32 -0400"
+    },
+    "done": true
+  },
+  "ad_astra:recipes/misc/encased_steel_block": {
+    "criteria": {
+      "has_encased_steel_block": "2025-05-09 01:25:00 -0400"
+    },
+    "done": true
+  },
+  "ad_astra:recipes/misc/iron_panel": {
+    "criteria": {
+      "has_iron_panel": "2025-05-09 01:28:29 -0400"
+    },
+    "done": true
+  },
+  "tconstruct:world/clay_island": {
+    "criteria": {
+      "found_island": "2025-05-09 01:55:22 -0400"
+    },
+    "done": true
+  },
+  "ad_astra:recipes/misc/wheel": {
+    "criteria": {
+      "has_wheel": "2025-05-09 01:25:00 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/white_terracotta": {
+    "criteria": {
+      "has_terracotta": "2025-05-09 02:08:21 -0400"
+    },
+    "done": true
+  },
+  "ad_astra:recipes/misc/steel_engine": {
+    "criteria": {
+      "has_steel_engine": "2025-05-09 01:25:00 -0400"
+    },
+    "done": true
+  },
+  "create_enchantment_industry:spirit_taking": {
+    "criteria": {
+      "builtin": "2025-05-09 05:38:14 -0400"
+    },
+    "done": true
+  },
+  "ad_astra:recipes/misc/large_gas_tank": {
+    "criteria": {
+      "has_large_gas_tank": "2025-05-09 01:25:00 -0400"
+    },
+    "done": true
+  },
+  "ad_astra:recipes/misc/etrionic_capacitor": {
+    "criteria": {
+      "has_etrionic_capacitor": "2025-05-09 01:25:00 -0400"
+    },
+    "done": true
+  },
+  "aether:enter_aether": {
+    "criteria": {
+      "enter_aether": "2025-05-09 02:01:51 -0400"
+    },
+    "done": true
+  },
+  "ad_astra:recipes/misc/space_helmet": {
+    "criteria": {
+      "has_space_helmet": "2025-05-09 01:25:00 -0400"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/building_blocks/organic_compost_from_rotten_flesh": {
+    "criteria": {
+      "has_rotten_flesh": "2025-05-09 03:30:04 -0400"
+    },
+    "done": true
+  },
+  "ad_astra:recipes/misc/launch_pad": {
+    "criteria": {
+      "has_launch_pad": "2025-05-09 01:25:00 -0400"
+    },
+    "done": true
+  },
+  "aether:blue_aercloud": {
+    "criteria": {
+      "blue_aercloud": "2025-05-09 02:33:32 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/gray_terracotta": {
+    "criteria": {
+      "has_terracotta": "2025-05-09 02:08:21 -0400"
+    },
+    "done": true
+  },
+  "twilightforest:recipes/decorations/firefly_jar": {
+    "criteria": {
+      "has_item": "2025-05-09 02:14:01 -0400"
+    },
+    "done": true
+  },
+  "ad_astra:recipes/misc/steel_sliding_door": {
+    "criteria": {
+      "has_steel_sliding_door": "2025-05-09 01:25:00 -0400"
+    },
+    "done": true
+  },
+  "ad_astra:recipes/misc/rocket_nose_cone": {
+    "criteria": {
+      "has_rocket_nose_cone": "2025-05-09 01:25:00 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/green_terracotta": {
+    "criteria": {
+      "has_terracotta": "2025-05-09 02:08:21 -0400"
+    },
+    "done": true
+  },
+  "ad_astra:recipes/misc/engine_frame": {
+    "criteria": {
+      "has_engine_frame": "2025-05-09 01:25:00 -0400"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/food/fried_egg": {
+    "criteria": {
+      "fried_egg": "2025-05-09 02:01:32 -0400"
+    },
+    "done": true
+  },
+  "ad_astra:recipes/misc/cable_duct": {
+    "criteria": {
+      "has_cable_duct": "2025-05-09 01:25:00 -0400"
     },
     "done": true
   },
